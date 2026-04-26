@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Central Acadêmica | FIAP</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --red: #E0232C;
+      --dark: #1a1a2e;
+      --bg: #f4f4f8;
+      --card: #ffffff;
+      --text: #333;
+      --sub: #666;
+      --border: #e0e0e0;
+    }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); }
+
+    /* ── Nav ── */
+    nav {
+      background: var(--dark);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+    }
+    .nav-logo { color: var(--red); font-weight: 800; font-size: 1.35rem; letter-spacing: -0.5px; white-space: nowrap; }
+    .nav-logo span { color: #fff; }
+    nav a { color: rgba(255,255,255,0.65); text-decoration: none; font-size: 0.88rem; transition: color .2s; }
+    nav a:hover { color: #fff; }
+    .spacer { flex: 1; }
+    .nav-student { color: rgba(255,255,255,0.4); font-size: 0.78rem; white-space: nowrap; }
+
+    /* ── Hero ── */
+    .hero {
+      background: linear-gradient(135deg, var(--dark) 0%, #16213e 100%);
+      color: #fff;
+      padding: 3rem 2rem 2.5rem;
+    }
+    .hero-inner { max-width: 1100px; margin: 0 auto; }
+    .hero h1 { font-size: 1.9rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .hero h1 span { color: var(--red); }
+    .hero p { color: rgba(255,255,255,0.55); font-size: 0.95rem; }
+    .hero-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .hero-card {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 1rem 1.2rem;
+    }
+    .hero-card .label { font-size: 0.7rem; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 0.3rem; }
+    .hero-card .value { font-size: 1rem; font-weight: 600; }
+
+    /* ── Container ── */
+    .container { max-width: 1100px; margin: 0 auto; padding: 2rem; }
+
+    /* ── Card ── */
+    .card { background: var(--card); border-radius: 16px; padding: 1.5rem; box-shadow: 0 2px 12px rgba(0,0,0,0.06); margin-bottom: 2rem; }
+
+    /* ── Section title ── */
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .section-title::before {
+      content: '';
+      display: block;
+      width: 4px;
+      height: 1.1rem;
+      background: var(--red);
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    /* ── Cal status ── */
+    #cal-status {
+      font-size: 0.8rem;
+      color: var(--sub);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    #cal-status .dot { width: 8px; height: 8px; border-radius: 50%; background: #ccc; flex-shrink: 0; }
+    #cal-status.ok .dot { background: #22c55e; }
+    #cal-status.err .dot { background: #ef4444; }
+    #cal-status.loading .dot { background: #f59e0b; animation: pulse 1s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+    /* ── FullCalendar overrides ── */
+    .fc { font-size: 0.87rem; }
+    .fc-toolbar-title { font-size: 1rem !important; font-weight: 700; }
+    .fc-button-primary { background: var(--red) !important; border-color: var(--red) !important; border-radius: 8px !important; font-size: 0.82rem !important; }
+    .fc-button-primary:not(:disabled):active,
+    .fc-button-primary:not(:disabled).fc-button-active { background: #b51920 !important; border-color: #b51920 !important; }
+    .fc-event { border-radius: 4px !important; font-size: 0.78rem !important; cursor: pointer; }
+    .fc-daygrid-event { white-space: normal !important; }
+
+    /* ── Upcoming events ── */
+    .events-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 0.75rem;
+    }
+    .event-item {
+      display: flex;
+      gap: 0.9rem;
+      align-items: flex-start;
+      padding: 0.85rem 1rem;
+      border-radius: 10px;
+      background: var(--bg);
+      border-left: 3px solid var(--red);
+      transition: box-shadow .2s;
+    }
+    .event-item:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.09); }
+    .event-date { min-width: 42px; text-align: center; }
+    .event-date .day { font-size: 1.5rem; font-weight: 800; line-height: 1; color: var(--red); }
+    .event-date .month { font-size: 0.65rem; text-transform: uppercase; color: var(--sub); }
+    .event-info .ev-title { font-weight: 600; font-size: 0.88rem; line-height: 1.3; }
+    .event-info .ev-desc { font-size: 0.78rem; color: var(--sub); margin-top: 3px; }
+    #upcoming-empty { color: var(--sub); font-size: 0.9rem; padding: 0.5rem 0; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--sub);
+      font-size: 0.78rem;
+      border-top: 1px solid var(--border);
+      margin-top: 1rem;
+    }
+    footer a { color: var(--red); text-decoration: none; }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      nav { gap: 1rem; padding: 0.8rem 1rem; }
+      .hero { padding: 2rem 1rem 1.5rem; }
+      .hero h1 { font-size: 1.4rem; }
+      .container { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">Central<span>Acadêmica</span></div>
+  <a href="#proximos">Próximos eventos</a>
+  <a href="#calendario">Calendário</a>
+  <div class="spacer"></div>
+  <div class="nav-student">Ana Julia · RM 571965</div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <h1>Sua jornada <span>FIAP</span></h1>
+    <p>Marketing Digital — 1º ano · Modalidade On-line · 2026</p>
+    <div class="hero-cards">
+      <div class="hero-card">
+        <div class="label">Aluna</div>
+        <div class="value">Ana Julia M. Neves</div>
+      </div>
+      <div class="hero-card">
+        <div class="label">RM</div>
+        <div class="value">571965</div>
+      </div>
+      <div class="hero-card">
+        <div class="label">Curso</div>
+        <div class="value">Marketing</div>
+      </div>
+      <div class="hero-card">
+        <div class="label">Modalidade</div>
+        <div class="value">On-line</div>
+      </div>
+      <div class="hero-card">
+        <div class="label">Fase atual</div>
+        <div class="value" id="fase-atual">—</div>
+      </div>
+      <div class="hero-card">
+        <div class="label">Próx. evento</div>
+        <div class="value" id="proximo-evento">—</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- Próximos eventos -->
+  <div id="proximos" class="card">
+    <div class="section-title">Próximos eventos</div>
+    <div id="upcoming-list">
+      <div id="upcoming-empty">Carregando calendário FIAP...</div>
+    </div>
+  </div>
+
+  <!-- Calendário -->
+  <div id="calendario" class="card">
+    <div class="section-title">Calendário FIAP ON</div>
+    <div id="cal-status" class="loading">
+      <div class="dot"></div>
+      <span id="cal-status-text">Sincronizando com FIAP ON...</span>
+    </div>
+    <div id="calendar"></div>
+  </div>
+
+</div>
+
+<footer>
+  Central Acadêmica · FIAP Marketing On-line 2026 ·
+  <a href="https://on.fiap.com.br" target="_blank">FIAP ON</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+<script>
+// ── Config ────────────────────────────────────────────────────────────────────
+const ICAL_URL =
+  'https://on.fiap.com.br/local/calendar/export.php' +
+  '?username=rm571965' +
+  '&authtoken=9c3ae3cdbc98865c1182224e0a3fa6f6f14c81cd';
+
+// CORS proxies tried in order
+const PROXIES = [
+  u => `https://api.allorigins.win/get?url=${encodeURIComponent(u)}`,
+  u => `https://corsproxy.io/?${encodeURIComponent(u)}`,
+  u => `https://thingproxy.freeboard.io/fetch/${u}`,
+];
+
+// ── iCal parser (RFC 5545) ────────────────────────────────────────────────────
+function parseICal(raw) {
+  // Unfold continued lines
+  const text = raw.replace(/\r?\n[ \t]/g, '');
+  const lines = text.split(/\r?\n/);
+  const events = [];
+  let ev = null;
+
+  for (const line of lines) {
+    const l = line.trim();
+    if (l === 'BEGIN:VEVENT') { ev = {}; continue; }
+    if (l === 'END:VEVENT' && ev) { events.push(ev); ev = null; continue; }
+    if (!ev) continue;
+
+    const sep = l.indexOf(':');
+    if (sep < 0) continue;
+
+    const keyFull = l.substring(0, sep);
+    const val = l.substring(sep + 1)
+      .replace(/\\n/g, '\n')
+      .replace(/\\,/g, ',')
+      .replace(/\\\\/g, '\\');
+
+    // Strip param part (e.g. DTSTART;TZID=America/Sao_Paulo → DTSTART)
+    const key = keyFull.split(';')[0].toUpperCase();
+    ev[key] = val;
+  }
+  return events;
+}
+
+function icalDateToISO(d) {
+  if (!d) return null;
+  d = d.replace(/VALUE=DATE[-\w]*:/i, '');
+  if (d.includes('T')) {
+    return d.replace(
+      /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})(Z?)$/,
+      '$1-$2-$3T$4:$5:$6$7'
+    );
+  }
+  return d.replace(/^(\d{4})(\d{2})(\d{2})$/, '$1-$2-$3');
+}
+
+function toFCEvents(events) {
+  return events.map(ev => ({
+    title: ev.SUMMARY || '(sem título)',
+    start: icalDateToISO(ev.DTSTART),
+    end:   icalDateToISO(ev.DTEND),
+    url:   ev.URL || undefined,
+    extendedProps: { description: ev.DESCRIPTION || '' },
+    allDay: !(ev.DTSTART || '').includes('T'),
+  })).filter(e => e.start);
+}
+
+// ── Fetch with proxy fallback ─────────────────────────────────────────────────
+async function fetchICal() {
+  for (const makeUrl of PROXIES) {
+    try {
+      const res = await fetch(makeUrl(ICAL_URL), {
+        signal: AbortSignal.timeout(9000),
+      });
+      if (!res.ok) continue;
+
+      // allorigins returns JSON {contents, status}; others return plain text
+      let text;
+      const ct = res.headers.get('content-type') || '';
+      if (ct.includes('application/json')) {
+        const j = await res.json();
+        text = j.contents || j.body || '';
+      } else {
+        text = await res.text();
+      }
+
+      if (text.includes('BEGIN:VCALENDAR')) return text;
+    } catch (_) {
+      // try next proxy
+    }
+  }
+  throw new Error('Todos os proxies falharam');
+}
+
+// ── Upcoming events sidebar ───────────────────────────────────────────────────
+const MONTHS = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
+
+function renderUpcoming(fcEvents) {
+  const now = new Date();
+  const upcoming = fcEvents
+    .filter(e => e.start && new Date(e.start) >= now)
+    .sort((a, b) => new Date(a.start) - new Date(b.start))
+    .slice(0, 8);
+
+  const container = document.getElementById('upcoming-list');
+
+  if (!upcoming.length) {
+    container.innerHTML = '<div id="upcoming-empty">Nenhum evento futuro encontrado.</div>';
+    return;
+  }
+
+  // Next event shortcut in hero
+  const next = upcoming[0];
+  const nd = new Date(next.start);
+  document.getElementById('proximo-evento').textContent =
+    `${nd.getDate()} ${MONTHS[nd.getMonth()]}`;
+
+  container.innerHTML = `<div class="events-grid">${
+    upcoming.map(e => {
+      const d = new Date(e.start);
+      const desc = (e.extendedProps?.description || '').replace(/<[^>]+>/g, '').substring(0, 70);
+      return `<div class="event-item">
+        <div class="event-date">
+          <div class="day">${d.getDate()}</div>
+          <div class="month">${MONTHS[d.getMonth()]}</div>
+        </div>
+        <div class="event-info">
+          <div class="ev-title">${e.title}</div>
+          ${desc ? `<div class="ev-desc">${desc}</div>` : ''}
+        </div>
+      </div>`;
+    }).join('')
+  }</div>`;
+}
+
+// ── Detect fase from upcoming events ─────────────────────────────────────────
+function detectFase(fcEvents) {
+  const now = new Date();
+  const faseEl = document.getElementById('fase-atual');
+  for (const e of fcEvents.sort((a, b) => new Date(a.start) - new Date(b.start))) {
+    if (new Date(e.start) < now) continue;
+    const m = (e.title || '').match(/[Ff]ase\s*(\d)/);
+    if (m) { faseEl.textContent = `Fase ${m[1]}`; return; }
+  }
+}
+
+// ── FullCalendar init ─────────────────────────────────────────────────────────
+function initCalendar(fcEvents) {
+  const el = document.getElementById('calendar');
+  const cal = new FullCalendar.Calendar(el, {
+    initialView: window.innerWidth < 640 ? 'listMonth' : 'dayGridMonth',
+    locale: 'pt-br',
+    headerToolbar: {
+      left:   'prev,next today',
+      center: 'title',
+      right:  'dayGridMonth,listMonth',
+    },
+    buttonText: { today: 'Hoje', month: 'Mês', list: 'Lista' },
+    events: fcEvents,
+    eventColor: '#E0232C',
+    height: 'auto',
+    eventClick(info) {
+      if (info.event.url) {
+        info.jsEvent.preventDefault();
+        window.open(info.event.url, '_blank', 'noopener');
+      }
+    },
+    eventDidMount(info) {
+      const desc = info.event.extendedProps.description;
+      if (desc) info.el.title = desc.replace(/<[^>]+>/g, '').substring(0, 120);
+    },
+  });
+  cal.render();
+}
+
+// ── Status helpers ────────────────────────────────────────────────────────────
+function setStatus(type, msg) {
+  const el  = document.getElementById('cal-status');
+  const txt = document.getElementById('cal-status-text');
+  el.className = type;
+  txt.textContent = msg;
+}
+
+// ── Bootstrap ─────────────────────────────────────────────────────────────────
+(async () => {
+  try {
+    const raw = await fetchICal();
+    const events = parseICal(raw);
+    const fcEvents = toFCEvents(events);
+
+    setStatus('ok', `Calendário sincronizado · ${fcEvents.length} evento(s) importado(s)`);
+    renderUpcoming(fcEvents);
+    detectFase(fcEvents);
+    initCalendar(fcEvents);
+  } catch (err) {
+    setStatus('err', 'Não foi possível sincronizar o calendário. Verifique sua conexão com a internet.');
+    document.getElementById('upcoming-list').innerHTML =
+      '<div id="upcoming-empty">Erro ao carregar eventos.</div>';
+    initCalendar([]);
+    console.error('[Central Acadêmica]', err);
+  }
+})();
+</script>
+</body>
+</html>
