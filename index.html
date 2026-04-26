@@ -8,149 +8,123 @@
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     :root {
-      --red: #E0232C;
-      --dark: #1a1a2e;
-      --bg: #f4f4f8;
-      --card: #ffffff;
-      --text: #333;
-      --sub: #666;
-      --border: #e0e0e0;
+      --red:    #E0232C;
+      --purple: #7c3aed;
+      --blue:   #0284c7;
+      --dark:   #1a1a2e;
+      --bg:     #f4f4f8;
+      --card:   #ffffff;
+      --text:   #222;
+      --sub:    #666;
+      --border: #e4e4e7;
     }
     body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); }
 
-    /* ── Nav ── */
+    /* Nav */
     nav {
       background: var(--dark);
-      padding: 1rem 2rem;
-      display: flex;
-      align-items: center;
-      gap: 1.5rem;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+      padding: 0.9rem 2rem;
+      display: flex; align-items: center; gap: 1.5rem;
+      position: sticky; top: 0; z-index: 100;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.35);
     }
-    .nav-logo { color: var(--red); font-weight: 800; font-size: 1.35rem; letter-spacing: -0.5px; white-space: nowrap; }
+    .nav-logo { color: var(--red); font-weight: 800; font-size: 1.3rem; letter-spacing: -0.5px; white-space: nowrap; }
     .nav-logo span { color: #fff; }
-    nav a { color: rgba(255,255,255,0.65); text-decoration: none; font-size: 0.88rem; transition: color .2s; }
+    nav a { color: rgba(255,255,255,.6); text-decoration: none; font-size: 0.85rem; transition: color .2s; }
     nav a:hover { color: #fff; }
     .spacer { flex: 1; }
-    .nav-student { color: rgba(255,255,255,0.4); font-size: 0.78rem; white-space: nowrap; }
+    .nav-student { color: rgba(255,255,255,.35); font-size: 0.75rem; white-space: nowrap; }
 
-    /* ── Hero ── */
-    .hero {
-      background: linear-gradient(135deg, var(--dark) 0%, #16213e 100%);
-      color: #fff;
-      padding: 3rem 2rem 2.5rem;
-    }
+    /* Hero */
+    .hero { background: linear-gradient(135deg, var(--dark) 0%, #16213e 100%); color: #fff; padding: 2.5rem 2rem 2rem; }
     .hero-inner { max-width: 1100px; margin: 0 auto; }
-    .hero h1 { font-size: 1.9rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .hero h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 0.3rem; }
     .hero h1 span { color: var(--red); }
-    .hero p { color: rgba(255,255,255,0.55); font-size: 0.95rem; }
-    .hero-cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 1rem;
-      margin-top: 2rem;
-    }
-    .hero-card {
-      background: rgba(255,255,255,0.07);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 12px;
-      padding: 1rem 1.2rem;
-    }
-    .hero-card .label { font-size: 0.7rem; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 0.3rem; }
-    .hero-card .value { font-size: 1rem; font-weight: 600; }
+    .hero p { color: rgba(255,255,255,.5); font-size: 0.9rem; }
+    .hero-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.9rem; margin-top: 1.8rem; }
+    .hero-card { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1); border-radius: 12px; padding: 0.9rem 1.1rem; }
+    .hero-card .label { font-size: 0.68rem; color: rgba(255,255,255,.35); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 0.25rem; }
+    .hero-card .value { font-size: 0.95rem; font-weight: 600; }
 
-    /* ── Container ── */
-    .container { max-width: 1100px; margin: 0 auto; padding: 2rem; }
+    /* Container */
+    .container { max-width: 1100px; margin: 0 auto; padding: 1.8rem 2rem; }
 
-    /* ── Card ── */
-    .card { background: var(--card); border-radius: 16px; padding: 1.5rem; box-shadow: 0 2px 12px rgba(0,0,0,0.06); margin-bottom: 2rem; }
+    /* Card */
+    .card { background: var(--card); border-radius: 16px; padding: 1.4rem 1.6rem; box-shadow: 0 2px 12px rgba(0,0,0,.06); margin-bottom: 1.8rem; }
 
-    /* ── Section title ── */
-    .section-title {
-      font-size: 1.1rem;
-      font-weight: 700;
-      margin-bottom: 1.2rem;
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-    }
-    .section-title::before {
-      content: '';
-      display: block;
-      width: 4px;
-      height: 1.1rem;
-      background: var(--red);
-      border-radius: 2px;
-      flex-shrink: 0;
-    }
+    /* Section title */
+    .section-title { font-size: 1rem; font-weight: 700; margin-bottom: 1.1rem; display: flex; align-items: center; gap: 0.55rem; }
+    .section-title::before { content:''; display:block; width:4px; height:1rem; background:var(--red); border-radius:2px; flex-shrink:0; }
 
-    /* ── Cal status ── */
-    #cal-status {
-      font-size: 0.8rem;
-      color: var(--sub);
-      margin-bottom: 1rem;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
+    /* Legend / toggles */
+    .legend { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.1rem; }
+    .legend-btn {
+      display: flex; align-items: center; gap: 0.45rem;
+      padding: 0.35rem 0.85rem; border-radius: 20px; border: 2px solid transparent;
+      font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: opacity .2s, transform .15s;
+      background: #f1f1f5; color: var(--text);
     }
+    .legend-btn .dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    .legend-btn.active  { background: #fff; box-shadow: 0 1px 6px rgba(0,0,0,.12); }
+    .legend-btn.active[data-cal="fiap"]     { border-color: var(--red); }
+    .legend-btn.active[data-cal="pessoal"]  { border-color: var(--purple); }
+    .legend-btn.active[data-cal="namorado"] { border-color: var(--blue); }
+    .legend-btn:not(.active) { opacity: .45; }
+
+    /* Cal status */
+    #cal-status { font-size: 0.78rem; color: var(--sub); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem; }
     #cal-status .dot { width: 8px; height: 8px; border-radius: 50%; background: #ccc; flex-shrink: 0; }
-    #cal-status.ok .dot { background: #22c55e; }
-    #cal-status.err .dot { background: #ef4444; }
+    #cal-status.ok      .dot { background: #22c55e; }
+    #cal-status.err     .dot { background: #ef4444; }
     #cal-status.loading .dot { background: #f59e0b; animation: pulse 1s infinite; }
     @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
 
-    /* ── FullCalendar overrides ── */
-    .fc { font-size: 0.87rem; }
+    /* FullCalendar overrides */
+    .fc { font-size: 0.85rem; }
     .fc-toolbar-title { font-size: 1rem !important; font-weight: 700; }
-    .fc-button-primary { background: var(--red) !important; border-color: var(--red) !important; border-radius: 8px !important; font-size: 0.82rem !important; }
+    .fc-button-primary { background: var(--red) !important; border-color: var(--red) !important; border-radius: 8px !important; font-size: 0.8rem !important; }
     .fc-button-primary:not(:disabled):active,
     .fc-button-primary:not(:disabled).fc-button-active { background: #b51920 !important; border-color: #b51920 !important; }
-    .fc-event { border-radius: 4px !important; font-size: 0.78rem !important; cursor: pointer; }
-    .fc-daygrid-event { white-space: normal !important; }
+    .fc-event { border-radius: 4px !important; font-size: 0.77rem !important; cursor: pointer; }
 
-    /* ── Upcoming events ── */
-    .events-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 0.75rem;
-    }
+    /* Upcoming list */
+    .events-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 0.7rem; }
     .event-item {
-      display: flex;
-      gap: 0.9rem;
-      align-items: flex-start;
-      padding: 0.85rem 1rem;
-      border-radius: 10px;
-      background: var(--bg);
-      border-left: 3px solid var(--red);
-      transition: box-shadow .2s;
+      display: flex; gap: 0.85rem; align-items: flex-start;
+      padding: 0.8rem 0.95rem; border-radius: 10px; background: var(--bg);
+      border-left: 3px solid var(--red); transition: box-shadow .2s;
     }
-    .event-item:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.09); }
-    .event-date { min-width: 42px; text-align: center; }
-    .event-date .day { font-size: 1.5rem; font-weight: 800; line-height: 1; color: var(--red); }
-    .event-date .month { font-size: 0.65rem; text-transform: uppercase; color: var(--sub); }
-    .event-info .ev-title { font-weight: 600; font-size: 0.88rem; line-height: 1.3; }
-    .event-info .ev-desc { font-size: 0.78rem; color: var(--sub); margin-top: 3px; }
-    #upcoming-empty { color: var(--sub); font-size: 0.9rem; padding: 0.5rem 0; }
+    .event-item:hover { box-shadow: 0 2px 8px rgba(0,0,0,.09); }
+    .event-item[data-cal="pessoal"]  { border-color: var(--purple); }
+    .event-item[data-cal="namorado"] { border-color: var(--blue); }
+    .event-date { min-width: 40px; text-align: center; }
+    .event-date .day   { font-size: 1.4rem; font-weight: 800; line-height: 1; }
+    .event-date .month { font-size: 0.62rem; text-transform: uppercase; color: var(--sub); }
+    .event-item[data-cal="fiap"]     .day { color: var(--red); }
+    .event-item[data-cal="pessoal"]  .day { color: var(--purple); }
+    .event-item[data-cal="namorado"] .day { color: var(--blue); }
+    .event-info .ev-title { font-weight: 600; font-size: 0.86rem; line-height: 1.3; }
+    .event-info .ev-meta  { font-size: 0.75rem; color: var(--sub); margin-top: 2px; display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+    .conflict-badge { background: #fef3c7; color: #92400e; font-size: 0.68rem; font-weight: 700; padding: 1px 6px; border-radius: 4px; }
+    .cat-badge { font-size: 0.68rem; font-weight: 600; padding: 1px 6px; border-radius: 4px; background: #f0f0f0; color: #555; }
+    #upcoming-empty { color: var(--sub); font-size: 0.88rem; padding: 0.3rem 0; }
 
-    /* ── Footer ── */
-    footer {
-      text-align: center;
-      padding: 2rem;
-      color: var(--sub);
-      font-size: 0.78rem;
-      border-top: 1px solid var(--border);
-      margin-top: 1rem;
+    /* Conflicts summary */
+    #conflict-banner {
+      background: #fffbeb; border: 1px solid #fcd34d; border-radius: 10px;
+      padding: 0.8rem 1.1rem; margin-bottom: 1.1rem;
+      font-size: 0.85rem; color: #78350f; display: none; align-items: center; gap: 0.6rem;
     }
+    #conflict-banner.show { display: flex; }
+
+    /* Footer */
+    footer { text-align: center; padding: 1.8rem; color: var(--sub); font-size: 0.75rem; border-top: 1px solid var(--border); margin-top: 0.5rem; }
     footer a { color: var(--red); text-decoration: none; }
 
-    /* ── Responsive ── */
     @media (max-width: 600px) {
-      nav { gap: 1rem; padding: 0.8rem 1rem; }
-      .hero { padding: 2rem 1rem 1.5rem; }
-      .hero h1 { font-size: 1.4rem; }
+      nav { gap: 0.8rem; padding: 0.7rem 1rem; }
+      .hero { padding: 1.8rem 1rem 1.5rem; }
+      .hero h1 { font-size: 1.35rem; }
       .container { padding: 1rem; }
     }
   </style>
@@ -159,7 +133,7 @@
 
 <nav>
   <div class="nav-logo">Central<span>Acadêmica</span></div>
-  <a href="#proximos">Próximos eventos</a>
+  <a href="#proximos">Próximos</a>
   <a href="#calendario">Calendário</a>
   <div class="spacer"></div>
   <div class="nav-student">Ana Julia · RM 571965</div>
@@ -168,7 +142,7 @@
 <div class="hero">
   <div class="hero-inner">
     <h1>Sua jornada <span>FIAP</span></h1>
-    <p>Marketing Digital — 1º ano · Modalidade On-line · 2026</p>
+    <p>Marketing Digital — 1º ano · On-line · 2026</p>
     <div class="hero-cards">
       <div class="hero-card">
         <div class="label">Aluna</div>
@@ -179,20 +153,20 @@
         <div class="value">571965</div>
       </div>
       <div class="hero-card">
-        <div class="label">Curso</div>
-        <div class="value">Marketing</div>
-      </div>
-      <div class="hero-card">
-        <div class="label">Modalidade</div>
-        <div class="value">On-line</div>
-      </div>
-      <div class="hero-card">
         <div class="label">Fase atual</div>
         <div class="value" id="fase-atual">—</div>
       </div>
       <div class="hero-card">
-        <div class="label">Próx. evento</div>
-        <div class="value" id="proximo-evento">—</div>
+        <div class="label">Próx. FIAP</div>
+        <div class="value" id="prox-fiap" style="color:var(--red)">—</div>
+      </div>
+      <div class="hero-card">
+        <div class="label">Próx. compromisso</div>
+        <div class="value" id="prox-pessoal" style="color:var(--purple)">—</div>
+      </div>
+      <div class="hero-card">
+        <div class="label">Próx. Lucca</div>
+        <div class="value" id="prox-namorado" style="color:var(--blue)">—</div>
       </div>
     </div>
   </div>
@@ -200,20 +174,38 @@
 
 <div class="container">
 
-  <!-- Próximos eventos -->
+  <!-- Próximos -->
   <div id="proximos" class="card">
     <div class="section-title">Próximos eventos</div>
+
+    <!-- Legend / filter toggles -->
+    <div class="legend">
+      <button class="legend-btn active" data-cal="fiap">
+        <span class="dot" style="background:var(--red)"></span> FIAP
+      </button>
+      <button class="legend-btn active" data-cal="pessoal">
+        <span class="dot" style="background:var(--purple)"></span> Meus compromissos
+      </button>
+      <button class="legend-btn active" data-cal="namorado">
+        <span class="dot" style="background:var(--blue)"></span> Lucca
+      </button>
+    </div>
+
+    <div id="conflict-banner">
+      ⚠️ <span id="conflict-text"></span>
+    </div>
+
     <div id="upcoming-list">
-      <div id="upcoming-empty">Carregando calendário FIAP...</div>
+      <div id="upcoming-empty">Carregando calendários...</div>
     </div>
   </div>
 
   <!-- Calendário -->
   <div id="calendario" class="card">
-    <div class="section-title">Calendário FIAP ON</div>
+    <div class="section-title">Calendário</div>
     <div id="cal-status" class="loading">
       <div class="dot"></div>
-      <span id="cal-status-text">Sincronizando com FIAP ON...</span>
+      <span id="cal-status-text">Sincronizando FIAP ON...</span>
     </div>
     <div id="calendar"></div>
   </div>
@@ -227,44 +219,25 @@
 
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
 <script>
-// ── Config ────────────────────────────────────────────────────────────────────
-const ICAL_URL =
-  'https://on.fiap.com.br/local/calendar/export.php' +
-  '?username=rm571965' +
-  '&authtoken=9c3ae3cdbc98865c1182224e0a3fa6f6f14c81cd';
-
-// CORS proxies tried in order
-const PROXIES = [
-  u => `https://api.allorigins.win/get?url=${encodeURIComponent(u)}`,
-  u => `https://corsproxy.io/?${encodeURIComponent(u)}`,
-  u => `https://thingproxy.freeboard.io/fetch/${u}`,
-];
+// ── Colors ────────────────────────────────────────────────────────────────────
+const CAL_COLOR = { fiap: '#E0232C', pessoal: '#7c3aed', namorado: '#0284c7' };
+const CAL_LABEL = { fiap: 'FIAP', pessoal: 'Meus compromissos', namorado: 'Lucca' };
 
 // ── iCal parser (RFC 5545) ────────────────────────────────────────────────────
 function parseICal(raw) {
-  // Unfold continued lines
   const text = raw.replace(/\r?\n[ \t]/g, '');
-  const lines = text.split(/\r?\n/);
   const events = [];
   let ev = null;
-
-  for (const line of lines) {
+  for (const line of text.split(/\r?\n/)) {
     const l = line.trim();
     if (l === 'BEGIN:VEVENT') { ev = {}; continue; }
     if (l === 'END:VEVENT' && ev) { events.push(ev); ev = null; continue; }
     if (!ev) continue;
-
     const sep = l.indexOf(':');
     if (sep < 0) continue;
-
-    const keyFull = l.substring(0, sep);
+    const key = l.substring(0, sep).split(';')[0].toUpperCase();
     const val = l.substring(sep + 1)
-      .replace(/\\n/g, '\n')
-      .replace(/\\,/g, ',')
-      .replace(/\\\\/g, '\\');
-
-    // Strip param part (e.g. DTSTART;TZID=America/Sao_Paulo → DTSTART)
-    const key = keyFull.split(';')[0].toUpperCase();
+      .replace(/\\n/g, '\n').replace(/\\,/g, ',').replace(/\\\\/g, '\\');
     ev[key] = val;
   }
   return events;
@@ -273,160 +246,240 @@ function parseICal(raw) {
 function icalDateToISO(d) {
   if (!d) return null;
   d = d.replace(/VALUE=DATE[-\w]*:/i, '');
-  if (d.includes('T')) {
-    return d.replace(
-      /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})(Z?)$/,
-      '$1-$2-$3T$4:$5:$6$7'
-    );
-  }
+  if (d.includes('T'))
+    return d.replace(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})(Z?)$/, '$1-$2-$3T$4:$5:$6$7');
   return d.replace(/^(\d{4})(\d{2})(\d{2})$/, '$1-$2-$3');
 }
 
-function toFCEvents(events) {
-  return events.map(ev => ({
-    title: ev.SUMMARY || '(sem título)',
-    start: icalDateToISO(ev.DTSTART),
-    end:   icalDateToISO(ev.DTEND),
-    url:   ev.URL || undefined,
-    extendedProps: { description: ev.DESCRIPTION || '' },
-    allDay: !(ev.DTSTART || '').includes('T'),
-  })).filter(e => e.start);
+function toFCEvents(icalEvents, calKey) {
+  const now = new Date(); now.setHours(0, 0, 0, 0);
+  return icalEvents.map(ev => {
+    const start = icalDateToISO(ev.DTSTART);
+    const end   = icalDateToISO(ev.DTEND);
+    if (!start) return null;
+    if (new Date(start) < now) return null;   // only future events
+    return {
+      title: ev.SUMMARY || '(sem título)',
+      start, end,
+      url:   ev.URL || undefined,
+      color: CAL_COLOR[calKey],
+      extendedProps: {
+        cal:         calKey,
+        description: ev.DESCRIPTION || '',
+        location:    ev.LOCATION || '',
+        categories:  ev.CATEGORIES || '',
+      },
+      allDay: !(ev.DTSTART || '').includes('T'),
+    };
+  }).filter(Boolean);
 }
 
-// ── Fetch with proxy fallback ─────────────────────────────────────────────────
-async function fetchICal() {
-  for (const makeUrl of PROXIES) {
+// ── Fetch helpers ─────────────────────────────────────────────────────────────
+const FIAP_URL = 'https://on.fiap.com.br/local/calendar/export.php'
+  + '?username=rm571965&authtoken=9c3ae3cdbc98865c1182224e0a3fa6f6f14c81cd';
+
+const PROXIES = [
+  u => `https://api.allorigins.win/get?url=${encodeURIComponent(u)}`,
+  u => `https://corsproxy.io/?${encodeURIComponent(u)}`,
+];
+
+async function fetchFIAPLive() {
+  for (const mk of PROXIES) {
     try {
-      const res = await fetch(makeUrl(ICAL_URL), {
-        signal: AbortSignal.timeout(9000),
-      });
+      const res = await fetch(mk(FIAP_URL), { signal: AbortSignal.timeout(9000) });
       if (!res.ok) continue;
-
-      // allorigins returns JSON {contents, status}; others return plain text
-      let text;
       const ct = res.headers.get('content-type') || '';
-      if (ct.includes('application/json')) {
-        const j = await res.json();
-        text = j.contents || j.body || '';
-      } else {
-        text = await res.text();
-      }
-
+      const text = ct.includes('json')
+        ? (await res.json()).contents || ''
+        : await res.text();
       if (text.includes('BEGIN:VCALENDAR')) return text;
-    } catch (_) {
-      // try next proxy
+    } catch (_) {}
+  }
+  return null;
+}
+
+async function fetchLocalICS(path) {
+  const res = await fetch(path);
+  return res.ok ? res.text() : null;
+}
+
+// ── Conflict detection ────────────────────────────────────────────────────────
+function detectConflicts(eventsA, eventsB) {
+  const conflicts = [];
+  for (const a of eventsA) {
+    if (a.allDay) continue;
+    const aS = new Date(a.start), aE = a.end ? new Date(a.end) : aS;
+    for (const b of eventsB) {
+      if (b.allDay) continue;
+      const bS = new Date(b.start), bE = b.end ? new Date(b.end) : bS;
+      if (aS < bE && aE > bS) conflicts.push({ mine: a, his: b });
     }
   }
-  throw new Error('Todos os proxies falharam');
+  return conflicts;
 }
 
-// ── Upcoming events sidebar ───────────────────────────────────────────────────
+// ── State ─────────────────────────────────────────────────────────────────────
+const state = { events: [], visible: { fiap: true, pessoal: true, namorado: true }, calendar: null };
+
 const MONTHS = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
 
-function renderUpcoming(fcEvents) {
-  const now = new Date();
-  const upcoming = fcEvents
-    .filter(e => e.start && new Date(e.start) >= now)
-    .sort((a, b) => new Date(a.start) - new Date(b.start))
-    .slice(0, 8);
+function fmt(dateStr) {
+  const d = new Date(dateStr);
+  return `${d.getDate()} ${MONTHS[d.getMonth()]}`;
+}
 
+// ── Upcoming events render ────────────────────────────────────────────────────
+function renderUpcoming() {
   const container = document.getElementById('upcoming-list');
+  const visible = state.events
+    .filter(e => state.visible[e.extendedProps.cal])
+    .sort((a, b) => new Date(a.start) - new Date(b.start))
+    .slice(0, 12);
 
-  if (!upcoming.length) {
-    container.innerHTML = '<div id="upcoming-empty">Nenhum evento futuro encontrado.</div>';
+  if (!visible.length) {
+    container.innerHTML = '<div id="upcoming-empty">Nenhum evento próximo.</div>';
     return;
   }
 
-  // Next event shortcut in hero
-  const next = upcoming[0];
-  const nd = new Date(next.start);
-  document.getElementById('proximo-evento').textContent =
-    `${nd.getDate()} ${MONTHS[nd.getMonth()]}`;
-
-  container.innerHTML = `<div class="events-grid">${
-    upcoming.map(e => {
-      const d = new Date(e.start);
-      const desc = (e.extendedProps?.description || '').replace(/<[^>]+>/g, '').substring(0, 70);
-      return `<div class="event-item">
-        <div class="event-date">
-          <div class="day">${d.getDate()}</div>
-          <div class="month">${MONTHS[d.getMonth()]}</div>
+  container.innerHTML = `<div class="events-grid">${visible.map(e => {
+    const d    = new Date(e.start);
+    const cal  = e.extendedProps.cal;
+    const cat  = e.extendedProps.categories;
+    const time = e.allDay ? '' : d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+    const hasConflict = e.extendedProps.conflict;
+    return `<div class="event-item" data-cal="${cal}">
+      <div class="event-date">
+        <div class="day">${d.getDate()}</div>
+        <div class="month">${MONTHS[d.getMonth()]}</div>
+      </div>
+      <div class="event-info">
+        <div class="ev-title">${e.title}</div>
+        <div class="ev-meta">
+          ${time ? `<span>${time}</span>` : ''}
+          ${cat  ? `<span class="cat-badge">${cat}</span>` : ''}
+          ${hasConflict ? `<span class="conflict-badge">⚠️ conflito</span>` : ''}
         </div>
-        <div class="event-info">
-          <div class="ev-title">${e.title}</div>
-          ${desc ? `<div class="ev-desc">${desc}</div>` : ''}
-        </div>
-      </div>`;
-    }).join('')
-  }</div>`;
+      </div>
+    </div>`;
+  }).join('')}</div>`;
 }
 
-// ── Detect fase from upcoming events ─────────────────────────────────────────
-function detectFase(fcEvents) {
+// ── Hero shortcuts ────────────────────────────────────────────────────────────
+function updateHero() {
   const now = new Date();
-  const faseEl = document.getElementById('fase-atual');
-  for (const e of fcEvents.sort((a, b) => new Date(a.start) - new Date(b.start))) {
-    if (new Date(e.start) < now) continue;
+  for (const cal of ['fiap', 'pessoal', 'namorado']) {
+    const next = state.events
+      .filter(e => e.extendedProps.cal === cal && new Date(e.start) >= now)
+      .sort((a, b) => new Date(a.start) - new Date(b.start))[0];
+    const id = cal === 'fiap' ? 'prox-fiap' : cal === 'pessoal' ? 'prox-pessoal' : 'prox-namorado';
+    document.getElementById(id).textContent = next ? fmt(next.start) : '—';
+  }
+
+  // Fase atual
+  for (const e of state.events.filter(e => e.extendedProps.cal === 'fiap').sort((a,b) => new Date(a.start)-new Date(b.start))) {
     const m = (e.title || '').match(/[Ff]ase\s*(\d)/);
-    if (m) { faseEl.textContent = `Fase ${m[1]}`; return; }
+    if (m) { document.getElementById('fase-atual').textContent = `Fase ${m[1]}`; break; }
   }
 }
 
-// ── FullCalendar init ─────────────────────────────────────────────────────────
-function initCalendar(fcEvents) {
-  const el = document.getElementById('calendar');
-  const cal = new FullCalendar.Calendar(el, {
+// ── Conflict banner ───────────────────────────────────────────────────────────
+function updateConflictBanner(myEvents, hisEvents) {
+  const conflicts = detectConflicts(myEvents, hisEvents);
+
+  // mark events
+  for (const { mine, his } of conflicts) {
+    mine.extendedProps.conflict = true;
+    his.extendedProps.conflict  = true;
+  }
+
+  const banner = document.getElementById('conflict-banner');
+  const text   = document.getElementById('conflict-text');
+  if (conflicts.length) {
+    banner.classList.add('show');
+    const desc = conflicts.slice(0,2).map(c =>
+      `${fmt(c.mine.start)}: "${c.mine.title}" × "${c.his.title}"`
+    ).join(' · ');
+    text.textContent = `${conflicts.length} conflito(s) de agenda: ${desc}`;
+  }
+}
+
+// ── Calendar (FullCalendar) ───────────────────────────────────────────────────
+function initCalendar() {
+  const cal = new FullCalendar.Calendar(document.getElementById('calendar'), {
     initialView: window.innerWidth < 640 ? 'listMonth' : 'dayGridMonth',
     locale: 'pt-br',
-    headerToolbar: {
-      left:   'prev,next today',
-      center: 'title',
-      right:  'dayGridMonth,listMonth',
-    },
+    headerToolbar: { left: 'prev,next today', center: 'title', right: 'dayGridMonth,listMonth' },
     buttonText: { today: 'Hoje', month: 'Mês', list: 'Lista' },
-    events: fcEvents,
+    events: () => state.events.filter(e => state.visible[e.extendedProps.cal]),
     eventColor: '#E0232C',
     height: 'auto',
+    validRange: { start: new Date().toISOString().split('T')[0] },
     eventClick(info) {
-      if (info.event.url) {
-        info.jsEvent.preventDefault();
-        window.open(info.event.url, '_blank', 'noopener');
-      }
+      if (info.event.url) { info.jsEvent.preventDefault(); window.open(info.event.url, '_blank', 'noopener'); }
     },
     eventDidMount(info) {
-      const desc = info.event.extendedProps.description;
-      if (desc) info.el.title = desc.replace(/<[^>]+>/g, '').substring(0, 120);
+      const { description, location } = info.event.extendedProps;
+      const tip = [description, location].filter(Boolean).map(s => s.replace(/<[^>]+>/g,'')).join(' · ');
+      if (tip) info.el.title = tip.substring(0, 140);
     },
   });
   cal.render();
+  state.calendar = cal;
 }
 
-// ── Status helpers ────────────────────────────────────────────────────────────
+function refreshCalendar() {
+  if (state.calendar) state.calendar.refetchEvents();
+}
+
+// ── Toggle buttons ────────────────────────────────────────────────────────────
+document.querySelectorAll('.legend-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const cal = btn.dataset.cal;
+    state.visible[cal] = !state.visible[cal];
+    btn.classList.toggle('active', state.visible[cal]);
+    renderUpcoming();
+    refreshCalendar();
+  });
+});
+
+// ── Status ────────────────────────────────────────────────────────────────────
 function setStatus(type, msg) {
-  const el  = document.getElementById('cal-status');
-  const txt = document.getElementById('cal-status-text');
+  const el = document.getElementById('cal-status');
   el.className = type;
-  txt.textContent = msg;
+  document.getElementById('cal-status-text').textContent = msg;
 }
 
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
 (async () => {
-  try {
-    const raw = await fetchICal();
-    const events = parseICal(raw);
-    const fcEvents = toFCEvents(events);
+  // Load all 3 in parallel
+  const [fiapLive, pessoalRaw, namoradoRaw] = await Promise.allSettled([
+    fetchFIAPLive(),
+    fetchLocalICS('icalexport.ics'),   // FIAP static fallback
+    fetchLocalICS('basic.ics'),
+    fetchLocalICS('basic (1).ics'),
+  ]).then(r => [r[0].value ?? null, r[2].value ?? null, r[3].value ?? null]);
 
-    setStatus('ok', `Calendário sincronizado · ${fcEvents.length} evento(s) importado(s)`);
-    renderUpcoming(fcEvents);
-    detectFase(fcEvents);
-    initCalendar(fcEvents);
-  } catch (err) {
-    setStatus('err', 'Não foi possível sincronizar o calendário. Verifique sua conexão com a internet.');
-    document.getElementById('upcoming-list').innerHTML =
-      '<div id="upcoming-empty">Erro ao carregar eventos.</div>';
-    initCalendar([]);
-    console.error('[Central Acadêmica]', err);
-  }
+  // FIAP: prefer live, fallback to static
+  const fiapRaw = fiapLive || await fetchLocalICS('icalexport.ics').catch(() => null);
+
+  const fiapEvents     = fiapRaw     ? toFCEvents(parseICal(fiapRaw),     'fiap')     : [];
+  const pessoalEvents  = pessoalRaw  ? toFCEvents(parseICal(pessoalRaw),  'pessoal')  : [];
+  const namoradoEvents = namoradoRaw ? toFCEvents(parseICal(namoradoRaw), 'namorado') : [];
+
+  updateConflictBanner(
+    [...fiapEvents, ...pessoalEvents],
+    namoradoEvents
+  );
+
+  state.events = [...fiapEvents, ...pessoalEvents, ...namoradoEvents];
+
+  const total = state.events.length;
+  const src   = fiapLive ? 'FIAP ao vivo' : 'FIAP local';
+  setStatus('ok', `${total} evento(s) carregado(s) · ${src} + compromissos + Lucca`);
+
+  updateHero();
+  renderUpcoming();
+  initCalendar();
 })();
 </script>
 </body>
