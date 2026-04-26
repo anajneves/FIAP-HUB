@@ -1,0 +1,3856 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Calendar L.M
+X-WR-TIMEZONE:America/Recife
+BEGIN:VTIMEZONE
+TZID:America/Sao_Paulo
+X-LIC-LOCATION:America/Sao_Paulo
+BEGIN:STANDARD
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+TZNAME:GMT-3
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/Argentina/Cordoba
+X-LIC-LOCATION:America/Argentina/Cordoba
+BEGIN:STANDARD
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+TZNAME:GMT-3
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART:20250502T140000Z
+DTEND:20250502T150000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=lucas@gestleads.com:mailto:lucas@gestleads.com
+UID:576c39qlf7hecl7j73c0rflcat@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=lucas@
+ gestleads.com;X-NUM-GUESTS=0:mailto:lucas@gestleads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/zse-nyzy-qqe
+CREATED:20250502T115635Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/zse-nyzy-qqe\
+ nOu disque: (BR) +55 11 4949-4162 PIN: 390596943#\nMais números de telefone
+ : https://tel.meet/zse-nyzy-qqe?pin=2667323586368&hs=7\n\nSaiba mais sobre 
+ o Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20250502T142143Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Alinhamento CRM I Lucca 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260226T220000Z
+DTEND:20260226T221500Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=jorge@remotelatinos.com:mailto:jorge@remotelatinos.com
+UID:lc58ttt08hok0hkhfsv8qi98ks@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Bryce 
+ Calcagno;X-NUM-GUESTS=0:mailto:bryce@invigmarketing.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/cce-tghd-iex
+CREATED:20260226T162747Z
+DESCRIPTION:\n\n==========\n\nPhone:- (916) 757-8100\nEmail:- bryce@invigma
+ rketing.com\n\nNeed to make a change to this event?\nReschedule:-\nhttps://
+ link.remotelatinos.com/widget/booking/IIocXa4dSSvQZOSOXJKo?event_id=SfHx8KY
+ OYNUbUlRm2T1B\n\nCancel:-\nhttps://link.remotelatinos.com/widget/cancel-boo
+ king?event_id=SfHx8KYOYNUbUlRm2T1B\n\nEntrar com o Google Meet: https://mee
+ t.google.com/cce-tghd-iex\nOu disque: (CO) +57 601 8956927 PIN: 495606837#\
+ nMais números de telefone: https://tel.meet/cce-tghd-iex?pin=2394508821686&
+ hs=7\n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answ
+ er/9282720
+LAST-MODIFIED:20260226T214257Z
+LOCATION:https://meet.google.com/cce-tghd-iex
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bryce Calcagno with Jorge - Onboarding Call with Jorge
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260302T150000Z
+DTEND:20260302T160000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=bryce@invigmarketing.com:mailto:bryce@invigmarketing.com
+UID:6jb8t38ee2lonqoi2pq18dsupd@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=bryce@
+ invigmarketing.com;X-NUM-GUESTS=0:mailto:bryce@invigmarketing.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/nsh-mdsu-pjt
+CREATED:20260302T005201Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/nsh-mdsu-pjt\
+ nOu disque: (US) +1 567-250-3054 PIN: 592762121#\nMais números de telefone:
+  https://tel.meet/nsh-mdsu-pjt?pin=1622441014767&hs=7\n\nSaiba mais sobre o
+  Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260302T033536Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Lucca Onboarding Call 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260421T143000Z
+DTEND:20260421T150000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=alis@trypencil.com:mailto:alis@trypencil.com
+UID:289j7uj9mbfun4m4nrh7ufc3vk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=sophie
+ @trypencil.com;X-NUM-GUESTS=0:mailto:sophie@trypencil.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=alis@t
+ rypencil.com;X-NUM-GUESTS=0:mailto:alis@trypencil.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/crk-rufg-ads
+CREATED:20260415T113847Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/crk-rufg-ads\
+ nOu disque: (GB) +44 20 3937 1320 PIN: 393706920#\nMais números de telefone
+ : https://tel.meet/crk-rufg-ads?pin=8991476826136&hs=7\n\nSaiba mais sobre 
+ o Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260420T073228Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Interview: Lucca Magnata - Creative Strategist
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20250404T090000
+DTEND;TZID=America/Argentina/Cordoba:20250404T093000
+RRULE:FREQ=WEEKLY;UNTIL=20250717T025959Z;BYDAY=FR,MO,TH,TU,WE
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:1c4v73ip9ofjtnrkjvcngrpoth@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=luigi@
+ gestleads.com;X-NUM-GUESTS=0:mailto:luigi@gestleads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/mgf-rfwi-qij
+CREATED:20250401T231802Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/mgf-rfwi-qij\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20250717T041722Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:🎙️ Daily | Social Media
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT14H0M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230816T171500Z
+DTEND:20230816T181500Z
+DTSTAMP:20260426T200811Z
+UID:17rpprt3r9b9hamr33jrn10bdf@google.com
+CREATED:20230816T134618Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:10
+STATUS:CONFIRMED
+SUMMARY:Hora 1: Proposta Interar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251120T153000Z
+DTEND:20251120T163000Z
+DTSTAMP:20260426T200811Z
+UID:4dvrck8sleh6v26jpicmqrqd86@google.com
+CREATED:20251112T191751Z
+DESCRIPTION:Learn More at https://adsonair.withgoogle.com/events/leadgen-st
+ ellar-nov-20-2025?talk=leadgen-stellar-nov-20-2025
+LAST-MODIFIED:20251112T191751Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:LeadGen by Google ADS Product Experts
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260211T190000Z
+DTEND:20260211T193000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=c4e454uwjjquy@events.workablemail.com:mailto:c4e454uwjjquy@eve
+ nts.workablemail.com
+UID:jef7sxf7th7qgeozjhhqfu3v6x6zri-e
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Maddie
+  Ausmus;X-NUM-GUESTS=0:mailto:madison@ejam.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/mfx-akjj-xud
+URL:http://www.workable.com/events/jef7sxf7th7qgeozjhhqfu3v6x6zri-e
+CREATED:20260207T160345Z
+DESCRIPTION:\nThis event has a video call.\nJoin: https://meet.google.com/m
+ fx-akjj-xud\nCan't join? <a href="https://ejam.workable.com/events/a7mizkzt
+ s9xwwzjen5gmgqmkgsehwl39?rsvp_intent=reschedule">Ask to reschedule</a> <a h
+ ref="https://ejam.workable.com/events/a7mizkzts9xwwzjen5gmgqmkgsehwl39?rsvp
+ _intent=decline">Cancel</a>\n\nEntrar com o Google Meet: https://meet.googl
+ e.com/mfx-akjj-xud\n\nSaiba mais sobre o Meet em: https://support.google.co
+ m/a/users/answer/9282720
+LAST-MODIFIED:20260211T182011Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Meeting for Senior Creative Strategist job at eJam
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240610T230000Z
+DTEND:20240611T000000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:5oun4s7p869r0gurotc2j78hep@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=amanda
+ canton.medicina@gmail.com;X-NUM-GUESTS=0:mailto:amandacanton.medicina@gmail
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/nit-ndte-nqy
+CREATED:20240606T123927Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/nit-ndte-nqy\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Sessão | Interar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250411
+DTEND;VALUE=DATE:20250412
+DTSTAMP:20260426T200811Z
+UID:10ip5f1l7ht10ochekvr5b05vc@google.com
+CREATED:20250404T154434Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawgd
+LAST-MODIFIED:20250406T185256Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Planejar semana seguinte
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230911T181500Z
+DTEND:20230911T190000Z
+DTSTAMP:20260426T200811Z
+UID:5abmacvm2dcpo8q03ie35ovqmf@google.com
+CREATED:20230911T160718Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Reels de hoje da Interar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250403T124500Z
+DTEND:20250403T125700Z
+DTSTAMP:20260426T200811Z
+UID:93a96ff8-1080-11f0-ba7a-e26aaa2cbd7f
+CREATED:20250403T114127Z
+DESCRIPTION:Recolher os lixos da cozinha\, dos banheiros que estão ali atrá
+ s\, do quarto e do guarda-roupa.
+LAST-MODIFIED:20250403T130135Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Recolher os lixos e levar
+TRANSP:OPAQUE
+X-ALARM-VIA-PHONE:2025-04-03T12:20:53.613637+00:00
+X-DOLA-CREATED-AT:2025-04-03T11:41:26.769821+00:00
+X-DOLA-EMOJI:🗑️
+X-DOLA-UPDATED-AT:2025-04-03T12:20:53.613740+00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250406
+DTEND;VALUE=DATE:20250407
+DTSTAMP:20260426T200811Z
+UID:ig2gkcfk88l4kjie8skvfoqki8@google.com
+CREATED:20250404T154408Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawc6
+LAST-MODIFIED:20250406T192707Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Preparar capa do carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230710T120000Z
+DTEND:20230710T130000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=germano@v4company.com:mailto:germano@v4company.com
+UID:4sljantdle6ve3mj4u5h0hk264@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=german
+ o@v4company.com;X-NUM-GUESTS=0:mailto:germano@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/atz-bixu-mei
+CREATED:20230709T204058Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/atz-bixu-mei\
+ nOu disque: (BR) +55 11 4935-2583 PIN: 134222873#\nMais números de telefone
+ : https://tel.meet/atz-bixu-mei?pin=2204145957622&hs=7\n\nSaiba mais sobre 
+ o Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20230709T204134Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Lucca e Germano
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250403T190000Z
+DTEND:20250403T200000Z
+DTSTAMP:20260426T200811Z
+UID:f9c7bcd4-1032-11f0-a726-e2a3a255bcd1
+CREATED:20250403T022557Z
+DESCRIPTION:Ele mencionou estar recrutando pessoas pelo LinkedIn. O post é 
+ sobre vagas abertas na matriz da V4.
+LAST-MODIFIED:20250403T141536Z
+SEQUENCE:5
+STATUS:CONFIRMED
+SUMMARY:Mostrar o post para Luigi como referência
+TRANSP:TRANSPARENT
+X-DOLA-CREATED-AT:2025-04-03T02:25:57.351091+00:00
+X-DOLA-EMOJI:📄
+X-DOLA-UPDATED-AT:2025-04-03T02:26:54.905894+00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260211T183000Z
+DTEND:20260211T190000Z
+DTSTAMP:20260426T200811Z
+UID:4ef2b5qih9ub847k1tc1kttpsf@google.com
+CREATED:20260207T160551Z
+LAST-MODIFIED:20260207T160551Z
+LOCATION:https://ejam.workable.com/events/a7mizkzts9xwwzjen5gmgqmkgsehwl39#
+ :~:text=https%3A//meet.google.com/mfx%2Dakjj%2Dxud
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Meeting for Senior Creative Strategist job at eJam
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240131T180000Z
+DTEND:20240131T184000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=rayane.moreira@asupernova.com.br:mailto:rayane.moreira@asupern
+ ova.com.br
+UID:6opms9iqtsfpeo65cfmgf23ldo@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=leandr
+ a@asupernova.com.br;X-NUM-GUESTS=0:mailto:leandra@asupernova.com.br
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/zem-gpsj-wei
+CREATED:20240130T155755Z
+DESCRIPTION:<p>Olá\, Lucca!</p><p>Parabéns! Você está convidado para partic
+ ipar da entrevista do processo seletivo da vaga de Consultoria de Marketing
+ .A data e horário da sua entrevista seguem no convite em anexo. Se tiver qu
+ alquer dúvida\, é só responder este e-mail.</p><p>Abraços\,</p><p>A SUPERNO
+ VA.</p>\n\nEntrar com o Google Meet: https://meet.google.com/zem-gpsj-wei\n
+ Ou disque: (BR) +55 19 4560-9811 PIN: 381431623#\nMais números de telefone:
+  https://tel.meet/zem-gpsj-wei?pin=2125631611866&hs=7\n\nSaiba mais sobre o
+  Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20240130T175206Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Entrevista com RH 🏴‍☠️
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230818T171500Z
+DTEND:20230818T180000Z
+DTSTAMP:20260426T200811Z
+UID:2v7k08jpv51vfvu47fq5qvpcii@google.com
+CREATED:20230817T231645Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Copy do Carrossel [Danilla]
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250406
+DTEND;VALUE=DATE:20250407
+DTSTAMP:20260426T200811Z
+UID:i86lbded30ta844k7jclsc8jms@google.com
+CREATED:20250404T154351Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawb8
+LAST-MODIFIED:20250407T114144Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Escrever roteiro dos stories de segunda-feira
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+DTSTAMP:20260426T200811Z
+UID:v89n077ksj7ec5v4u1q5a4n15g@google.com
+CREATED:20250404T154434Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawdq
+LAST-MODIFIED:20250406T184322Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Daily com Luigi - terça
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230818T180000Z
+DTEND:20230818T190000Z
+DTSTAMP:20260426T200811Z
+UID:17j3i7hco1ggsa9v6cchrppo14@google.com
+CREATED:20230817T231706Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Carrossel [Danilla]
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260128T223000Z
+DTEND:20260128T233000Z
+DTSTAMP:20260426T200811Z
+UID:8jql82g8ma3hd39u954e2gbl1g@google.com
+CREATED:20260120T032423Z
+LAST-MODIFIED:20260120T032423Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Live 02 - Confirmação de inscrição
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250410
+DTSTAMP:20260426T200811Z
+UID:8dlnu11j6v5l5ite0j1ng13bvk@google.com
+CREATED:20250404T154435Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawer
+LAST-MODIFIED:20250406T185314Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Enviar stories de quinta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230818T190000Z
+DTEND:20230818T200000Z
+DTSTAMP:20260426T200811Z
+UID:74lek8eulfts2h4rdqa144g9d0@google.com
+CREATED:20230817T231732Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Cronograma semanal [Danilla]
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250401T000000Z
+DTEND:20250401T003000Z
+DTSTAMP:20260426T200811Z
+UID:024b6a92-0e65-11f0-95b8-8a35480cc374
+CREATED:20250331T191904Z
+LAST-MODIFIED:20250331T232435Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Finalizar roteiro de stories para amanhã
+TRANSP:OPAQUE
+X-DOLA-CREATED-AT:2025-03-31T19:19:04.146760+00:00
+X-DOLA-EMOJI:📅
+X-DOLA-UPDATED-AT:2025-03-31T23:24:35.614165+00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250403T180000Z
+DTSTAMP:20260426T200811Z
+UID:7d6fe0da-1032-11f0-9ca9-7a4d8717caa5
+CREATED:20250403T022228Z
+DESCRIPTION:Prepare perguntas sobre LinkedIn e outros assuntos para a reuni
+ ão às 9h.
+LAST-MODIFIED:20250403T130153Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Separar perguntas para a reunião com o Luigi
+TRANSP:OPAQUE
+X-DOLA-CREATED-AT:2025-04-03T02:22:28.737784+00:00
+X-DOLA-EMOJI:📝
+X-DOLA-UPDATED-AT:2025-04-03T02:22:28.738034+00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230817T140000Z
+DTEND:20230817T150000Z
+DTSTAMP:20260426T200811Z
+UID:32vu4e7r1n9p5tq62vgq5u4msn@google.com
+CREATED:20230817T123010Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Reunião c Interar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230821T180000Z
+DTEND:20230821T190000Z
+DTSTAMP:20260426T200811Z
+UID:0dd3cqsnero5h4duut82hs4qsm@google.com
+CREATED:20230821T140216Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Pré-arte Cláudio Vaz
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20230724T140000
+DTEND;TZID=America/Argentina/Cordoba:20230724T150000
+RRULE:FREQ=WEEKLY;UNTIL=20230911T025959Z;BYDAY=MO
+EXDATE;TZID=America/Argentina/Cordoba:20230904T140000
+DTSTAMP:20260426T200811Z
+UID:62uero8boosud53f73dosdobuq@google.com
+CREATED:20230724T173819Z
+LAST-MODIFIED:20230911T160555Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Weekly (Oh a água)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Sao_Paulo:20230907T150000
+DTEND;TZID=America/Sao_Paulo:20230907T154500
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=luigi.fernandes@v4company.com:mailto:luigi.fernandes@v4company
+ .com
+UID:d8rrc9avv5tmfmaere20qsac32_R20230706T180000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=tulio.
+ santiago@v4company.com;X-NUM-GUESTS=0:mailto:tulio.santiago@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ge
+ rmano@v4company.com;X-NUM-GUESTS=0:mailto:germano@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=lu
+ an.oliveira@v4company.com;X-NUM-GUESTS=0:mailto:luan.oliveira@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=victor
+ ia.valentina@v4company.com;X-NUM-GUESTS=0:mailto:victoria.valentina@v4compa
+ ny.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=luigi.
+ fernandes@v4company.com;X-NUM-GUESTS=0:mailto:luigi.fernandes@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=fa
+ bio@v4company.com;X-NUM-GUESTS=0:mailto:fabio@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=zuza80
+ @gmail.com;X-NUM-GUESTS=0:mailto:zuza80@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ju
+ lio.santos@v4company.com;X-NUM-GUESTS=0:mailto:julio.santos@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=da
+ niel.lopes@v4company.com;X-NUM-GUESTS=0:mailto:daniel.lopes@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=al
+ an.machado@v4company.com;X-NUM-GUESTS=0:mailto:alan.machado@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=anacla
+ ra.araujo@v4company.com;X-NUM-GUESTS=0:mailto:anaclara.araujo@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=contat
+ o.dgpires@gmail.com;X-NUM-GUESTS=0:mailto:contato.dgpires@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=leoaro
+ uca@gmail.com;X-NUM-GUESTS=0:mailto:leoarouca@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=v4.leo
+ nardofreitas@gmail.com;X-NUM-GUESTS=0:mailto:v4.leonardofreitas@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=v4
+ .lucas.santos@gmail.com;X-NUM-GUESTS=0:mailto:v4.lucas.santos@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=humber
+ tomachadobatista@gmail.com;X-NUM-GUESTS=0:mailto:humbertomachadobatista@gma
+ il.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/okg-shct-xez
+RECURRENCE-ID;TZID=America/Sao_Paulo:20230907T150000
+CREATED:20210510T201130Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/okg-shct-xez\
+ nOu disque: (BR) +55 11 4949-1739 PIN: 269827300#\nMais números de telefone
+ : https://tel.meet/okg-shct-xez?pin=4325279644767&hs=7\n\nSaiba mais sobre 
+ o Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20230918T204339Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Weekly - Matta Machado & CO
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230817T184500Z
+DTEND:20230817T203000Z
+DTSTAMP:20260426T200811Z
+UID:3p0b5b484fjb29kqfpgb9u8ruu@google.com
+CREATED:20230817T141915Z
+LAST-MODIFIED:20230817T141934Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Post pra Danilla
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Sao_Paulo:20251202T150000
+DTEND;TZID=America/Sao_Paulo:20251202T160000
+RRULE:FREQ=DAILY;UNTIL=20251205T025959Z
+DTSTAMP:20260426T200811Z
+UID:1pvhk59vn04br2vh316f5rqkqk@google.com
+CREATED:20251113T054028Z
+DESCRIPTION:Descubra como unificar dados\, tecnologia e estratégia para con
+ struir um 2026 mais eficiente\, previsível e conectado.\nDurante esta marat
+ ona de 3 dias\, você verá como Marketing\, Vendas e Sucesso do Cliente pode
+ m transformar dados em inteligência acionável\, aplicar IA de forma prática
+  e criar operações verdadeiramente alinhadas — com menos fricção e mais res
+ ultados.
+LAST-MODIFIED:20251113T054028Z
+LOCATION:https://hubspot.zoom.us/j/92154480599?pwd=mPVAY5q6s5WczEg1yGsjUmyr
+ IaaULe.1
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Planejando 2026 com Inteligência e Alinhamento
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230815T234500Z
+DTEND:20230816T001500Z
+DTSTAMP:20260426T200811Z
+UID:62levontc5eg41b828pilme2b5@google.com
+CREATED:20230815T141143Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Estudar VTSD/FEC
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260423T134000Z
+DTEND:20260423T141000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=maryam@adcrate.co:mailto:maryam@adcrate.co
+UID:907povlu6tqhghar2fg1qojqdg@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=maryam
+ @adcrate.co;X-NUM-GUESTS=0:mailto:maryam@adcrate.co
+X-GOOGLE-CONFERENCE:https://meet.google.com/iha-ckik-itu
+CREATED:20260421T164200Z
+DESCRIPTION:<b>Booked by</b>\nLucca  Magnata\nsuporteluccamagnata@gmail.com
+ \n<br><p>Thank you for scheduling your interview. This session is an opport
+ unity for us to learn more about you and for you to ask any questions about
+  the role or our company.</p><p>Please ensure you’re in a quiet space with 
+ a reliable internet connection. If applicable\, feel free to have any relev
+ ant materials or documents ready to discuss.</p><p>We’re looking forward to
+  connecting with you!</p>\n\nEntrar com o Google Meet: https://meet.google.
+ com/iha-ckik-itu\nOu disque: (GB) +44 20 3956 1825 PIN: 684211515#\nMais nú
+ meros de telefone: https://tel.meet/iha-ckik-itu?pin=4684632144134&hs=7\n\n
+ Saiba mais sobre o Meet em: https://support.google.com/a/users/answer/92827
+ 20
+LAST-MODIFIED:20260423T141711Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Creative Strategist Interview (Lucca  Magnata)
+TRANSP:OPAQUE
+ATTACH;FILENAME=Notes by Gemini;FMTTYPE=application/vnd.google-apps.documen
+ t:https://docs.google.com/document/d/1BmX6JqFF3ZWYA4_RxBqJziiDRw7QFDVqwooq8
+ UgYCXo/edit?usp=meet_tnfm_calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250411
+DTEND;VALUE=DATE:20250412
+DTSTAMP:20260426T200811Z
+UID:vmdpnrs0r9o6c2to6j2jamu1bs@google.com
+CREATED:20250404T154442Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawgf
+LAST-MODIFIED:20250406T185300Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Preparar copies de story (segunda e terça)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230817T160000Z
+DTEND:20230817T170000Z
+DTSTAMP:20260426T200811Z
+UID:55ojs4oam7m19k55ld5g1rvk15@google.com
+CREATED:20230817T141857Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Escrever conteúdo p/ Danilla
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260114T190000Z
+DTEND:20260114T200000Z
+DTSTAMP:20260426T200811Z
+UID:2vf5iafep8k4oglpu3oe7c48k9@google.com
+CREATED:20251230T040315Z
+DESCRIPTION:Ready to make 2026 the year you get noticed? Start with how you
+  show up on LinkedIn.<br><br>Standing out isn’t just about having a strong 
+ profile. It’s about how you show your expertise\, engage with your communit
+ y and stay visible in the moments that matter.<br><br>Whether you’re job se
+ arching or leveling up\, LinkedIn’s Yrbenka Arthus and Andrew Seaman will h
+ elp you position yourself for the opportunities you want next.<br><br>You’l
+ l walk away with:<br>👉 Tactics to align your profile with the opportunit..
+ .
+LAST-MODIFIED:20251230T040315Z
+LOCATION:https://www.linkedin.com/events/7403864268401491968
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:How to Stand Out on LinkedIn
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240625T130000Z
+DTEND:20240625T133000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:4blrkgs1l6lgccms313u678fvp@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=rennat
+ anunes@gmail.com;X-NUM-GUESTS=0:mailto:rennatanunes@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+CREATED:20240531T121533Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Cancelar ChatGPT
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20250425T090000
+DTEND;TZID=America/Argentina/Cordoba:20250425T093000
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:1c4v73ip9ofjtnrkjvcngrpoth@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=luigi@
+ gestleads.com;X-NUM-GUESTS=0:mailto:luigi@gestleads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/mgf-rfwi-qij
+RECURRENCE-ID;TZID=America/Argentina/Cordoba:20250425T090000
+CREATED:20250401T231802Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/mgf-rfwi-qij\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20260413T094854Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:🎙️ Daily | Social Media
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT14H0M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250411
+DTEND;VALUE=DATE:20250412
+DTSTAMP:20260426T200811Z
+UID:49ulimapqs1712d20pk5bsh2qs@google.com
+CREATED:20250404T154441Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawga
+LAST-MODIFIED:20250406T184319Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Reunião de alinhamento interno
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230815T200000Z
+DTEND:20230815T210000Z
+DTSTAMP:20260426T200811Z
+UID:09d799698l57e6kjm7urkc9ctv@google.com
+CREATED:20230815T132542Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hora 6: Proposta Interar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260424T223000Z
+DTEND:20260424T230000Z
+DTSTAMP:20260426T200811Z
+UID:5nf1d58u0s5q2habcnanathm5m@google.com
+CREATED:20260424T184934Z
+LAST-MODIFIED:20260424T184949Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Interview Hez Midia (Hiry)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230828T180000Z
+DTEND:20230828T190000Z
+DTSTAMP:20260426T200811Z
+UID:20n34gpu7fdegch04j5en2kavs@google.com
+CREATED:20230828T160637Z
+LAST-MODIFIED:20230828T160637Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Levar algo pra Pompoar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20250512T123000
+DTEND;TZID=America/Argentina/Cordoba:20250512T130000
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:1c4v73ip9ofjtnrkjvcngrpoth@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=luigi@
+ gestleads.com;X-NUM-GUESTS=0:mailto:luigi@gestleads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/mgf-rfwi-qij
+RECURRENCE-ID;TZID=America/Argentina/Cordoba:20250512T090000
+CREATED:20250401T231802Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/mgf-rfwi-qij\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20260413T094854Z
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:🎙️ Daily | Social Media
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT14H0M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250401T234500Z
+DTSTAMP:20260426T200811Z
+UID:f5f0b852-0efe-11f0-a6bb-5a437001332a
+CREATED:20250401T134106Z
+LAST-MODIFIED:20250401T232213Z
+SEQUENCE:5
+STATUS:CONFIRMED
+SUMMARY:Roteiro de Carrossel 2
+TRANSP:OPAQUE
+X-DOLA-CREATED-AT:2025-04-01T13:41:05.916050+00:00
+X-DOLA-EMOJI:🎠
+X-DOLA-UPDATED-AT:2025-04-01T13:41:44.678794+00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+DTSTAMP:20260426T200811Z
+UID:pq455a381f79luqelcn5drif1s@google.com
+CREATED:20250404T154404Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawd9
+LAST-MODIFIED:20250406T185300Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Enviar materiais para Luigi - terça
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251209T140000Z
+DTEND:20251209T145000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=eventos@buzzmonitor.com.br:mailto:eventos@buzzmonitor.com.br
+UID:406tl32ukgb3f7oo2u962aqfm3@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+CREATED:20251117T180943Z
+DESCRIPTION:<p>Oi\, tudo bem?</p><p>É muito ruim ter a certeza de que está 
+ fazendo tudo certo\, mas ver que o seu concorrente sempre lança campanhas m
+ uito mais criativas… Não é mesmo?</p><p> "Por que eu não pensei nisso antes
+ ?" 😭</p><p>A resposta é simples: tem marca que só faz o que todo mundo já 
+ está fazendo…</p><p>E tem marca que se atualiza das tendências pra criar co
+ isas novas. Essas são as que todo mundo copia (e inveja).😉</p><p>No <b>Mas
+ terclass “Marketing Trends 2026”</b>\, você vai descobrir as maiores tendên
+ cias para o próximo e\, de quebra\, aprender como aplicá-las pra já começar
+  o ano na frente da concorrência.</p><p>Anota aí:</p><p><b>Data: 09 de Deze
+ mbro</b></p><p><b>Horário: 11h às 11h50.</b></p><p><b>Link Youtube: </b><a 
+ href="https://www.youtube.com/watch?v=UHxyWzM4tMM" target="_blank"><b>https
+ ://www.youtube.com/watch?v=UHxyWzM4tMM</b></a></p><p><b>Link Linkedin: </b>
+ <strong><a href="https://www.linkedin.com/events/masterclass-marketingtrend
+ s20267394771127576707072/theater/" target="_blank">https://www.linkedin.com
+ /events/masterclass-marketingtrends20267394771127576707072/theater/</a></st
+ rong></p><p>Te esperamos lá!</p><p><b>Equipe de Eventos Buzzmonitor</b></p>
+LAST-MODIFIED:20251219T044857Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:[Masterclass] Marketing Trends 2026
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230904T150000Z
+DTEND:20230904T160000Z
+DTSTAMP:20260426T200811Z
+UID:4i0o4i3beqempnot8acb0kfp28@google.com
+CREATED:20230904T151443Z
+LAST-MODIFIED:20230904T151443Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Copies - Anúncios Interar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260128T190000Z
+DTEND:20260128T200000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=noreply@calendly.com:mailto:noreply@calendly.com
+UID:calendly-1502512666
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+CREATED:20260126T171833Z
+DESCRIPTION:Event Name: Job Interview | Remote Leverage Team\nEvent Descrip
+ tion: We want to invite you for a job interview. Please select the date and
+  time that you are available.During the interview\, we require everyone to 
+ be on their PC/laptop with a headset\, web camera\, and stable internet con
+ nection.Not having a headset is an immediate disqualification.We are excite
+ d to meet you! -Remote Leverage Admin\nDate & Time: 16:00 - 17:00 (Brasilia
+  Time) on Wednesday\, January 28\, 2026\nLocation: This is a Zoom web confe
+ rence.\n\nYou can join this meeting from your computer\, tablet\, or smartp
+ hone.\nhttps://us02web.zoom.us/j/81530820720?pwd=adsrlwfD9pN6bMYkaktkLVm3GL
+ amr9.1\n\nPassword: 527466\n\nYou can also dial in using your phone.\nUS: +
+ 1 301 715 8592\, +1 305 224 1968\, +1 309 205 3325\, +1 312 626 6799\, +1 6
+ 46 931 3860\, +1 929 205 6099\, +1 360 209 5623\, +1 386 347 5053\, +1 507 
+ 473 4847\, +1 564 217 2000\, +1 669 444 9171\, +1 669 900 6833\, +168927810
+ 00\, +1 719 359 4580\, +1 253 205 0468\, +1 253 215 8782\, +1 346 248 7799\
+ nMeeting ID: 815-308-20720\n\nWhatsApp Number: +55 81 99243-0749\n\nExpecte
+ d Hourly Rate in US Dollars?: 10\n\nWhat Country Do You Live In?: Brazil\n\
+ nNeed to make changes to this event?\nCancel: https://calendly.com/cancella
+ tions/cb2f23dc-6747-439e-9ef5-816b0852a436\nReschedule: https://calendly.co
+ m/reschedulings/cb2f23dc-6747-439e-9ef5-816b0852a436\n
+LAST-MODIFIED:20260127T173943Z
+LOCATION:https://us02web.zoom.us/j/81530820720?pwd=adsrlwfD9pN6bMYkaktkLVm3
+ GLamr9.1
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Job Interview | Remote Leverage Team with Recruiters - Remote Lever
+ age
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230724T150000Z
+DTEND:20230724T160000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:49dgda7lc5dta2q071sthdeesq@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=di
+ retoria@medicinarosario.com.br;X-NUM-GUESTS=0:mailto:diretoria@medicinarosa
+ rio.com.br
+X-GOOGLE-CONFERENCE:https://meet.google.com/hnv-croa-owk
+CREATED:20230723T223821Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/hnv-croa-owk\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20230723T223821Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:KickOff (Danilla + Lucca)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230817T150000Z
+DTEND:20230817T160000Z
+DTSTAMP:20260426T200811Z
+UID:7cumjtbrhpjt5ljoj1bk81e0lv@google.com
+CREATED:20230817T135618Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Remédio em Dra. Natália
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250410
+DTEND;VALUE=DATE:20250411
+DTSTAMP:20260426T200811Z
+UID:cssq6qbol37tacpajfcggtr1a0@google.com
+CREATED:20250404T154442Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawfr
+LAST-MODIFIED:20250406T185256Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Roteiro e capa do 4º carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250415T190000Z
+DTEND:20250415T193000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:2u2d9mv1m3lrgfqufqc0bdet6u@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=da
+ niel.lobato@gestleads.com;X-NUM-GUESTS=0:mailto:daniel.lobato@gestleads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/idd-smjv-nod
+CREATED:20250415T154430Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/idd-smjv-nod\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:S.O.S Luquete por Lobato
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+DTSTAMP:20260426T200811Z
+UID:22osm4okd2o432o9rmp7ne69gg@google.com
+CREATED:20250404T154351Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawbn
+LAST-MODIFIED:20250407T114146Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Escrever roteiro dos stories de terça-feira
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250411
+DTEND;VALUE=DATE:20250412
+DTSTAMP:20260426T200811Z
+UID:90ha13gq3ie5p6de98fp5kbbs4@google.com
+CREATED:20250404T154442Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawg5
+LAST-MODIFIED:20250406T185301Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Postar stories de sexta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260115T170000Z
+DTEND:20260115T180051Z
+DTSTAMP:20260426T200811Z
+UID:7n5l1h4e8a8gdckrtbvhf5jmnt@google.com
+CREATED:20251119T140623Z
+DESCRIPTION:For more information about this event - https://academy.openai.
+ com/public/clubs/small-business-ipf4m/events/small-business-jam-online-skil
+ l-lab-42awndppsz
+LAST-MODIFIED:20251119T140623Z
+LOCATION:https://academy.openai.com/events/small-business-jam-online-skill-
+ lab-42awndppsz
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:[OpenAI Academy] Small Business Jam: Online Skill Lab
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230911T160000Z
+DTEND:20230911T163000Z
+DTSTAMP:20260426T200811Z
+UID:6pf6lu2egp1mrkdfgltitd31vd@google.com
+CREATED:20230911T160621Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Anúncio Isa Kniess
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250410
+DTEND;VALUE=DATE:20250411
+DTSTAMP:20260426T200811Z
+UID:55najpf4gfo6o4kqau5tsdlftg@google.com
+CREATED:20250404T154434Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawfw
+LAST-MODIFIED:20250406T185300Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Design do 4º carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230815T224500Z
+DTEND:20230815T234500Z
+DTSTAMP:20260426T200811Z
+UID:505pl0p9dchufnjitjv8jp1npe@google.com
+CREATED:20230815T141036Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Trabalho depois do trabalho
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250410
+DTEND;VALUE=DATE:20250411
+DTSTAMP:20260426T200811Z
+UID:f6lqeuvcdn8vd1ppq2f67e5cio@google.com
+CREATED:20250404T154429Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawg0
+LAST-MODIFIED:20250406T185314Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Zona de ajuste emergencial
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+DTSTAMP:20260426T200811Z
+UID:4fqpois252e3ugnvlrtn4g3ebs@google.com
+CREATED:20250404T154430Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawdm
+LAST-MODIFIED:20250406T185313Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Enviar capa do carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250723T160000Z
+DTEND:20250723T170000Z
+DTSTAMP:20260426T200811Z
+UID:4c0o20ofaut7ub9tm8gl43udk2@google.com
+CREATED:20250717T132146Z
+DESCRIPTION:<p dir="ltr">Join us for an in-depth livestream tailored for de
+ velopers\, where we unveil the techniques behind NVIDIA NeMo Retriever’s in
+ dustry-leading performance in enterprise retrieval-augmented generation (RA
+ G) applications. Discover how NeMo Retriever secured first-place across the
+  ViDoRe V1\, ViDoRe V2\, and MTEB Visual Document Retrieval leaderboards us
+ ing NVIDIA’s winning techniques. </p><p dir="ltr">Learn how to use NVIDIA A
+ I Blueprints like AI-Q for building AI agents and RAG\, to build world-clas
+ s multimodal retrieval systems. We’ll cover leaderboard-winning techniques\
+ , real-world integration strategies\, and best practices for deploying scal
+ able\, production-ready RAG systems that set a new standard for enterprise 
+ AI.</p>\nJoin us on either: \n\nYouTube: <a href="https://www.youtube.com/w
+ atch?v=GJ6RmhGrQdA&ab_channel=NVIDIADeveloper">https://www.youtube.com/watc
+ h?v=GJ6RmhGrQdA&ab_channel=NVIDIADeveloper</a>\n\nLinkedIn: <a href="https:
+ //www.linkedin.com/events/7349505027461304320/comments/">https://www.linked
+ in.com/events/7349505027461304320/comments/</a>\n\nX: <a href="https://x.co
+ m/NVIDIAAIDev">https://x.com/NVIDIAAIDev</a>\n\nJoin our discord: <a href="
+ https://discord.gg/nvidiadeveloper">https://discord.gg/nvidiadeveloper</a>\
+ n\nSee you there!
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:(NVIDIA Live) Top-Ranked RAG: NeMo Retriever Leads Visual Document 
+ Retrieval Leaderboards
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230818T153000Z
+DTEND:20230818T161500Z
+DTSTAMP:20260426T200811Z
+UID:5e91b44pj4kq4696i90ikrgfch@google.com
+CREATED:20230817T231422Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Planilhas de Growth
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250408
+DTSTAMP:20260426T200811Z
+UID:82sevk0e751c02u0efatr6h0g4@google.com
+CREATED:20250404T154434Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawcp
+LAST-MODIFIED:20250406T185314Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Escrever copy do 2º carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230911T163000Z
+DTEND:20230911T173000Z
+DTSTAMP:20260426T200811Z
+UID:1rle4gitgg21tme1u247uc3gop@google.com
+CREATED:20230911T160658Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:DrawFlow Pompoar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260413T155000Z
+DTEND:20260413T161500Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=bogdan@growthub.agency:mailto:bogdan@growthub.agency
+UID:o91jpcm6dph5g1j8dm7jco9d14@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=bogdan
+ @growthub.agency;X-NUM-GUESTS=0:mailto:bogdan@growthub.agency
+X-GOOGLE-CONFERENCE:https://meet.google.com/kgh-igov-jme
+CREATED:20260410T150257Z
+DESCRIPTION:<b>Booked by</b>\nLucca Magnata\nsuporteluccamagnata@gmail.com\
+ n<br>25 min 1to1 call with me.\n\nEntrar com o Google Meet: https://meet.go
+ ogle.com/kgh-igov-jme\nOu disque: (IT) +39 02 3041 9631 PIN: 891615275#\nMa
+ is números de telefone: https://tel.meet/kgh-igov-jme?pin=1604588095938&hs=
+ 7\n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/
+ 9282720
+LAST-MODIFIED:20260413T011513Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:25 min Meeting Call  (Lucca Magnata)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240805T163000Z
+DTEND:20240805T170000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:4kmcufhp44d3nsbr1mfb0rlurl@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=am
+ andacanton.medicina@gmail.com;X-NUM-GUESTS=0:mailto:amandacanton.medicina@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/ghs-tkcu-imb
+CREATED:20240730T194656Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/ghs-tkcu-imb\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20240805T154928Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:O Projeto | Interar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250408
+DTSTAMP:20260426T200811Z
+UID:688d70r3nosn9n9kjm2nehje2s@google.com
+CREATED:20250404T154428Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawcw
+LAST-MODIFIED:20250406T185314Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Criar capa do 2º carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260410T155000Z
+DTEND:20260410T161500Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=bogdan@growthub.agency:mailto:bogdan@growthub.agency
+UID:jeq06cji7bhhq1g41r0kstg5dc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=bogdan
+ @growthub.agency;X-NUM-GUESTS=0:mailto:bogdan@growthub.agency
+X-GOOGLE-CONFERENCE:https://meet.google.com/ffb-geyf-rfr
+CREATED:20260409T075019Z
+DESCRIPTION:<b>Booked by</b>\nLucca Magnata\nsuporteluccamagnata@gmail.com\
+ n<br>25 min 1to1 call with me.\n\nEntrar com o Google Meet: https://meet.go
+ ogle.com/ffb-geyf-rfr\nOu disque: (IT) +39 02 3046 1881 PIN: 670951363#\nMa
+ is números de telefone: https://tel.meet/ffb-geyf-rfr?pin=1796065261472&hs=
+ 7\n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/
+ 9282720
+LAST-MODIFIED:20260410T072246Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:25 min Meeting Call  (Lucca Magnata)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250402T123000Z
+DTEND:20250403T001500Z
+DTSTAMP:20260426T200811Z
+UID:cd0ca54c-0f83-11f0-90ee-ce3f40db31fe
+CREATED:20250402T053200Z
+DESCRIPTION:Estourando até 11h.
+LAST-MODIFIED:20250403T001935Z
+SEQUENCE:5
+STATUS:CONFIRMED
+SUMMARY:Completar design do carrossel
+TRANSP:OPAQUE
+X-ALARM-VIA-PHONE:2025-04-02T05:32:36.536979+00:00
+X-DOLA-CREATED-AT:2025-04-02T05:32:00.377527+00:00
+X-DOLA-EMOJI:🎠
+X-DOLA-COLOR:#E52B50
+X-DOLA-UPDATED-AT:2025-04-02T05:34:51.376475+00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250805T040000Z
+DTEND:20250805T050000Z
+DTSTAMP:20260426T200811Z
+UID:2ijcsjff7ifhvro92lg5j02gis@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+CREATED:20250804T161054Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:AMOXICILINA 💊
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:EMAIL
+ATTENDEE:mailto:suporteluccamagnata@gmail.com
+TRIGGER:-P0DT0H5M0S
+DESCRIPTION:This is an event reminder
+SUMMARY:Alarm notification
+END:VALARM
+BEGIN:VALARM
+ACTION:EMAIL
+ATTENDEE:mailto:suporteluccamagnata@gmail.com
+TRIGGER:-P0DT0H10M0S
+DESCRIPTION:This is an event reminder
+SUMMARY:Alarm notification
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT0H20M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+BEGIN:VALARM
+ACTION:EMAIL
+ATTENDEE:mailto:suporteluccamagnata@gmail.com
+TRIGGER:-P0DT0H30M0S
+DESCRIPTION:This is an event reminder
+SUMMARY:Alarm notification
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT0H30M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250401T153000Z
+DTEND:20250401T160000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:6leq2kgevc0pg0h4cupcdtu3jd@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=luigi@
+ gestleads.com;X-NUM-GUESTS=0:mailto:luigi@gestleads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/oua-sbbo-sng
+CREATED:20250401T014749Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/oua-sbbo-sng\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Reunião de Social Media — GestLeads
+TRANSP:OPAQUE
+ATTACH;FILENAME="Reunião de Social Media — GestLeads - 2025/04/01 12:26 GMT
+ -03:00 - Recording";FMTTYPE=video/mp4:https://drive.google.com/file/d/1qwXd
+ -aNEi-MUFZsLc_6CyjVc2FVpjMMd/view?usp=drive_web
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250408
+DTSTAMP:20260426T200811Z
+UID:c0ob4srslkalfn86fcvnvvsjmc@google.com
+CREATED:20250404T154432Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawce
+LAST-MODIFIED:20250407T114247Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Postar stories de segunda
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250408
+DTSTAMP:20260426T200811Z
+UID:ksecan98u68gbhvobk06slthps@google.com
+CREATED:20250404T154348Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawbv
+LAST-MODIFIED:20250406T193031Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Revisar e enviar materiais para Luigi
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250331T093000Z
+DTSTAMP:20260426T200811Z
+UID:b3a2dbc0-0dbd-11f0-afe0-ce6e50ff5a5d
+CREATED:20250330T232126Z
+LAST-MODIFIED:20250330T232459Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Acordar
+TRANSP:OPAQUE
+X-ALARM-VIA-PHONE:2025-03-30T23:21:26.225977+00:00
+X-DOLA-EMOJI:☀️
+X-DOLA-CREATED-AT:2025-03-30T23:21:26.225966+00:00
+X-DOLA-UPDATED-AT:2025-03-30T23:21:26.226108+00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20230815T140000
+DTEND;TZID=America/Argentina/Cordoba:20230815T150000
+DTSTAMP:20260426T200811Z
+UID:5eg8ec3o6p8cbl1si4bkurpgb0_R20230815T170000@google.com
+RECURRENCE-ID;TZID=America/Argentina/Cordoba:20230815T140000
+CREATED:20230724T165959Z
+LAST-MODIFIED:20260413T094854Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Weekly (Clube Candeias)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260224T010000Z
+DTEND:20260224T014500Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=interview.rl@remotelatinos.com:mailto:interview.rl@remotelatin
+ os.com
+UID:nfm0qm2a8bgv77tvsj59fkdme0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+CREATED:20260218T211636Z
+DESCRIPTION:Location Link: https://meet.google.com/mbo-hjdg-szw\n\nExpectat
+ ions:\n\nPunctuality: Please ensure you show up on time for your interview.
+ \nRescheduling: If you need to reschedule\, notify us at least 24 hours in 
+ advance.\nTimezone: Double-check the interview time in your local timezone.
+ \nInternet: Ensure you have a stable internet connection for the interview.
+ \nPresentation: Dress in business-appropriate attire.\nEnvironment: Choose 
+ a quiet space free from distractions.\nPreparation: Research Invig Marketin
+ g and be ready to discuss how your skills and experience align with their n
+ eeds.\n\nPreparation Materials: \n\nhttps://docs.google.com/document/d/10JI
+ UThWbD8KychuUGtBaZWFEjuYUiosLrYjiohdrBbM/edit\n\nYou will receive reminders
+  about the interview to ensure you are prepared and ready. \nAdditionally\,
+  a team member will call you 30 minutes prior to the meeting as a final rem
+ inder. \n\nA message for our CEO: https://www.remotelatinos.com/candidate-m
+ essage\n\nReference Number: 79953005
+LAST-MODIFIED:20260409T030218Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bryce Calcagno - LUCCA MAGNATA Remote Latinos Interview
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20250424T090000
+DTEND;TZID=America/Argentina/Cordoba:20250424T093000
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:1c4v73ip9ofjtnrkjvcngrpoth@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=luigi@
+ gestleads.com;X-NUM-GUESTS=0:mailto:luigi@gestleads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/mgf-rfwi-qij
+RECURRENCE-ID;TZID=America/Argentina/Cordoba:20250424T090000
+CREATED:20250401T231802Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/mgf-rfwi-qij\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20260413T094854Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:🎙️ Daily | Social Media
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT14H0M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260402T150000Z
+DTEND:20260402T152000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=t.meyer@99ads.com:mailto:t.meyer@99ads.com
+UID:0di021q6e2rte5p8c65r1mbiqo@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=t.meye
+ r@99ads.com;X-NUM-GUESTS=0:mailto:t.meyer@99ads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/xmc-cehx-guf
+CREATED:20260402T033656Z
+DESCRIPTION:Event Name: 99ads Interview with Tara\n\nI am absolutely thrill
+ ed to meet with you and talk about our available role at 99ads. This interv
+ iew is all about you - your experience\, your goals and if this role is bes
+ t suited for you.\n\n\nI am looking forward to the call!\n\nLocation: This 
+ is a Google Meet web conference.\nYou can join this meeting from your compu
+ ter\, tablet\, or smartphone.\nhttps://calendly.com/events/05564d96-d655-48
+ 8c-bdfd-1d4e05216024/google_meet\n\nPlease share anything that will help pr
+ epare for our meeting.:\nHi 99ads Team\nI am applying for the Creative Stra
+ tegist position. I operate at the intersection of performance data and dire
+ ct response creative.\nYou are looking for someone who understands Meta and
+  TikTok for DTC brands. I recently led the creative strategy for a wellness
+  DTC brand on cold traffic. We abandoned standard transformation claims and
+  used identity recognition hooks instead. This pivot achieved a 34 percent 
+ Hook Rate and a 4.55x ROAS.\nYou also need a leader who can write briefs an
+ d guide editors. I build automated creative intelligence pipelines. I use n
+ 8n to scrape TikTok and the Meta Ads Library. This system automatically gen
+ erates fully researched creative briefs. This infrastructure reduced our cr
+ eative testing cycle from 14 days down to 7 days. I translate cold data int
+ o precise direction so the creative team knows exactly what to build.\nI do
+ cumented my entire methodology online. You can see my DTC case studies and 
+ the exact breakdown of my automated briefing architecture in my portfolio h
+ ere:\n<a href="https://calendly.com/url?q=https%3A%2F%2Fluccacreativestrate
+ gist.netlify.app%2F&user_uuid=43bde60b-df35-453b-8222-fbacf6ce3e63&stage=0&
+ hmac=391b58f24b267c07491d9ebe5a8d171925aa807f448a2859e7d6aa7664ed1e43">http
+ s://luccacreativestrategist.netlify.app/</a>\nI look forward to discussing 
+ how we can implement these frameworks for your client roster.\nBest regards
+ \nLucca Magnata\n\nRole you're applying for.: Creative Strategist\n\nWhere 
+ did you hear about the role?: Tara Meyer\n\nNeed to make changes to this ev
+ ent?\nCancel: https://calendly.com/cancellations/6ef33580-8dc4-493e-ae4d-1c
+ 0144296b23\nReschedule: https://calendly.com/reschedulings/6ef33580-8dc4-49
+ 3e-ae4d-1c0144296b23\n\nPowered by Calendly.com\n\n\nEntrar com o Google Me
+ et: https://meet.google.com/xmc-cehx-guf\nOu disque: (ZA) +27 10 823 0355 P
+ IN: 493942635#\nMais números de telefone: https://tel.meet/xmc-cehx-guf?pin
+ =9661301699358&hs=7\n\nSaiba mais sobre o Meet em: https://support.google.c
+ om/a/users/answer/9282720
+LAST-MODIFIED:20260402T043557Z
+LOCATION:Google Meet (instructions in description)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:LuccaMagnata and Tara Meyer
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT0H30M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT1H0M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT2H0M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230815T160000Z
+DTEND:20230815T170000Z
+DTSTAMP:20260426T200811Z
+UID:093qtg9ushf0pf9u9v6eoghg9u@google.com
+CREATED:20230815T132516Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Hora 4: Post Danilla
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250403T150000Z
+DTSTAMP:20260426T200811Z
+UID:7d6da9be-1032-11f0-9ca9-7a4d8717caa5
+CREATED:20250403T022229Z
+DESCRIPTION:Certifique-se de pedir as gravações das reuniões.
+LAST-MODIFIED:20250403T141546Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Pedir a gravação das reuniões para os vendedores do Luigi
+TRANSP:OPAQUE
+X-DOLA-CREATED-AT:2025-04-03T02:22:28.723295+00:00
+X-DOLA-EMOJI:📞
+X-DOLA-UPDATED-AT:2025-04-03T02:22:28.723467+00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260312T141500Z
+DTEND:20260312T144500Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=richie@tryatria.com:mailto:richie@tryatria.com
+UID:dZd2JuQHe17NTq5uVKjUW2@Cal.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=su
+ porteluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=richie
+ @tryatria.com;X-NUM-GUESTS=0:mailto:richie@tryatria.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/awd-zjkq-kqz
+CREATED:20260310T044935Z
+DESCRIPTION:What:\n30 Min Meeting between Richie Kim and Lucca Magnata \n\n
+ Invitee timezone:\nAmerica/Recife\n\nWho:\nRichie Kim - Organizer\nrichie@t
+ ryatria.com\nLucca Magnata \nsuporteluccamagnata@gmail.com\n\nWhere:\nhttps
+ ://meet.google.com/awd-zjkq-kqz\n\nAdditional notes:\nLooking forward to th
+ e conversation. I'm particularly interested in understanding how Atria appr
+ oaches creative intelligerjce and the feedback loop between ad performance 
+ data and creative iteration.\n\nNeed to reschedule or cancel? https://cal.c
+ om/booking/dZd2JuQHe17NTq5uVKjUW2?changes=true\n\nEntrar com o Google Meet:
+  https://meet.google.com/awd-zjkq-kqz\nOu disque: (GB) +44 20 3937 1768 PIN
+ : 862424463#\nMais números de telefone: https://tel.meet/awd-zjkq-kqz?pin=2
+ 787531812573&hs=7\n\nSaiba mais sobre o Meet em: https://support.google.com
+ /a/users/answer/9282720
+LAST-MODIFIED:20260312T135339Z
+LOCATION:https://meet.google.com/awd-zjkq-kqz
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:30 Min Meeting between Richie Kim and Lucca Magnata 
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260325T170000Z
+DTEND:20260325T180000Z
+DTSTAMP:20260426T200811Z
+UID:v253pe0f2ija9q63102tr32a2g@google.com
+CREATED:20260323T152547Z
+DESCRIPTION:Lembrete: preparar com antecedência
+LAST-MODIFIED:20260323T152547Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Compromisso importante
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT1H0M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT3H0M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260127T223000Z
+DTEND:20260127T233000Z
+DTSTAMP:20260426T200811Z
+UID:20goaqvhb2a3m0l40vvfjbct88@google.com
+CREATED:20260120T032423Z
+LAST-MODIFIED:20260120T032423Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Live 01 - Confirmação de inscrição
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+DTSTAMP:20260426T200811Z
+UID:vlktrsg6qljc3ni3d6glko0ltc@google.com
+CREATED:20250404T154434Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawe9
+LAST-MODIFIED:20250406T185300Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Escrever roteiro dos stories de quinta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250415T223000Z
+DTEND:20250415T234500Z
+DTSTAMP:20260426T200811Z
+UID:104li8on3osinup03ujdsqog0b@google.com
+CREATED:20250327T011801Z
+DESCRIPTION:Se você acha que vender automação e IA é só falar de tecnologia
+ \, tá perdendo dinheiro. Muito pelo contrário: Você nem precisa saber de te
+ cnologia pra vender grandes projetos. No dia 15/abril\, eu vou te contar co
+ mo!\n\nSe inscreva para receber os materiais da aula:\nhttps://oplanosecret
+ o.com/\n\nNesta live\, você vai descobrir:\n\n✅ O vácuo de mercado GIGANTE 
+ que existe nessa área\;\n✅ Vender projetos de IA e automação mesmo sem manj
+ ar de IA e automação\;\n✅ Como transformar automação em um serviço de alto 
+ valor e parar de ouvir “tá caro”\;\n✅ Como fazer propostas que fazem o clie
+ nte dizer SIM\, sem enrolação.\n\nSe você quer aproveitar deste momento do 
+ mercado para faturar MUITO\, não perca essa live por nada.
+LAST-MODIFIED:20250327T011801Z
+LOCATION:https://www.youtube.com/watch?v=BL59GfhU0lA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:[Dia 01 🔴] O plano secreto AGÊNCIA DE BOLSO
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250410
+DTSTAMP:20260426T200811Z
+UID:69gl49e737u53lh78duuebaj34@google.com
+CREATED:20250404T154411Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawf6
+LAST-MODIFIED:20250406T185258Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Escrever roteiro dos stories de sexta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+DTSTAMP:20260426T200811Z
+UID:73356s82o5ejdcebuifb76osho@google.com
+CREATED:20250404T154408Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawed
+LAST-MODIFIED:20250406T185300Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Design dos stories de quinta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250410
+DTEND;VALUE=DATE:20250411
+DTSTAMP:20260426T200811Z
+UID:drhgfgat2v5qcm73t2pgbaftds@google.com
+CREATED:20250404T154443Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawfc
+LAST-MODIFIED:20250406T185254Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Enviar stories de sexta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230823T134500Z
+DTEND:20230823T141500Z
+DTSTAMP:20260426T200811Z
+UID:5msdmh0n90uc5ie5j022vj9kcq@google.com
+CREATED:20230823T130051Z
+LAST-MODIFIED:20230823T133908Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Subir demandas de carros no ClickUp
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230904T160000Z
+DTEND:20230904T170000Z
+DTSTAMP:20260426T200811Z
+UID:1p5ajkl972h0mobj32dafaueka@google.com
+CREATED:20230904T115442Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Criar post da Interar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260213T110000Z
+DTEND:20260213T111500Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=cyu@buyboxexperts.com:mailto:cyu@buyboxexperts.com
+UID:fph5487u5ufkuludlkloqihp6k@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/msz-semv-xwi
+CREATED:20260209T181407Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/msz-semv-xwi\
+ nOu disque: (US) +1 252-713-7118 PIN: 747552238#\nMais números de telefone:
+  https://tel.meet/msz-semv-xwi?pin=7130546224762&hs=7\n\nSaiba mais sobre o
+  Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260212T134715Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Initial Interview - Buy Box Experts!
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+DTSTAMP:20260426T200811Z
+UID:t3fskrkl2ifia2oqc95tdctn24@google.com
+CREATED:20250404T154428Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawdb
+LAST-MODIFIED:20250406T185259Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Enviar copy do 2º carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260205
+DTSTAMP:20260426T200811Z
+UID:1l7up9g5rr295gadln9c0b7hhc@google.com
+CREATED:20260120T050945Z
+LAST-MODIFIED:20260120T050945Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:DNA de Conteúdo 🧬
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT0H30M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260212T120000Z
+DTEND:20260212T121500Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=workwithpfg@publicityforgood.com:mailto:workwithpfg@publicityf
+ orgood.com
+UID:2lmq6kqc4hcs73gjgkfutvthna@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=workwi
+ thpfg@publicityforgood.com;X-NUM-GUESTS=0:mailto:workwithpfg@publicityforgo
+ od.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/eft-cpef-yzu
+CREATED:20260210T091152Z
+DESCRIPTION:PFG | Lucca Magnata | Social Media Account Manager Culture Fit 
+ Interview<br><b>Thursday\, February 12 · 7:00 – 7:15 AM US Eastern Standard
+  Time<br></b>Google Meet joining info<br>Video call link: <a href="https://
+ meet.google.com/eft-cpef-yzu">https://meet.google.com/eft-cpef-yzu</a>\n\nE
+ ntrar com o Google Meet: https://meet.google.com/eft-cpef-yzu\nOu disque: (
+ BR) +55 31 3958-9567 PIN: 939075051#\nMais números de telefone: https://tel
+ .meet/eft-cpef-yzu?pin=1794148723146&hs=7\n\nSaiba mais sobre o Meet em: ht
+ tps://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260212T070218Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:PFG | Lucca Magnata | Social Media Account Manager Culture Fit Inte
+ rview
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20230725T140000
+DTEND;TZID=America/Argentina/Cordoba:20230725T150000
+RRULE:FREQ=WEEKLY;UNTIL=20230815T025959Z;BYDAY=TU
+DTSTAMP:20260426T200811Z
+UID:5eg8ec3o6p8cbl1si4bkurpgb0@google.com
+CREATED:20230724T165959Z
+LAST-MODIFIED:20230905T113905Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Weekly (Clube Candeias)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250410
+DTSTAMP:20260426T200811Z
+UID:2qoj7769fcpooh1kjp039p457g@google.com
+CREATED:20250404T154434Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawf8
+LAST-MODIFIED:20250406T185250Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Design dos stories de sexta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260224T173000Z
+DTEND:20260224T180000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=cyu@buyboxexperts.com:mailto:cyu@buyboxexperts.com
+UID:q5shti60a4cl4knj4p5viqdmf4@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/nxj-zidy-vzi
+CREATED:20260213T143720Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/nxj-zidy-vzi\
+ nOu disque: (US) +1 260-475-9012 PIN: 569039603#\nMais números de telefone:
+  https://tel.meet/nxj-zidy-vzi?pin=9039353859982&hs=7\n\nSaiba mais sobre o
+  Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260411T192346Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:HM Interview with Buy Box Experts
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250410
+DTSTAMP:20260426T200811Z
+UID:7rntauv139rnq7sd3a5ilit508@google.com
+CREATED:20250404T154404Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawew
+LAST-MODIFIED:20250406T185256Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Daily com Luigi - quarta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260408T124500Z
+DTEND:20260408T130000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=amina@skyrayventures.com:mailto:amina@skyrayventures.com
+UID:djjic31ikmft7hd27j4f0eq8l4@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=su
+ porteluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=amina@
+ skyrayventures.com;X-NUM-GUESTS=0:mailto:amina@skyrayventures.com
+CREATED:20260403T215137Z
+DESCRIPTION:Event Name: 15 Minute Meeting\n\nAmina Afzal's Interview Bookin
+ g Page Welcome! I’m excited to connect with you. Before your interview\, pl
+ ease take note of the following: * Make sure to read the …\n\nLocation: Thi
+ s is a Zoom web conference.\n\nYou can join this meeting from your computer
+ \, tablet\, or smartphone.\nhttps://us04web.zoom.us/j/72378874439?pwd=LQdXQ
+ 8VAOtbIvWaMaOKfe8WXBdnfEU.1\n\nPassword: iN24dB\n\nQ1: Please select the po
+ sition you're interviewing for:: Creative Strategist (Performance & AI-driv
+ en Growth)\n\nSelect from the following: : First Interview?\n\nReschedule R
+ eason: Family medical reason\n\nNeed to make changes to this event?\nCancel
+ : https://calendly.com/cancellations/489af856-d6ca-4c28-b4e5-aef9e2d89375\n
+ Reschedule: https://calendly.com/reschedulings/489af856-d6ca-4c28-b4e5-aef9
+ e2d89375\n\nPowered by Calendly.com\n
+LAST-MODIFIED:20260406T103507Z
+LOCATION:https://us04web.zoom.us/j/72378874439?pwd=LQdXQ8VAOtbIvWaMaOKfe8WX
+ BdnfEU.1
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Lucca Magnata and Amina Afzal
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230712T130000Z
+DTEND:20230712T140000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=germano@v4company.com:mailto:germano@v4company.com
+UID:57l5n3m5bvln81bv043gl3m35f@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=german
+ o@v4company.com;X-NUM-GUESTS=0:mailto:germano@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=tu
+ lio.santiago@v4company.com;X-NUM-GUESTS=0:mailto:tulio.santiago@v4company.c
+ om
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=fa
+ bio@v4company.com;X-NUM-GUESTS=0:mailto:fabio@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=lu
+ igi.fernandes@v4company.com;X-NUM-GUESTS=0:mailto:luigi.fernandes@v4company
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=v4
+ .lucas.santos@gmail.com;X-NUM-GUESTS=0:mailto:v4.lucas.santos@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=leoaro
+ uca@gmail.com;X-NUM-GUESTS=0:mailto:leoarouca@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wmp-uaib-rxt
+CREATED:20230707T123611Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/wmp-uaib-rxt\
+ nOu disque: (BR) +55 11 4949-4157 PIN: 128839737#\nMais números de telefone
+ : https://tel.meet/wmp-uaib-rxt?pin=8805160049614&hs=7\n\nSaiba mais sobre 
+ o Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20230711T230651Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Gestão de projetos - V4MATTAMACHADO
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260130T140000Z
+DTEND:20260130T143000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=evelina@inbeat.agency:mailto:evelina@inbeat.agency
+UID:uvbmoqhucrd3s0v6mf5644sfsk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/tbd-jxpw-pga
+CREATED:20260126T040614Z
+DESCRIPTION:To cancel or reschedule\, use this link: https://you.ashbyhq.co
+ m/meeting/743a4660-65e0-4251-aac2-a813f5291249/ <p></p><br /><p>To keep you
+ r interview experience seamless and distraction-free\, we use an AI Notetak
+ er to record and transcribe our interviews. This helps interviewers focus f
+ ully on the conversation and ensures your responses are captured accurately
+ . The recording will only be used internally for evaluation. If you would p
+ refer not to be recorded\, you can opt out using the link below. Opting out
+  will not impact your candidacy in any way.</p><p><a target="_blank" rel="n
+ oopener noreferrer nofollow" href="https://you.ashbyhq.com/consent/b3e6431c
+ -d9f3-4e1b-8b60-0b9e5da839aa">Click here to opt-out</a></p>\n\nEntrar com o
+  Google Meet: https://meet.google.com/tbd-jxpw-pga\nOu disque: (FR) +33 1 8
+ 7 40 26 56 PIN: 954013935#\nMais números de telefone: https://tel.meet/tbd-
+ jxpw-pga?pin=5368331627767&hs=7\n\nSaiba mais sobre o Meet em: https://supp
+ ort.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260126T040638Z
+LOCATION:See attached Google Meet link
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Interview with inBeat Agency
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230815T180000Z
+DTEND:20230815T190000Z
+DTSTAMP:20260426T200811Z
+UID:0o1lmkpqkm7p0k6ooe8r432r8b@google.com
+CREATED:20230815T132507Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Hora 2: Playbook Facilita
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230818T140000Z
+DTEND:20230818T150000Z
+DTSTAMP:20260426T200811Z
+UID:02ni8rqj5olt81i0055l6o9o3e@google.com
+CREATED:20230817T231436Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Criativos FACILITA
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250401T194000Z
+DTSTAMP:20260426T200811Z
+UID:03e1deea-0f2d-11f0-ae71-1ee8850429ad
+CREATED:20250401T191046Z
+LAST-MODIFIED:20250401T191131Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:O roteiro corrigido de Carrossel para o Luigi
+TRANSP:OPAQUE
+X-DOLA-CREATED-AT:2025-04-01T19:10:46.156418+00:00
+X-DOLA-EMOJI:🎭
+X-DOLA-UPDATED-AT:2025-04-01T19:11:31.467464+00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+DTSTAMP:20260426T200811Z
+UID:ojmne6rpq4124t1tt0kiq0itgc@google.com
+CREATED:20250404T154408Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawe4
+LAST-MODIFIED:20250406T185258Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Criar capa do 3º carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260126T180000Z
+DTEND:20260126T190000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=noreply@calendly.com:mailto:noreply@calendly.com
+UID:calendly-1499035869
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+CREATED:20260122T015929Z
+DESCRIPTION:Event Name: Job Interview | Remote Leverage Team\nEvent Descrip
+ tion: We want to invite you for a job interview. Please select the date and
+  time that you are available.During the interview\, we require everyone to 
+ be on their PC/laptop with a headset\, web camera\, and stable internet con
+ nection.Not having a headset is an immediate disqualification.We are excite
+ d to meet you! -Remote Leverage Admin\nDate & Time: 15:00 - 16:00 (Brasilia
+  Time) on Monday\, January 26\, 2026\nLocation: This is a Zoom web conferen
+ ce.\n\nYou can join this meeting from your computer\, tablet\, or smartphon
+ e.\nhttps://us02web.zoom.us/j/84513688253?pwd=zB5t7uAfFvS2ewC81zjCjEHBYUi76
+ q.1\n\nPassword: 421387\n\nYou can also dial in using your phone.\nUS: +1 3
+ 05 224 1968\, +1 309 205 3325\, +1 312 626 6799\, +1 646 931 3860\, +1 929 
+ 205 6099\, +1 301 715 8592\, +1 564 217 2000\, +1 669 444 9171\, +1 669 900
+  6833\, +16892781000\, +1 719 359 4580\, +1 253 205 0468\, +1 253 215 8782\
+ , +1 346 248 7799\, +1 360 209 5623\, +1 386 347 5053\, +1 507 473 4847\nMe
+ eting ID: 845-136-88253\n\nWhatsApp Number: +55 81 99243-0749\n\nExpected H
+ ourly Rate in US Dollars?: 10.00\n\nWhat Country Do You Live In?: Brazil\n\
+ nNeed to make changes to this event?\nCancel: https://calendly.com/cancella
+ tions/4f0052f3-e0b0-4a2d-8534-2a4e2c5e5bcf\nReschedule: https://calendly.co
+ m/reschedulings/4f0052f3-e0b0-4a2d-8534-2a4e2c5e5bcf\n
+LAST-MODIFIED:20260126T172053Z
+LOCATION:https://us02web.zoom.us/j/84513688253?pwd=zB5t7uAfFvS2ewC81zjCjEHB
+ YUi76q.1
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Job Interview | Remote Leverage Team with Recruiters - Remote Lever
+ age
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230815T150000Z
+DTEND:20230815T160000Z
+DTSTAMP:20260426T200811Z
+UID:6m59nb2b7pn4mbahkajootc4bs@google.com
+CREATED:20230815T132511Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Hora 3: Post da Danilla
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250410
+DTSTAMP:20260426T200811Z
+UID:hkbbducnqrsenm9f0u0sbg3t9c@google.com
+CREATED:20250404T154434Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweaweh
+LAST-MODIFIED:20250406T185259Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Enviar materiais para Luigi - quarta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250408
+DTSTAMP:20260426T200811Z
+UID:i6aa2h2no9eoar4eluks8dum5s@google.com
+CREATED:20250404T154433Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawd4
+LAST-MODIFIED:20250406T185255Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Design dos stories de quarta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250411
+DTEND;VALUE=DATE:20250412
+DTSTAMP:20260426T200811Z
+UID:7bq3qtjc34cae5vfmn8i30cmo0@google.com
+CREATED:20250404T154442Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawg3
+LAST-MODIFIED:20250406T185315Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Daily com Luigi - sexta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250402T000000Z
+DTEND:20250402T020000Z
+DTSTAMP:20260426T200811Z
+UID:20c290c8-0e5f-11f0-8ef4-e2f1d6eba01a
+CREATED:20250331T183658Z
+LAST-MODIFIED:20250401T232144Z
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:Finalizar design de carrossel
+TRANSP:OPAQUE
+X-DOLA-CREATED-AT:2025-03-31T18:36:58.278874+00:00
+X-DOLA-EMOJI:🎠
+X-DOLA-COLOR:#8D029B
+X-DOLA-UPDATED-AT:2025-04-01T19:08:21.516237+00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260429T143000Z
+DTEND:20260429T150000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=alis@trypencil.com:mailto:alis@trypencil.com
+UID:592tdvq33tuh1eomvtfrt8669i@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=sophie
+ @trypencil.com;X-NUM-GUESTS=0:mailto:sophie@trypencil.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=alis@t
+ rypencil.com;X-NUM-GUESTS=0:mailto:alis@trypencil.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/srj-ixfv-qey
+CREATED:20260423T122535Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/srj-ixfv-qey\
+ nOu disque: (GB) +44 20 3910 5077 PIN: 629389380#\nMais números de telefone
+ : https://tel.meet/srj-ixfv-qey?pin=8029237152071&hs=7\n\nSaiba mais sobre 
+ o Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260425T071621Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Lucca <> Sophie - Creative Strategist
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230831T143000Z
+DTEND:20230831T153000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=luigifernandes100@gmail.com:mailto:luigifernandes100@gmail.com
+UID:05bdqcmg0msnk6hpkehbi6rkdg@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ma
+ rianainterar@gmail.com;X-NUM-GUESTS=0:mailto:marianainterar@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=am
+ andacanton.medicina@gmail.com;X-NUM-GUESTS=0:mailto:amandacanton.medicina@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=ghcant
+ on@gmail.com;X-NUM-GUESTS=0:mailto:ghcanton@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=luigif
+ ernandes100@gmail.com;X-NUM-GUESTS=0:mailto:luigifernandes100@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=su
+ porteluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail
+ .com
+X-GOOGLE-CONFERENCE:https://meet.google.com/chh-fhgs-rpv
+CREATED:20230824T221502Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/chh-fhgs-rpv\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20230829T161838Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Reunião Marketing InterAR
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230718T160000Z
+DTEND:20230718T163000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=paula.paez@v4company.com:mailto:paula.paez@v4company.com
+UID:2q0of72tqvqisd6ndoitikruh9@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=paula.
+ paez@v4company.com;X-NUM-GUESTS=0:mailto:paula.paez@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rfn-voso-cqn
+CREATED:20230717T160151Z
+DESCRIPTION:<a href="https://app.pipefy.com/open-cards/744156654">https://a
+ pp.pipefy.com/open-cards/744156654</a><br><br><a href="https://www.linkedin
+ .com/in/luccamagnata/">https://www.linkedin.com/in/luccamagnata/</a>\n\nEnt
+ rar com o Google Meet: https://meet.google.com/rfn-voso-cqn\nOu disque: (BR
+ ) +55 11 3957-8651 PIN: 996582972#\nMais números de telefone: https://tel.m
+ eet/rfn-voso-cqn?pin=2835946268448&hs=7\n\nSaiba mais sobre o Meet em: http
+ s://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20230718T162147Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:📌 Bate-Papo P&P | Lucca & Paula
+TRANSP:OPAQUE
+ATTACH;FILENAME="📌 Bate-Papo P&P | Lucca & Paula (2023-07-18 13:02 GMT-3)"
+ ;FMTTYPE=video/mp4:https://drive.google.com/file/d/1SR1E-ZQHIhuLmH7RT3g4daH
+ -dt8BtNMD/view?usp=drive_web
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250411
+DTEND;VALUE=DATE:20250412
+DTSTAMP:20260426T200811Z
+UID:tebbko8a69pk856hnua8iuivtg@google.com
+CREATED:20250404T154429Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawgh
+LAST-MODIFIED:20250406T184312Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Preparar copy e capa do 1º carrossel da próxima semana
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230710T133000Z
+DTEND:20230710T143000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=germano@v4company.com:mailto:germano@v4company.com
+UID:5bhuh8ivd8l2ati0e5u3ahdn9p@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=felipe
+ @online.net.br;X-NUM-GUESTS=0:mailto:felipe@online.net.br
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=german
+ o@v4company.com;X-NUM-GUESTS=0:mailto:germano@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=da
+ niel.lopes@v4company.com;X-NUM-GUESTS=0:mailto:daniel.lopes@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=su
+ porteluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail
+ .com
+X-GOOGLE-CONFERENCE:https://meet.google.com/wmx-zcos-rdo
+CREATED:20230710T134952Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/wmx-zcos-rdo\
+ nOu disque: (BR) +55 11 4935-0532 PIN: 530722292#\nMais números de telefone
+ : https://tel.meet/wmx-zcos-rdo?pin=8445955649763&hs=7\n\nSaiba mais sobre 
+ o Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20230710T135106Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:V4 & Online
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230904T120000Z
+DTEND:20230904T123000Z
+DTSTAMP:20260426T200811Z
+UID:6ef32bo1u0hbmjti18f7ftjtll@google.com
+CREATED:20230904T120008Z
+LAST-MODIFIED:20230904T120008Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Checagem email de parcerias
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250410
+DTEND;VALUE=DATE:20250411
+DTSTAMP:20260426T200811Z
+UID:oju4dd84obolhducp55rotl348@google.com
+CREATED:20250404T154433Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawfg
+LAST-MODIFIED:20250406T185251Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Daily com Luigi - quinta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+DTSTAMP:20260426T200811Z
+UID:t4eqrdvj1pht48os7bjbjiad38@google.com
+CREATED:20250404T154431Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawe2
+LAST-MODIFIED:20250406T185314Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Escrever copy do 3º carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260331T130000Z
+DTEND:20260331T133000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=danny@activatetalent.com:mailto:danny@activatetalent.com
+UID:2fetg8vem8e6l6emlbu5il5678@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=danny@
+ activatetalent.com;X-NUM-GUESTS=0:mailto:danny@activatetalent.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/brf-ktxr-wrm
+CREATED:20260327T192939Z
+DESCRIPTION:<b>Booked by</b>\nLucca  Magnata\nsuporteluccamagnata@gmail.com
+ \n<br><b>Role you are applying</b>\nCreative Strategist\n\nEntrar com o Goo
+ gle Meet: https://meet.google.com/brf-ktxr-wrm\nOu disque: (CO) +57 604 609
+ 0750 PIN: 397155234#\nMais números de telefone: https://tel.meet/brf-ktxr-w
+ rm?pin=9897911656898&hs=7\n\nSaiba mais sobre o Meet em: https://support.go
+ ogle.com/a/users/answer/9282720
+LAST-MODIFIED:20260329T040353Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Interview with Danny | Activate Talent (Lucca  Magnata)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260127T200000Z
+DTEND:20260127T214500Z
+DTSTAMP:20260426T200811Z
+UID:15uqe4jmripug4ktp6eps8kodd@google.com
+CREATED:20260127T185615Z
+DESCRIPTION:Tópico: [Invite Zoom] Masterclass Engenharia de Receita em 2026
+ : construindo um GTM que escala com eficiência\nDescrição: Uma masterclass 
+ gratuita com executivos da HubSpot e Winning Sales. \n\n▶️ Frameworks práti
+ cos de Engenharia de Receita e Estratégia de RevOps\nAprenda como estrutura
+ r go-to-market\, capacidade comercial\, territories\, metas e forecast de f
+ orma integrada. \n\n▶️ Casos reais de quem opera em escala\nVeja como a Win
+ ning Sales aplica esses frameworks na prática e como a HubSpot estrutura GT
+ M\, Sales Ops e planejamento de negócios.\n\n▶️ Debate estratégico + Q&A ao
+  vivo\nTraga seus desafios reais de crescimento\, eficiência e previsibilid
+ ade para a mesa e receba respostas diretas de quem vive isso no dia a dia.\
+ n\nPara quem é esta sessão?\n\nEsta masterclass é ideal para:\n\n➡️ CEOs e 
+ Founders de empresas B2B\n➡️ CROs\, Heads de Revenue e RevOps\n➡️ Líderes d
+ e Vendas\, Sales Ops e Estratégia\n➡️ Executivos responsáveis por GTM\, pla
+ nejamento e crescimento\n\nSpeakers:\n\n- Maria Luiza C. Corrêa\, Manager\,
+  GTM Strategy & Ops AMER  na HubSpot\n- Ivan Nunes de Castro\, CEO na Winni
+ ng Sales\n- Paula Bretz\, Customer Success Manager na HubSpot\n\nIngressar 
+ de um PC\, Mac\, iPad ou Android:\nhttps://hubspot.zoom.us/w/97529292051?tk
+ =u-FcteS_1PxWayqO3zHMChhG2ha5A_MvT7StcPWfGC8.DQkAAAAWtTLlExZnX3lydDI2bVJYNk
+ RBcXhoWC03aUpBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=R0qhGlSbCnaxU
+ 8aw186iOL6OzDQ5NF.1&uuid=WN_BvL15x2pRke2kA-iV3VKfA\nSenha:892148\n\nTelefon
+ e de um toque:\n+15074734847\,\,97529292051# Estados Unidos\n+15642172000\,
+ \,97529292051# Estados Unidos\n\nIngressar por áudio:\n+1 507 473 4847 Esta
+ dos Unidos\n+1 564 217 2000 Estados Unidos\n+1 646 558 8656 Estados Unidos 
+ (New York)\n+1 646 931 3860 Estados Unidos\n+1 669 444 9171 Estados Unidos\
+ n+1 669 900 6833 Estados Unidos (San Jose)\n+1 689 278 1000 Estados Unidos\
+ n+1 719 359 4580 Estados Unidos\n+1 253 205 0468 Estados Unidos\n+1 253 215
+  8782 Estados Unidos (Tacoma)\n+1 301 715 8592 Estados Unidos (Washington D
+ C)\n+1 305 224 1968 Estados Unidos\n+1 309 205 3325 Estados Unidos\n+1 312 
+ 626 6799 Estados Unidos (Chicago)\n+1 346 248 7799 Estados Unidos (Houston)
+ \n+1 360 209 5623 Estados Unidos\n+1 386 347 5053 Estados Unidos\nID do Web
+ inar: 975 2929 2051\nNúmeros internacionais disponíveis: https://hubspot.zo
+ om.us/u/abynJxip5b\n\n\nIngressar por um sistema de sala H.323/SIP:\nH.323:
+  \n144.195.19.161 (Oeste dos EUA)\n206.247.11.121 (Leste dos EUA)\n115.114.
+ 131.7 (Mumbai &Iacute\nndia)\n115.114.115.7 (Hyderabad &Iacute\nndia)\n159.
+ 124.15.191 (Amsterd&atilde\n Pa&iacute\nses Baixos)\n159.124.47.249 (Aleman
+ ha)\n159.124.104.213 (Austr&aacute\nlia\n Sydney)\n159.124.74.212 (Austr&aa
+ cute\nlia\n Melbourne)\n170.114.134.121 (RAE de Hong Kong)\n170.114.180.219
+  (Cingapura)\n64.211.144.160 (Brasil)\n159.124.168.213 (Canad&aacute\n Toro
+ nto)\n159.124.196.25 (Canad&aacute\n Vancouver)\n170.114.194.163 (Jap&atild
+ e\no\n T&oacute\nquio)\n147.124.100.25 (Jap&atilde\no\n Osaka)\nID da reuni
+ ão: 975 2929 2051\nSenha: 892148\nSIP: 97529292051@zoomcrc.com\nSenha: 8921
+ 48\n
+LAST-MODIFIED:20260127T185616Z
+LOCATION:https://hubspot.zoom.us/w/97529292051?tk=u-FcteS_1PxWayqO3zHMChhG2
+ ha5A_MvT7StcPWfGC8.DQkAAAAWtTLlExZnX3lydDI2bVJYNkRBcXhoWC03aUpBAAAAAAAAAAAA
+ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=R0qhGlSbCnaxU8aw186iOL6OzDQ5NF.1&uuid=W
+ N_BvL15x2pRke2kA-iV3VKfA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:[Invite Zoom] Masterclass Engenharia de Receita em 2026: construind
+ o um GTM que escala com eficiência
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250806T160000Z
+DTEND:20250806T163000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:hvkk07ucge14dinv91cnmui88g@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=an
+ ajuliamedicina@gmail.com;X-NUM-GUESTS=0:mailto:anajuliamedicina@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/bjs-zgzn-gmi
+CREATED:20250804T160616Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/bjs-zgzn-gmi\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Amoxicilina
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:EMAIL
+ATTENDEE:mailto:suporteluccamagnata@gmail.com
+TRIGGER:-P0DT0H5M0S
+DESCRIPTION:This is an event reminder
+SUMMARY:Alarm notification
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT0H10M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT0H20M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+BEGIN:VALARM
+ACTION:EMAIL
+ATTENDEE:mailto:suporteluccamagnata@gmail.com
+TRIGGER:-P0DT0H30M0S
+DESCRIPTION:This is an event reminder
+SUMMARY:Alarm notification
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT0H30M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+DTSTAMP:20260426T200811Z
+UID:noap056bunj3hfibhsusnv19s8@google.com
+CREATED:20250404T154406Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawde
+LAST-MODIFIED:20250406T185253Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Enviar stories de quarta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250411
+DTEND;VALUE=DATE:20250412
+DTSTAMP:20260426T200811Z
+UID:h8qftisp2nr4kv9ol2k6d5gbno@google.com
+CREATED:20250404T154427Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawg8
+LAST-MODIFIED:20250406T185300Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Analisar performance dos conteúdos
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20250515T163000
+DTEND;TZID=America/Argentina/Cordoba:20250515T170000
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:1c4v73ip9ofjtnrkjvcngrpoth@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=luigi@
+ gestleads.com;X-NUM-GUESTS=0:mailto:luigi@gestleads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/mgf-rfwi-qij
+RECURRENCE-ID;TZID=America/Argentina/Cordoba:20250515T090000
+CREATED:20250401T231802Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/mgf-rfwi-qij\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20260413T094854Z
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:🎙️ Daily | Social Media
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT14H0M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251204T200000Z
+DTEND:20251204T210024Z
+DTSTAMP:20260426T200811Z
+UID:3o5s4ht6igbvruahj57uprltkb@google.com
+CREATED:20251127T220349Z
+DESCRIPTION:For more information about this event - https://academy.openai.
+ com/public/clubs/small-business-ipf4m/events/small-business-jam-online-skil
+ l-lab-2sgdri9ae4
+LAST-MODIFIED:20251127T220349Z
+LOCATION:https://academy.openai.com/events/small-business-jam-online-skill-
+ lab-2sgdri9ae4
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:[OpenAI Academy] Small Business Jam: Online Skill Lab
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250805T160000Z
+DTEND:20250805T170000Z
+DTSTAMP:20260426T200811Z
+UID:2k0mebnbcd6jk69fq377k0vd68@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+CREATED:20250804T160843Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:AMOXICILINA 💊
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:EMAIL
+ATTENDEE:mailto:suporteluccamagnata@gmail.com
+TRIGGER:-P0DT0H5M0S
+DESCRIPTION:This is an event reminder
+SUMMARY:Alarm notification
+END:VALARM
+BEGIN:VALARM
+ACTION:EMAIL
+ATTENDEE:mailto:suporteluccamagnata@gmail.com
+TRIGGER:-P0DT0H10M0S
+DESCRIPTION:This is an event reminder
+SUMMARY:Alarm notification
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT0H15M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+BEGIN:VALARM
+ACTION:EMAIL
+ATTENDEE:mailto:suporteluccamagnata@gmail.com
+TRIGGER:-P0DT0H30M0S
+DESCRIPTION:This is an event reminder
+SUMMARY:Alarm notification
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT0H30M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250408
+DTSTAMP:20260426T200811Z
+UID:585s1g5qtegehpc8tui6t21m8c@google.com
+CREATED:20250404T154354Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawby
+LAST-MODIFIED:20250407T114148Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Revisar copy do 1º carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260120T220000Z
+DTEND:20260120T230000Z
+DTSTAMP:20260426T200811Z
+UID:fd7fi32otd7ivqdheqft9tpi00@google.com
+CREATED:20260120T032513Z
+LAST-MODIFIED:20260120T032514Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Python & Web Scraping: Coleta de Dados como Vantagem Competitiva
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240129T130000Z
+DTEND:20240129T140000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=beatriz@investidorsardinha.com.br:mailto:beatriz@investidorsar
+ dinha.com.br
+UID:74tvp2obemk0nsvc1s1d0h1mi7@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=beatri
+ z@investidorsardinha.com.br;X-NUM-GUESTS=0:mailto:beatriz@investidorsardinh
+ a.com.br
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/yjk-ewud-mkk
+CREATED:20240126T195356Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/yjk-ewud-mkk\
+ nOu disque: (BR) +55 11 4933-5744 PIN: 658425454#\nMais números de telefone
+ : https://tel.meet/yjk-ewud-mkk?pin=8424815201072&hs=7\n\nSaiba mais sobre 
+ o Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20240126T195534Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Entrevista
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251015T170000Z
+DTSTAMP:20260426T200811Z
+UID:e5d22nn0lpjjruc2541fnd7tvc@google.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/nep-emqf-nwd
+CREATED:20251015T135421Z
+DESCRIPTION:Lembrete para fazer o trabalho que precisa ser feito para João 
+ Miguel.\n\nEntrar com o Google Meet: https://meet.google.com/nep-emqf-nwd\n
+ \nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/928
+ 2720
+LAST-MODIFIED:20251015T135422Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Lembrar: Fazer o trabalho para João Miguel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230825T193000Z
+DTEND:20230825T210000Z
+DTSTAMP:20260426T200811Z
+UID:6s8tftcppmb1034aol1hc6pgdk@google.com
+CREATED:20230825T181057Z
+LAST-MODIFIED:20230825T181057Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Escrever aulas das blogueiras
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251216T180000Z
+DTEND:20251216T190017Z
+DTSTAMP:20260426T200811Z
+UID:13sh5jt9bg7dq89p4fe8pm8c05@google.com
+CREATED:20251127T220324Z
+DESCRIPTION:For more information about this event - https://academy.openai.
+ com/public/clubs/small-business-ipf4m/events/small-business-ai-jam-office-h
+ ours-npkkhgpaz6
+LAST-MODIFIED:20251127T220324Z
+LOCATION:https://academy.openai.com/events/small-business-ai-jam-office-hou
+ rs-npkkhgpaz6
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:[OpenAI Academy] Small Business AI Jam Office Hours
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230821T163000Z
+DTEND:20230821T170000Z
+DTSTAMP:20260426T200811Z
+UID:3pu00hc8v91u77uu2c6dv0v889@google.com
+CREATED:20230821T140244Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Preparar algo Pompoar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260103T200000Z
+DTEND:20260103T203000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=cy@colavo.kr:mailto:cy@colavo.kr
+UID:1vjdt3v0m2fcjrivmcfn0m4ar8@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=cy@col
+ avo.kr;X-NUM-GUESTS=0:mailto:cy@colavo.kr
+X-GOOGLE-CONFERENCE:https://meet.google.com/vac-ckoi-pdc
+CREATED:20251230T040658Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/vac-ckoi-pdc\
+ nOu disque: (US) +1 716-710-8018 PIN: 328298829#\nMais números de telefone:
+  https://tel.meet/vac-ckoi-pdc?pin=8070698460051&hs=7\n\nSaiba mais sobre o
+  Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260103T202357Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY: Lucca Magnata <> Colavo
+TRANSP:OPAQUE
+ATTACH;FILENAME=Notes by Gemini;FMTTYPE=application/vnd.google-apps.documen
+ t:https://docs.google.com/document/d/1NIfehPQ8ZCjl7c-C0TdmVSJOMZh4rXaf8HouW
+ UVXLSc/edit?usp=meet_tnfm_calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20230817T140000
+DTEND;TZID=America/Argentina/Cordoba:20230817T150000
+RRULE:FREQ=WEEKLY;UNTIL=20230907T025959Z;BYDAY=TH
+DTSTAMP:20260426T200811Z
+UID:5tqdpl9k3eb14kmc9fpngofdkc_R20230817T170000@google.com
+CREATED:20230724T170032Z
+LAST-MODIFIED:20230907T114535Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Weekly (Clube Candeias)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230715T150000Z
+DTEND:20230715T160000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:mbrfj07d6ttdje98u7oq4ng54c@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=rennat
+ anunes@gmail.com;X-NUM-GUESTS=0:mailto:rennatanunes@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/jpu-dtsa-qwv
+CREATED:20230713T141548Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/jpu-dtsa-qwv\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20230714T222617Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:KickOff (Renata Nunes)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Sao_Paulo:20230817T150000
+DTEND;TZID=America/Sao_Paulo:20230817T154500
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=luigi.fernandes@v4company.com:mailto:luigi.fernandes@v4company
+ .com
+UID:d8rrc9avv5tmfmaere20qsac32_R20230706T180000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=tulio.
+ santiago@v4company.com;X-NUM-GUESTS=0:mailto:tulio.santiago@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ge
+ rmano@v4company.com;X-NUM-GUESTS=0:mailto:germano@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=lu
+ an.oliveira@v4company.com;X-NUM-GUESTS=0:mailto:luan.oliveira@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=vi
+ ctoria.valentina@v4company.com;X-NUM-GUESTS=0:mailto:victoria.valentina@v4c
+ ompany.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=luigi.
+ fernandes@v4company.com;X-NUM-GUESTS=0:mailto:luigi.fernandes@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=fa
+ bio@v4company.com;X-NUM-GUESTS=0:mailto:fabio@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=zuza80
+ @gmail.com;X-NUM-GUESTS=0:mailto:zuza80@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ju
+ lio.santos@v4company.com;X-NUM-GUESTS=0:mailto:julio.santos@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=da
+ niel.lopes@v4company.com;X-NUM-GUESTS=0:mailto:daniel.lopes@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=al
+ an.machado@v4company.com;X-NUM-GUESTS=0:mailto:alan.machado@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=anacla
+ ra.araujo@v4company.com;X-NUM-GUESTS=0:mailto:anaclara.araujo@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=contat
+ o.dgpires@gmail.com;X-NUM-GUESTS=0:mailto:contato.dgpires@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=leoaro
+ uca@gmail.com;X-NUM-GUESTS=0:mailto:leoarouca@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=v4.leo
+ nardofreitas@gmail.com;X-NUM-GUESTS=0:mailto:v4.leonardofreitas@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=v4
+ .lucas.santos@gmail.com;X-NUM-GUESTS=0:mailto:v4.lucas.santos@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=humber
+ tomachadobatista@gmail.com;X-NUM-GUESTS=0:mailto:humbertomachadobatista@gma
+ il.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/okg-shct-xez
+RECURRENCE-ID;TZID=America/Sao_Paulo:20230817T150000
+CREATED:20210510T201130Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/okg-shct-xez\
+ nOu disque: (BR) +55 11 4949-1739 PIN: 269827300#\nMais números de telefone
+ : https://tel.meet/okg-shct-xez?pin=4325279644767&hs=7\n\nSaiba mais sobre 
+ o Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260413T094854Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Weekly - Matta Machado & CO
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250410
+DTSTAMP:20260426T200811Z
+UID:l70pso1mt1aa4no8cb0nesh85o@google.com
+CREATED:20250404T154427Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawf3
+LAST-MODIFIED:20250406T185314Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Design do 3º carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250406
+DTEND;VALUE=DATE:20250407
+DTSTAMP:20260426T200811Z
+UID:cse37pqn1rbo8d25svu4gei7do@google.com
+CREATED:20250404T154349Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawbr
+LAST-MODIFIED:20250407T110512Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Escrever copy (roteiro) do 1º carrossel da semana
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230911T173000Z
+DTEND:20230911T181500Z
+DTSTAMP:20260426T200811Z
+UID:629unna2ej8nlok5o9pa41njb6@google.com
+CREATED:20230911T160751Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Criativos Pompoar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230821T153000Z
+DTEND:20230821T163000Z
+DTSTAMP:20260426T200811Z
+UID:4ghd5kmt2m9cbi53k4uumuf8nl@google.com
+CREATED:20230821T135742Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Post pra Interar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250408
+DTSTAMP:20260426T200811Z
+UID:pfhhsqj44im6bvtbaq1bcr35ng@google.com
+CREATED:20250404T154405Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawd0
+LAST-MODIFIED:20250406T185251Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Escrever roteiro dos stories de quarta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260310T133000Z
+DTEND:20260310T135000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=t.meyer@99ads.com:mailto:t.meyer@99ads.com
+UID:qqsbumfbqj2vso1mfdrpcc05jk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=t.meye
+ r@99ads.com;X-NUM-GUESTS=0:mailto:t.meyer@99ads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/jwz-yfrg-xro
+CREATED:20260309T184333Z
+DESCRIPTION:Event Name\n99ads Interview with Tara\n\nI am absolutely thrill
+ ed to meet with you and talk about our available role at 99ads. This interv
+ iew is all about you - your experience\, your goals and if this role is bes
+ t suited for you.\n\n\nI am looking forward to the call!\n\nLocation: This 
+ is a Google Meet web conference.\nYou can join this meeting from your compu
+ ter\, tablet\, or smartphone.\nhttps://calendly.com/events/0eda30c9-4f91-4c
+ 39-bcd6-6bf10e7bd65c/google_meet\n\nPlease share anything that will help pr
+ epare for our meeting.:\nI’ve been operating at the intersection of creativ
+ e strategy and performance intelligence\, building structured testing syste
+ ms rather than one-off campaigns.\n\nHappy to discuss past cases where we s
+ caled via creative iteration\, hook engineering\, and data-driven decision 
+ loops (CTR\, hold rate\, CVR\, MER).\n\nAlso interested in understanding ho
+ w 99ads structures its creative workflow and where you see the biggest bott
+ leneck today.\n\nRole you're applying for.: Creative Strategist\n\nWhere di
+ d you hear about the role?: Contacted by Tara Meyer on LinkedIn\n\nNeed to 
+ make changes to this event?\nCancel: https://calendly.com/cancellations/712
+ 6baec-7615-425a-8927-61b66975b0a7\nReschedule: https://calendly.com/resched
+ ulings/7126baec-7615-425a-8927-61b66975b0a7\n\nPowered by Calendly.com\n\n\
+ nEntrar com o Google Meet: https://meet.google.com/jwz-yfrg-xro\nOu disque:
+  (ZA) +27 10 823 1224 PIN: 824446185#\nMais números de telefone: https://te
+ l.meet/jwz-yfrg-xro?pin=2368973540381&hs=7\n\nSaiba mais sobre o Meet em: h
+ ttps://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260310T043554Z
+LOCATION:Google Meet (instructions in description)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Lucca Magnata and Tara Meyer
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250804T193000Z
+DTEND:20250804T200000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=a.cavalcante@g4educacao.com:mailto:a.cavalcante@g4educacao.com
+UID:o814dkavpbtnbdndpgov9sbvd8@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=a.cava
+ lcante@g4educacao.com;X-NUM-GUESTS=0:mailto:a.cavalcante@g4educacao.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/htc-eevc-shj
+CREATED:20250803T054025Z
+DESCRIPTION:<p>Lucca\,  neste horário da reunião\, entraremos online via Go
+ ogle Meet.</p><p>O link está anexado neste evento.</p>\n\nPara reagendar a 
+ sua reunião: https://g4edu.link/gn57\nform_response_id: aa9859ad-0f36-4529-
+ 9143-1d2510012e50\n\nEntrar com o Google Meet: https://meet.google.com/htc-
+ eevc-shj\n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/
+ answer/9282720
+LAST-MODIFIED:20250803T201116Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:G4 Educação: Entrevista Lucca para Programa Presencial
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20230727T140000
+DTEND;TZID=America/Argentina/Cordoba:20230727T150000
+RRULE:FREQ=WEEKLY;UNTIL=20230817T025959Z;BYDAY=TH
+DTSTAMP:20260426T200811Z
+UID:5tqdpl9k3eb14kmc9fpngofdkc@google.com
+CREATED:20230724T170032Z
+LAST-MODIFIED:20230907T114535Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Weekly (Clube Candeias)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260415T203000Z
+DTEND:20260415T211500Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=interview.rl@remotelatinos.com:mailto:interview.rl@remotelatin
+ os.com
+UID:fvq2mo3ri8jqfs8iitg1aeffbk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+CREATED:20260415T162004Z
+DESCRIPTION:Location Link: https://meet.google.com/cdd-mxrd-gco\n\nExpectat
+ ions:\n\nPunctuality: Please ensure you show up on time for your interview.
+ \nRescheduling: If you need to reschedule\, notify us at least 24 hours in 
+ advance.\nTimezone: Double-check the interview time in your local timezone.
+ \nInternet: Ensure you have a stable internet connection for the interview.
+ \nPresentation: Dress in business-appropriate attire.\nEnvironment: Choose 
+ a quiet space free from distractions.\nPreparation: Research The data drive
+ n practice and be ready to discuss how your skills and experience align wit
+ h their needs.\n\nPreparation Materials: \n\nhttps://docs.google.com/docume
+ nt/d/10JIUThWbD8KychuUGtBaZWFEjuYUiosLrYjiohdrBbM/edit\n\nYou will receive 
+ reminders about the interview to ensure you are prepared and ready. \nAddit
+ ionally\, a team member will call you 30 minutes prior to the meeting as a 
+ final reminder. \n\nA message for our CEO: https://www.remotelatinos.com/ca
+ ndidate-message\n\nReference Number: 84323440
+LAST-MODIFIED:20260415T162212Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Melissa Frogley - LUCCA MAGNATA Remote Latinos Interview
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20231109T140000Z
+DTEND:20231109T150000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=paola@paulocuenca.com.br:mailto:paola@paulocuenca.com.br
+UID:3l64a80m3nsnri1ipfoh5njlcm@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=paola@
+ paulocuenca.com.br;X-NUM-GUESTS=0:mailto:paola@paulocuenca.com.br
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=marili
+ aacerqueira@gmail.com;X-NUM-GUESTS=0:mailto:mariliaacerqueira@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=em
+ ilym.souza0@gmail.com;X-NUM-GUESTS=0:mailto:emilym.souza0@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=bia@pa
+ ulocuenca.com.br;X-NUM-GUESTS=0:mailto:bia@paulocuenca.com.br
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=aninha
+ koetz@gmail.com;X-NUM-GUESTS=0:mailto:aninhakoetz@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=nicoll
+ echristinne@gmail.com;X-NUM-GUESTS=0:mailto:nicollechristinne@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=heloiz
+ a.ribeirojesus@gmail.com;X-NUM-GUESTS=0:mailto:heloiza.ribeirojesus@gmail.c
+ om
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=tilieh
+ @gmail.com;X-NUM-GUESTS=0:mailto:tilieh@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rpp-vrwn-rnp
+CREATED:20231107T163454Z
+DESCRIPTION:Olá\, beselha estrategista!  \n\nEssa é uma convocação que não 
+ chega todos os dias na sua caixa de entrada. \n\nIsso é um sinal de que voc
+ ê foi escolhido a dedo para participar de um processo seletivo para trabalh
+ ar na equipe do Paulo Cuenca em nosso novo e incrível produto: A Consultori
+ a. \n\nEstou marcando esse horário para explicar tudinho como vai funcionar
+  e qual vai ser sua missão superpoderosa. \n\nO único spoiler por agora é: 
+ venha com sangue nos olhos e vontade de voar. \n\nNos vemos em breve! \n\nP
+ aola\n\nEntrar com o Google Meet: https://meet.google.com/rpp-vrwn-rnp\nOu 
+ disque: (BR) +55 41 4560-9601 PIN: 799652400#\nMais números de telefone: ht
+ tps://tel.meet/rpp-vrwn-rnp?pin=7664197156596&hs=7\n\nSaiba mais sobre o Me
+ et em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20231109T170538Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Processo seletivo | A Consultoria 🐝
+TRANSP:OPAQUE
+ATTACH;FILENAME="Processo seletivo | A Consultoria 🐝 (2023-11-09 11:02 GMT
+ -3)";FMTTYPE=video/mp4:https://drive.google.com/file/d/1Qv6UH4bvS8VNYsebLYi
+ CldptdoEoRSPM/view?usp=drive_web
+ATTACH;FILENAME="Processo seletivo | A Consultoria 🐝 (2023-11-09 11:02 GMT
+ -3)";FMTTYPE=text/plain:https://drive.google.com/file/d/1H1hSf3jsNYvIXItQuo
+ 3VsR064_f9rqeU/view?usp=drive_web
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250403T001500Z
+DTEND:20250403T011500Z
+DTSTAMP:20260426T200811Z
+UID:13ntnk9l121d6eq4rb0fphndd6@google.com
+CREATED:20250402T203238Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Legendar e Postar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250401T100000Z
+DTEND:20250401T130000Z
+DTSTAMP:20260426T200811Z
+UID:211134c6-0e5f-11f0-8ef4-e2f1d6eba01a
+CREATED:20250331T183658Z
+LAST-MODIFIED:20250331T183659Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Completar roteiro de stories
+TRANSP:OPAQUE
+X-DOLA-CREATED-AT:2025-03-31T18:36:58.794266+00:00
+X-DOLA-EMOJI:📖
+X-DOLA-UPDATED-AT:2025-03-31T18:36:58.794414+00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250410
+DTEND;VALUE=DATE:20250411
+DTSTAMP:20260426T200811Z
+UID:47o45n4d03l8begvpbnubv7o9o@google.com
+CREATED:20250404T154442Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawfa
+LAST-MODIFIED:20250406T185258Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Enviar materiais para Luigi - quinta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230804T195000Z
+DTEND:20230804T205000Z
+DTSTAMP:20260426T200811Z
+UID:5oh6vlh1g52n6hvdtt6jdk33og@google.com
+CREATED:20230801T132359Z
+LAST-MODIFIED:20240817T154810Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Doutora Natália
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250410
+DTSTAMP:20260426T200811Z
+UID:gkvfg6g8fndgjns1nvdl348fes@google.com
+CREATED:20250404T154430Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawez
+LAST-MODIFIED:20250406T185300Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Postar stories de quarta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250331T123000Z
+DTEND:20250331T133000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=luigi@gestleads.com:mailto:luigi@gestleads.com
+UID:at7s7tvh56hk7hrgdkphmuvnr0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=luigi@
+ gestleads.com;X-NUM-GUESTS=0:mailto:luigi@gestleads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/orv-czbw-pzf
+CREATED:20250330T224219Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/orv-czbw-pzf\
+ nOu disque: (AR) +54 11 3986-3700 PIN: 8822344383792#\nMais números de tele
+ fone: https://tel.meet/orv-czbw-pzf?pin=8822344383792&hs=7\n\nSaiba mais so
+ bre o Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20250331T143819Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Reunião de Social Media GESTLEADS
+TRANSP:OPAQUE
+ATTACH;FILENAME="Reunião de Social Media GESTLEADS - 2025/03/31 09:28 GMT-0
+ 3:00 - Recording";FMTTYPE=video/mp4:https://drive.google.com/file/d/1hmU_fw
+ TcYuzSYCw1BLBXi3zpd0qqdenU/view?usp=drive_web
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20241016T133000Z
+DTEND:20241016T143000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:6ig9pupcdjl9e1kjjlidfqd8vr@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=zarapo
+ jetos@gmail.com;X-NUM-GUESTS=0:mailto:zarapojetos@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/zdd-pdbx-ohd
+CREATED:20241015T203818Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/zdd-pdbx-ohd\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20241016T130102Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Meet | Zara Projetos + Lucca Magnata
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250410
+DTSTAMP:20260426T200811Z
+UID:r6ov52oqlmskmp0fm0hq0tu420@google.com
+CREATED:20250404T154407Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawem
+LAST-MODIFIED:20250406T185258Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Enviar copy do 3º carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250408
+DTSTAMP:20260426T200811Z
+UID:v807jja8k865mekfd2n8pt9nbc@google.com
+CREATED:20250404T154408Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawc0
+LAST-MODIFIED:20250406T185301Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Revisar roteiro dos stories de segunda
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230904T210000Z
+DTEND:20230904T220000Z
+DTSTAMP:20260426T200811Z
+UID:7km5pn56scsn3lh0tfrvckiu60@google.com
+CREATED:20230904T151512Z
+LAST-MODIFIED:20230904T151512Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Postar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260417T150000Z
+DTEND:20260417T160000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=melissa@thedatadrivenpractice.com:mailto:melissa@thedatadriven
+ practice.com
+UID:53gnilecj9d49le0405105otuk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=meliss
+ a@thedatadrivenpractice.com;X-NUM-GUESTS=0:mailto:melissa@thedatadrivenprac
+ tice.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=doccor
+ y@thedatadrivenpractice.com;X-NUM-GUESTS=0:mailto:doccory@thedatadrivenprac
+ tice.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=su
+ porteiuccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteiuccamagnata@gmail
+ .com
+X-GOOGLE-CONFERENCE:https://meet.google.com/emy-afec-xfq
+CREATED:20260416T151320Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/emy-afec-xfq\
+ nOu disque: (US) +1 413-758-2323 PIN: 665019628#\nMais números de telefone:
+  https://tel.meet/emy-afec-xfq?pin=5732441920783&hs=7\n\nSaiba mais sobre o
+  Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260417T033446Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Welcome & Onboard Lucca to DDP 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230904T123000Z
+DTEND:20230904T130000Z
+DTSTAMP:20260426T200811Z
+UID:78o051vums69ev9a5mv8lnr3gj@google.com
+CREATED:20230904T120055Z
+LAST-MODIFIED:20230904T120055Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Escrever variações Online
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20230814T100000
+DTEND;TZID=America/Argentina/Cordoba:20230814T140000
+RRULE:FREQ=WEEKLY;UNTIL=20230821T025959Z;BYDAY=MO
+DTSTAMP:20260426T200811Z
+UID:6ve5asng4ea7n7v75oscqtur5v@google.com
+CREATED:20230816T160223Z
+LAST-MODIFIED:20230818T132452Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Criar post para a Danilla (MRA)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250410
+DTEND;VALUE=DATE:20250411
+DTSTAMP:20260426T200811Z
+UID:u0vkqpj4lkm52k6m2q2djv2l64@google.com
+CREATED:20250404T154432Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawfn
+LAST-MODIFIED:20250406T185315Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Postar stories de quinta
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250401T023000Z
+DTSTAMP:20260426T200811Z
+UID:64b5f874-0e87-11f0-a4d6-26362016ff87
+CREATED:20250331T232512Z
+DESCRIPTION:Certifique-se de que o celular esteja com som para o alarme faz
+ er barulho.
+LAST-MODIFIED:20250331T232512Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Cancelar o Google One
+TRANSP:OPAQUE
+X-ALARM-VIA-PHONE:2025-03-31T23:25:12.150603+00:00
+X-DOLA-EMOJI:❌
+X-DOLA-CREATED-AT:2025-03-31T23:25:12.150594+00:00
+X-DOLA-UPDATED-AT:2025-03-31T23:25:12.150748+00:00
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230816T190000Z
+DTEND:20230816T210000Z
+DTSTAMP:20260426T200811Z
+UID:6m58lbjad1cn7diut096iqt00t@google.com
+CREATED:20230816T134635Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:10
+STATUS:CONFIRMED
+SUMMARY:Hora 2: Post pra Danilla
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230818T150000Z
+DTEND:20230818T153000Z
+DTSTAMP:20260426T200811Z
+UID:7pu56hcjrahhcfsthempvdk6b6@google.com
+CREATED:20230817T231603Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Acesso a BM pro Daniel (FACILITA)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260225T210000Z
+DTEND:20260225T214500Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=interview.rl@remotelatinos.com:mailto:interview.rl@remotelatin
+ os.com
+UID:u2c253a06l7r7n6gmat8emuuak@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+CREATED:20260224T163138Z
+DESCRIPTION:Location Link: https://meet.google.com/cbf-ddug-txs\n\nExpectat
+ ions:\n\nPunctuality: Please ensure you show up on time for your interview.
+ \nRescheduling: If you need to reschedule\, notify us at least 24 hours in 
+ advance.\nTimezone: Double-check the interview time in your local timezone.
+ \nInternet: Ensure you have a stable internet connection for the interview.
+ \nPresentation: Dress in business-appropriate attire.\nEnvironment: Choose 
+ a quiet space free from distractions.\nPreparation: Research Invig Marketin
+ g and be ready to discuss how your skills and experience align with their n
+ eeds.\n\nPreparation Materials: \n\nhttps://docs.google.com/document/d/10JI
+ UThWbD8KychuUGtBaZWFEjuYUiosLrYjiohdrBbM/edit\n\nYou will receive reminders
+  about the interview to ensure you are prepared and ready. \nAdditionally\,
+  a team member will call you 30 minutes prior to the meeting as a final rem
+ inder. \n\nA message for our CEO: https://www.remotelatinos.com/candidate-m
+ essage\n\nReference Number: 80223032
+LAST-MODIFIED:20260409T030338Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bryce Calcagno - LUCCA MAGNATA Remote Latinos Interview
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250326T150000Z
+DTEND:20250326T160000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=equipe@sendflow.pro:mailto:equipe@sendflow.pro
+UID:2g0khvu0ij8u1ju4fjr9qajs4c@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+CREATED:20250317T233222Z
+LAST-MODIFIED:20260416T000158Z
+LOCATION:https://www.youtube.com/live/jWmh8muKXcA?si=4n3dvraIDbU0aS_R
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Aula - Lançamento com API Oficial Unnichat
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+DTSTAMP:20260426T200811Z
+UID:nj90mlmnseohivr4danp5ngpmg@google.com
+CREATED:20250404T154408Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawdx
+LAST-MODIFIED:20250406T185257Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Postar stories de terça
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260320T113000Z
+DTEND:20260320T115000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=t.meyer@99ads.com:mailto:t.meyer@99ads.com
+UID:a9m79g7ot7dt5v43iso33io0uc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=t.meye
+ r@99ads.com;X-NUM-GUESTS=0:mailto:t.meyer@99ads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=su
+ porteluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail
+ .com
+X-GOOGLE-CONFERENCE:https://meet.google.com/dco-xyhf-xfj
+CREATED:20260310T043536Z
+DESCRIPTION:Event Name: 99ads Interview with Tara\n\nI am absolutely thrill
+ ed to meet with you and talk about our available role at 99ads. This interv
+ iew is all about you - your experience\, your goals and if this role is bes
+ t suited for you.\n\n\nI am looking forward to the call!\n\nLocation: This 
+ is a Google Meet web conference.\nYou can join this meeting from your compu
+ ter\, tablet\, or smartphone.\nhttps://calendly.com/events/f7498f9f-5e15-48
+ 91-b665-bef8a8f5d5ea/google_meet\n\nPlease share anything that will help pr
+ epare for our meeting.:\nI’ve been operating at the intersection of creativ
+ e strategy and performance intelligence\, building structured testing syste
+ ms rather than one-off campaigns.\n\nHappy to discuss past cases where we s
+ caled via creative iteration\, hook engineering\, and data-driven decision 
+ loops (CTR\, hold rate\, CVR\, MER).\n\nAlso interested in understanding ho
+ w 99ads structures its creative workflow and where you see the biggest bott
+ leneck today.\n\nRole you're applying for.: Creative Strategist\n\nWhere di
+ d you hear about the role?: Contacted by Tara Meyer on LinkedIn\n\nReschedu
+ le Reason: Thank you for your patience so far. If it is still possible to c
+ ontinue with my application\, I’d be glad to confirm the interview for tomo
+ rrow and will ensure there are no further changes from my side. Kind regard
+ s.\n\nNeed to make changes to this event?\nCancel: https://calendly.com/can
+ cellations/f20a9a67-f67a-4350-9ce2-42d70178972d\nReschedule: https://calend
+ ly.com/reschedulings/f20a9a67-f67a-4350-9ce2-42d70178972d\n\nPowered by Cal
+ endly.com\n\n\nEntrar com o Google Meet: https://meet.google.com/dco-xyhf-x
+ fj\nOu disque: (ZA) +27 10 823 0489 PIN: 294600105#\nMais números de telefo
+ ne: https://tel.meet/dco-xyhf-xfj?pin=1363344049484&hs=7\n\nSaiba mais sobr
+ e o Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260319T113521Z
+LOCATION:Google Meet (instructions in description)
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Lucca Magnata and Tara Meyer
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230818T161500Z
+DTEND:20230818T171500Z
+DTSTAMP:20260426T200811Z
+UID:61k8tdeopgbnhvfp5f9o601jk7@google.com
+CREATED:20230817T231819Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Reels [IsHere + Laura]
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250408
+DTSTAMP:20260426T200811Z
+UID:tn8kolennpigocoev8gpdnb948@google.com
+CREATED:20250404T154404Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawck
+LAST-MODIFIED:20250406T185314Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Design do 1º carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230825T180000Z
+DTEND:20230825T193000Z
+DTSTAMP:20260426T200811Z
+UID:47k77usbvgngd2t0i1dln7dljo@google.com
+CREATED:20230825T180124Z
+LAST-MODIFIED:20230825T181032Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Post da Danilla
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260427T130000Z
+DTEND:20260427T133000Z
+DTSTAMP:20260426T200811Z
+UID:33gnd88m3q3bot28cl1v2vjjs0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+CLASS:PRIVATE
+CREATED:20260426T172053Z
+DESCRIPTION:Para acessar informações detalhadas sobre eventos criados autom
+ aticamente como este\, use o app oficial do Google Agenda. https://g.co/cal
+ endar\n\nEste evento foi criado com base em um e-mail que você recebeu no G
+ mail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DObsW-O5ITmBURdd0NL
+ GHDHABpyw7Opwis\n
+LAST-MODIFIED:20260426T172053Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Recruitment Conversation (Lucca Magnata  Sênior Creative Strategist
+  )
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260420T170000Z
+DTEND:20260420T174500Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=jorge@remotelatinos.com:mailto:jorge@remotelatinos.com
+UID:k3sirad9t2ulea6dofa86isp2s@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Cory F
+ rogley;X-NUM-GUESTS=0:mailto:melissa@thedatadrivenpractice.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=jorge@
+ remotelatinos.com;X-NUM-GUESTS=0:mailto:jorge@remotelatinos.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/jzb-ndjm-fkq
+CREATED:20260416T151747Z
+DESCRIPTION:\n\n==========\n\nPhone:- (801) 971-2850\nEmail:- melissa@theda
+ tadrivenpractice.com\n\nNeed to make a change to this event?\nReschedule:-\
+ nhttps://link.remotelatinos.com/widget/booking/IIocXa4dSSvQZOSOXJKo?event_i
+ d=P04FMw4dpb3BSArmdLXP\n\nCancel:-\nhttps://link.remotelatinos.com/widget/c
+ ancel-booking?event_id=P04FMw4dpb3BSArmdLXP\n\nEntrar com o Google Meet: ht
+ tps://meet.google.com/jzb-ndjm-fkq\nOu disque: (CO) +57 601 8956469 PIN: 57
+ 8094934#\nMais números de telefone: https://tel.meet/jzb-ndjm-fkq?pin=92842
+ 86771575&hs=7\n\nSaiba mais sobre o Meet em: https://support.google.com/a/u
+ sers/answer/9282720
+LAST-MODIFIED:20260418T101734Z
+LOCATION:https://meet.google.com/jzb-ndjm-fkq
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Cory Frogley with Jorge - Onboarding Call with Jorge
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230905T160000Z
+DTEND:20230905T170000Z
+DTSTAMP:20260426T200811Z
+UID:2gevsm6ik2ohhv8iaar3no0tmn@google.com
+CREATED:20230904T185316Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Gravação aulas blogueiras
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250408
+DTEND;VALUE=DATE:20250409
+DTSTAMP:20260426T200811Z
+UID:pd5d48ua0pl68u369dk3utdr5c@google.com
+CREATED:20250404T154405Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawe0
+LAST-MODIFIED:20250406T185252Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Design do 2º carrossel
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251107T003000Z
+DTEND:20251107T013000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:2tbbi2o04m0h2s6l1tb2a33327@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=an
+ ajuliamedicina@gmail.com;X-NUM-GUESTS=0:mailto:anajuliamedicina@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/cjx-vcmt-wnx
+CREATED:20251104T201914Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/cjx-vcmt-wnx\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Último dia de 450mg de Lítio
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT2H0M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260306T120000Z
+DTEND:20260306T122000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=t.meyer@99ads.com:mailto:t.meyer@99ads.com
+UID:qr2ps3l4h7ho22ion8a7k4umf0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=t.meye
+ r@99ads.com;X-NUM-GUESTS=0:mailto:t.meyer@99ads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/vvn-xkbh-rfq
+CREATED:20260304T145118Z
+DESCRIPTION:Event Name\n99ads Interview with Tara\n\nI am absolutely thrill
+ ed to meet with you and talk about our available role at 99ads. This interv
+ iew is all about you - your experience\, your goals and if this role is bes
+ t suited for you.\n\n\nI am looking forward to the call!\n\nLocation: This 
+ is a Google Meet web conference.\nYou can join this meeting from your compu
+ ter\, tablet\, or smartphone.\nhttps://calendly.com/events/c5dd90f6-08b6-4a
+ 62-baec-0ddd42328071/google_meet\n\nPlease share anything that will help pr
+ epare for our meeting.:\nI’ve been operating at the intersection of creativ
+ e strategy and performance intelligence\, building structured testing syste
+ ms rather than one-off campaigns.\n\nHappy to discuss past cases where we s
+ caled via creative iteration\, hook engineering\, and data-driven decision 
+ loops (CTR\, hold rate\, CVR\, MER).\n\nAlso interested in understanding ho
+ w 99ads structures its creative workflow and where you see the biggest bott
+ leneck today.\n\nRole you're applying for.: Creative Strategist\n\nWhere di
+ d you hear about the role?: Contacted by Tara Meyer on LinkedIn\n\nNeed to 
+ make changes to this event?\nCancel: https://calendly.com/cancellations/8e6
+ 31ef7-9c5b-417c-ac85-0acd0efa8aca\nReschedule: https://calendly.com/resched
+ ulings/8e631ef7-9c5b-417c-ac85-0acd0efa8aca\n\nPowered by Calendly.com\n\n\
+ nEntrar com o Google Meet: https://meet.google.com/vvn-xkbh-rfq\nOu disque:
+  (ZA) +27 10 823 0922 PIN: 615989609#\nMais números de telefone: https://te
+ l.meet/vvn-xkbh-rfq?pin=1800358672224&hs=7\n\nSaiba mais sobre o Meet em: h
+ ttps://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260304T223128Z
+LOCATION:Google Meet (instructions in description)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Lucca Magnata and Tara Meyer
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250416T223000Z
+DTEND:20250416T234500Z
+DTSTAMP:20260426T200811Z
+UID:4hdaegc2tio5p2g9tajhveqhb6@google.com
+CREATED:20250327T011821Z
+DESCRIPTION:A forma como você cobra pelos seus projetos de automação e IA p
+ ode estar te fazendo perder MUITO dinheiro.\n\nO problema? Não é o cliente 
+ que não quer pagar mais. É você que ainda não sabe como precificar do jeito
+  certo.\n\nNo dia 16/abril\, eu vou te mostrar o que separa quem cobra R$1.
+ 000 de quem fecha contratos de R$30.000.\n\n📝 Se inscreva para receber os 
+ materiais da aula:\n👉 https://oplanosecreto.com/\n\nNesta live\, você vai 
+ aprender:\n\n✅ Por que cobrar mais pode fazer você vender mais (sim\, isso 
+ mesmo!)\;\n✅ Como criar propostas de alto valor que fazem sentido para o cl
+ iente\;\n✅ O que faz algumas pessoas fecharem contratos grandes sem esforço
+  enquanto outras batalham por migalhas\;\n✅ Como precificar sem medo do cli
+ ente sumir no vácuo.\n\nSe você já sentiu que podia estar ganhando muito ma
+ is\, mas não sabe como\, essa aula vai mudar seu jogo.
+LAST-MODIFIED:20250327T011821Z
+LOCATION:https://www.youtube.com/watch?v=ZDLFD26PKrs
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:[Dia 02 🔴] A estratégia que separa os projetos de R$1.000 dos proj
+ etos de R$30.000
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20230815T140000
+DTEND;TZID=America/Argentina/Cordoba:20230815T150000
+RRULE:FREQ=WEEKLY;UNTIL=20230905T025959Z;BYDAY=TU
+DTSTAMP:20260426T200811Z
+UID:5eg8ec3o6p8cbl1si4bkurpgb0_R20230815T170000@google.com
+CREATED:20230724T165959Z
+LAST-MODIFIED:20230905T113905Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Weekly (Clube Candeias)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230815T190000Z
+DTEND:20230815T200000Z
+DTSTAMP:20260426T200811Z
+UID:2epadr0r6d8enj8jurudnhrrqr@google.com
+CREATED:20230815T132503Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Hora 1: Playbook Facilita
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230815T210000Z
+DTEND:20230815T220000Z
+DTSTAMP:20260426T200811Z
+UID:6etrmrskaobn3829bihnhn5iq9@google.com
+CREATED:20230815T132601Z
+LAST-MODIFIED:20260402T153203Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hora 7: Roteiro de Story [Danilla]
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251206T130000Z
+DTEND:20251206T150000Z
+DTSTAMP:20260426T200811Z
+UID:5ta8dg2jrc6c514843p9s55bda@google.com
+CREATED:20251204T033247Z
+DESCRIPTION:Vem aí o Capacita+: Aprenda IA com Google Cloud\, nosso maior e
+ vento de treinamento em inteligência artificial na América Latina!\nDurante
+  a programação\, você vai:\n- Aprender com especialistas do Google Cloud.\n
+ - Conhecer aplicações reais da IA generativa para produtividade e trabalho.
+ \n- Acessar gratuitamente a trilha de aprendizado completa no Google Cloud 
+ Skills Boost.\n- Acesso a uma trilha de aprendizado para obter uma credenci
+ al de Líder em IA generativa que pode ser compartilhada nas suas redes soci
+ ais.\n- E mais: podemos entrar juntos para o Guinness\, como o maior treina
+ mento híbrido de IA já realizado!\nAcesse o evento: https://cloudonair.with
+ google.com/events/capacita-day
+LAST-MODIFIED:20251204T033247Z
+LOCATION:https://cloudonair.withgoogle.com/events/capacita-day
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Allura & Google: Capacita+ Day
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20250404T123000
+DTEND;TZID=America/Argentina/Cordoba:20250404T130000
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:1c4v73ip9ofjtnrkjvcngrpoth@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=luigi@
+ gestleads.com;X-NUM-GUESTS=0:mailto:luigi@gestleads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/mgf-rfwi-qij
+RECURRENCE-ID;TZID=America/Argentina/Cordoba:20250404T090000
+CREATED:20250401T231802Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/mgf-rfwi-qij\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20260413T094854Z
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:🎙️ Daily | Social Media
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT14H0M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250728T200000Z
+DTEND:20250728T210000Z
+DTSTAMP:20260426T200811Z
+UID:5r8293kauh6di8hn5brvhm7448@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+CLASS:PRIVATE
+CREATED:20250716T150340Z
+DESCRIPTION:Para acessar informações detalhadas sobre eventos criados autom
+ aticamente como este\, use o app oficial do Google Agenda. https://g.co/cal
+ endar\n\nEste evento foi criado com base em um e-mail que você recebeu no G
+ mail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DMOKIJEGNV4zGKBX1j-
+ IVDNw9wwgcDGwOY=\n
+LAST-MODIFIED:20250716T150340Z
+LOCATION:Pernambuco\, Brasil\, 50010-480
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Spa dos Cachos - Informações do Agendamento
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260127T080000Z
+DTEND:20260127T090000Z
+DTSTAMP:20260426T200811Z
+UID:ml4fr2jlb5df4alc5okgd5hu7s@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+CLASS:PRIVATE
+CREATED:20260126T012521Z
+DESCRIPTION:Para acessar informações detalhadas sobre eventos criados autom
+ aticamente como este\, use o app oficial do Google Agenda. https://g.co/cal
+ endar\n\nEste evento foi criado com base em um e-mail que você recebeu no G
+ mail. https://mail.google.com/mail?extsrc=cal&plid=ACUX6DN5uZFvmbq3BHk1itLN
+ 7lKGiJshVKueRyo\n
+LAST-MODIFIED:20260126T012521Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:seu webinar
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250203T190000Z
+DTEND:20250203T200000Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:12ppbu8k53j7im22rap6iubbsh@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=daniel
+ .lobato@gestleads.com;X-NUM-GUESTS=0:mailto:daniel.lobato@gestleads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/zxm-rxtx-zjk
+CREATED:20250203T151053Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/zxm-rxtx-zjk\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20250203T173736Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Alinhamento de Lançamento [M.A]
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Sao_Paulo:20230706T150000
+DTEND;TZID=America/Sao_Paulo:20230706T154500
+RRULE:FREQ=WEEKLY;UNTIL=20230921T025959Z;BYDAY=TH
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=luigi.fernandes@v4company.com:mailto:luigi.fernandes@v4company
+ .com
+UID:d8rrc9avv5tmfmaere20qsac32_R20230706T180000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=tulio.
+ santiago@v4company.com;X-NUM-GUESTS=0:mailto:tulio.santiago@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ge
+ rmano@v4company.com;X-NUM-GUESTS=0:mailto:germano@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=lu
+ an.oliveira@v4company.com;X-NUM-GUESTS=0:mailto:luan.oliveira@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=vi
+ ctoria.valentina@v4company.com;X-NUM-GUESTS=0:mailto:victoria.valentina@v4c
+ ompany.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=luigi.
+ fernandes@v4company.com;X-NUM-GUESTS=0:mailto:luigi.fernandes@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=fa
+ bio@v4company.com;X-NUM-GUESTS=0:mailto:fabio@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=zuza80
+ @gmail.com;X-NUM-GUESTS=0:mailto:zuza80@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ju
+ lio.santos@v4company.com;X-NUM-GUESTS=0:mailto:julio.santos@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=da
+ niel.lopes@v4company.com;X-NUM-GUESTS=0:mailto:daniel.lopes@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=al
+ an.machado@v4company.com;X-NUM-GUESTS=0:mailto:alan.machado@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=anacla
+ ra.araujo@v4company.com;X-NUM-GUESTS=0:mailto:anaclara.araujo@v4company.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=contat
+ o.dgpires@gmail.com;X-NUM-GUESTS=0:mailto:contato.dgpires@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=leoaro
+ uca@gmail.com;X-NUM-GUESTS=0:mailto:leoarouca@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=v4.leo
+ nardofreitas@gmail.com;X-NUM-GUESTS=0:mailto:v4.leonardofreitas@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=v4
+ .lucas.santos@gmail.com;X-NUM-GUESTS=0:mailto:v4.lucas.santos@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=humber
+ tomachadobatista@gmail.com;X-NUM-GUESTS=0:mailto:humbertomachadobatista@gma
+ il.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/okg-shct-xez
+CREATED:20210510T201130Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/okg-shct-xez\
+ nOu disque: (BR) +55 11 4949-1739 PIN: 269827300#\nMais números de telefone
+ : https://tel.meet/okg-shct-xez?pin=4325279644767&hs=7\n\nSaiba mais sobre 
+ o Meet em: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20230918T204339Z
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Weekly - Matta Machado & CO
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260406T155000Z
+DTEND:20260406T161500Z
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=bogdan@growthub.agency:mailto:bogdan@growthub.agency
+UID:7qqs3cc4l1s8tb2kolm06vlqvc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=bogdan
+ @growthub.agency;X-NUM-GUESTS=0:mailto:bogdan@growthub.agency
+X-GOOGLE-CONFERENCE:https://meet.google.com/zvx-pifv-xra
+CREATED:20260405T135359Z
+DESCRIPTION:<b>Booked by</b>\nLucca Magnata Magnata\nsuporteluccamagnata@gm
+ ail.com\n<br>25 min 1to1 call with me.\n\nEntrar com o Google Meet: https:/
+ /meet.google.com/zvx-pifv-xra\nOu disque: (IT) +39 02 3041 9535 PIN: 939074
+ 505#\nMais números de telefone: https://tel.meet/zvx-pifv-xra?pin=428168987
+ 9743&hs=7\n\nSaiba mais sobre o Meet em: https://support.google.com/a/users
+ /answer/9282720
+LAST-MODIFIED:20260405T161953Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:25 min Meeting Call  (Lucca Magnata Magnata)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Argentina/Cordoba:20250428T113000
+DTEND;TZID=America/Argentina/Cordoba:20250428T120000
+DTSTAMP:20260426T200811Z
+ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
+ .com
+UID:1c4v73ip9ofjtnrkjvcngrpoth@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=luigi@
+ gestleads.com;X-NUM-GUESTS=0:mailto:luigi@gestleads.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
+ eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/mgf-rfwi-qij
+RECURRENCE-ID;TZID=America/Argentina/Cordoba:20250428T090000
+CREATED:20250401T231802Z
+DESCRIPTION:Entrar com o Google Meet: https://meet.google.com/mgf-rfwi-qij\
+ n\nSaiba mais sobre o Meet em: https://support.google.com/a/users/answer/92
+ 82720
+LAST-MODIFIED:20260413T094854Z
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:🎙️ Daily | Social Media
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P0DT14H0M0S
+DESCRIPTION:This is an event reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250408
+DTSTAMP:20260426T200811Z
+UID:4t19amltv7vngse1r5il8pumns@google.com
+CREATED:20250404T154351Z
+DESCRIPTION:$$$ > hidden > Estratégia Luigi Fernandes \nhttps://app.clickup
+ .com/t/86dweawc3
+LAST-MODIFIED:20250406T184321Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Revisar roteiro dos stories de terça
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
