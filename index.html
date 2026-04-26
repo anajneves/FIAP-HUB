@@ -121,6 +121,22 @@
     footer { text-align: center; padding: 1.8rem; color: var(--sub); font-size: 0.75rem; border-top: 1px solid var(--border); margin-top: 0.5rem; }
     footer a { color: var(--red); text-decoration: none; }
 
+    /* Solar+ Tracker */
+    .phases { display: flex; flex-direction: column; gap: 0.75rem; }
+    .phase-row { display: flex; align-items: center; gap: 1rem; }
+    .phase-num { font-size: 0.72rem; font-weight: 700; color: var(--sub); min-width: 52px; }
+    .phase-name { font-size: 0.88rem; font-weight: 600; min-width: 210px; }
+    .phase-bar-wrap { flex: 1; background: var(--border); border-radius: 99px; height: 8px; overflow: hidden; }
+    .phase-bar { height: 100%; border-radius: 99px; background: var(--bar-color); width: var(--bar-w); }
+    .phase-badge {
+      font-size: 0.7rem; font-weight: 700; padding: 2px 8px; border-radius: 20px;
+      white-space: nowrap;
+      background: var(--badge-bg); color: var(--badge-fg);
+    }
+    @media (max-width: 600px) {
+      .phase-name { min-width: 130px; font-size: 0.8rem; }
+    }
+
     /* Materiais */
     .tracks-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0.9rem; }
     .track-card {
@@ -165,6 +181,7 @@
 
 <nav>
   <div class="nav-logo">Central<span>Acadêmica</span></div>
+  <a href="#solar">Solar+</a>
   <a href="#materiais">Materiais</a>
   <a href="#links">Links</a>
   <a href="#proximos">Próximos</a>
@@ -207,6 +224,63 @@
 </div>
 
 <div class="container">
+
+  <!-- Solar+ Tracker -->
+  <div id="solar" class="card">
+    <div class="section-title">Tracker Solar+</div>
+    <div class="phases">
+
+      <div class="phase-row">
+        <span class="phase-num">Fase 1</span>
+        <span class="phase-name">Enquadramento do problema</span>
+        <div class="phase-bar-wrap"><div class="phase-bar" style="--bar-color:#22c55e;--bar-w:100%"></div></div>
+        <span class="phase-badge" style="--badge-bg:#dcfce7;--badge-fg:#15803d">Concluída</span>
+      </div>
+
+      <div class="phase-row">
+        <span class="phase-num">Fase 2</span>
+        <span class="phase-name">Produto, marca e experiência</span>
+        <div class="phase-bar-wrap"><div class="phase-bar" style="--bar-color:#f59e0b;--bar-w:50%"></div></div>
+        <span class="phase-badge" style="--badge-bg:#fef3c7;--badge-fg:#b45309">Em andamento</span>
+      </div>
+
+      <div class="phase-row">
+        <span class="phase-num">Fase 3</span>
+        <span class="phase-name">Dados e comportamento do cliente</span>
+        <div class="phase-bar-wrap"><div class="phase-bar" style="--bar-color:#e4e4e7;--bar-w:0%"></div></div>
+        <span class="phase-badge" style="--badge-bg:#f4f4f8;--badge-fg:#888">Pendente</span>
+      </div>
+
+      <div class="phase-row">
+        <span class="phase-num">Fase 4</span>
+        <span class="phase-name">Atração e performance</span>
+        <div class="phase-bar-wrap"><div class="phase-bar" style="--bar-color:#e4e4e7;--bar-w:0%"></div></div>
+        <span class="phase-badge" style="--badge-bg:#f4f4f8;--badge-fg:#888">Pendente</span>
+      </div>
+
+      <div class="phase-row">
+        <span class="phase-num">Fase 5</span>
+        <span class="phase-name">Conversão e relacionamento</span>
+        <div class="phase-bar-wrap"><div class="phase-bar" style="--bar-color:#e4e4e7;--bar-w:0%"></div></div>
+        <span class="phase-badge" style="--badge-bg:#f4f4f8;--badge-fg:#888">Pendente</span>
+      </div>
+
+      <div class="phase-row">
+        <span class="phase-num">Fase 6</span>
+        <span class="phase-name">Automação e tecnologia</span>
+        <div class="phase-bar-wrap"><div class="phase-bar" style="--bar-color:#e4e4e7;--bar-w:0%"></div></div>
+        <span class="phase-badge" style="--badge-bg:#f4f4f8;--badge-fg:#888">Pendente</span>
+      </div>
+
+      <div class="phase-row">
+        <span class="phase-num">Fase 7</span>
+        <span class="phase-name">Apresentação final</span>
+        <div class="phase-bar-wrap"><div class="phase-bar" style="--bar-color:#e4e4e7;--bar-w:0%"></div></div>
+        <span class="phase-badge" style="--badge-bg:#f4f4f8;--badge-fg:#888">Pendente</span>
+      </div>
+
+    </div>
+  </div>
 
   <!-- Materiais -->
   <div id="materiais" class="card">
