@@ -121,6 +121,24 @@
     footer { text-align: center; padding: 1.8rem; color: var(--sub); font-size: 0.75rem; border-top: 1px solid var(--border); margin-top: 0.5rem; }
     footer a { color: var(--red); text-decoration: none; }
 
+    /* Materiais */
+    .tracks-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0.9rem; }
+    .track-card {
+      padding: 1.2rem 1.3rem; border-radius: 12px;
+      border-top: 4px solid var(--track-color);
+      background: var(--bg); border-bottom: 1px solid var(--border);
+      border-left: 1px solid var(--border); border-right: 1px solid var(--border);
+    }
+    .track-card .track-name  { font-weight: 700; font-size: 0.92rem; margin-bottom: 0.25rem; }
+    .track-card .track-count { font-size: 0.8rem; color: var(--sub); margin-bottom: 1rem; }
+    .track-card a {
+      display: inline-block; font-size: 0.8rem; font-weight: 600;
+      padding: 0.4rem 0.9rem; border-radius: 8px; text-decoration: none;
+      background: var(--track-color); color: #fff;
+      transition: opacity .2s;
+    }
+    .track-card a:hover { opacity: .85; }
+
     /* Links rápidos */
     .links-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.9rem; }
     .link-card {
@@ -147,6 +165,7 @@
 
 <nav>
   <div class="nav-logo">Central<span>Acadêmica</span></div>
+  <a href="#materiais">Materiais</a>
   <a href="#links">Links</a>
   <a href="#proximos">Próximos</a>
   <a href="#calendario">Calendário</a>
@@ -188,6 +207,33 @@
 </div>
 
 <div class="container">
+
+  <!-- Materiais -->
+  <div id="materiais" class="card">
+    <div class="section-title">Materiais</div>
+    <div class="tracks-grid">
+      <div class="track-card" style="--track-color:#E0232C">
+        <div class="track-name">Marketing Digital</div>
+        <div class="track-count">10 PDFs</div>
+        <a href="https://github.com/anajneves/FIAP-HUB/tree/main/materiais/marketing-digital" target="_blank" rel="noopener">Ver pasta →</a>
+      </div>
+      <div class="track-card" style="--track-color:#f59e0b">
+        <div class="track-name">Negócios</div>
+        <div class="track-count">9 PDFs</div>
+        <a href="https://github.com/anajneves/FIAP-HUB/tree/main/materiais/negocios" target="_blank" rel="noopener">Ver pasta →</a>
+      </div>
+      <div class="track-card" style="--track-color:#10b981">
+        <div class="track-name">Data Science</div>
+        <div class="track-count">6 PDFs</div>
+        <a href="https://github.com/anajneves/FIAP-HUB/tree/main/materiais/data-science" target="_blank" rel="noopener">Ver pasta →</a>
+      </div>
+      <div class="track-card" style="--track-color:#7c3aed">
+        <div class="track-name">UX & Design</div>
+        <div class="track-count">7 PDFs</div>
+        <a href="https://github.com/anajneves/FIAP-HUB/tree/main/materiais/ux-design" target="_blank" rel="noopener">Ver pasta →</a>
+      </div>
+    </div>
+  </div>
 
   <!-- Links Rápidos -->
   <div id="links" class="card">
