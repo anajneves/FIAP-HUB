@@ -1,0 +1,61 @@
+{
+  "classificationRules": {
+    "largePdf": "Classificar por título, fase e disciplina; não resumir profundamente por padrão.",
+    "smallDoc": "Ler e extrair informação prática quando o conteúdo for curto.",
+    "policyGuide": "Extrair regras úteis, prazos, canais, critérios e riscos acadêmicos.",
+    "chapter": "Anexar como material direto de estudo e abrir em nova aba.",
+    "unknown": "Enviar para triagem manual."
+  },
+  "collections": [
+    {
+      "id": "fiap-phase-1",
+      "title": "FIAP — Fase 1",
+      "type": "academic_phase",
+      "status": "partial",
+      "description": "Materiais da fase 1. Capítulos longos devem ser apenas catalogados e linkados.",
+      "items": []
+    },
+    {
+      "id": "fiap-phase-2",
+      "title": "FIAP — Fase 2",
+      "type": "academic_phase",
+      "status": "partial",
+      "description": "Materiais da fase 2, com foco em produto, marca e experiência.",
+      "items": []
+    },
+    {
+      "id": "fiap-phase-3",
+      "title": "FIAP — Fase 3",
+      "type": "academic_phase",
+      "status": "active",
+      "description": "Materiais da fase 3, com foco em jornada do consumidor, dados e comportamento.",
+      "items": []
+    },
+    {
+      "id": "guides-rules",
+      "title": "Guias, normas e regras acadêmicas",
+      "type": "policy",
+      "status": "pending_review",
+      "description": "Arquivos que devem gerar cards de regra útil, não apenas links.",
+      "items": []
+    },
+    {
+      "id": "martech-extra",
+      "title": "MarTech e cursos complementares",
+      "type": "professional_learning",
+      "status": "active",
+      "description": "Conteúdos externos ligados à evolução profissional em marketing, dados e automação.",
+      "items": []
+    }
+  ],
+  "expectedMetadata": [
+    "title",
+    "phase",
+    "discipline",
+    "type",
+    "source",
+    "path",
+    "estimatedReadingMode",
+    "notes"
+  ]
+}
