@@ -35,8 +35,7 @@
     "imports": {
       "react":             "https://esm.sh/react@18",
       "react/jsx-runtime": "https://esm.sh/react@18/jsx-runtime",
-      "react-dom/client":  "https://esm.sh/react-dom@18/client",
-      "lucide-react":      "https://esm.sh/lucide-react@latest"
+      "react-dom/client":  "https://esm.sh/react-dom@18/client"
     }
   }
   </script>
@@ -47,12 +46,57 @@
   <script type="text/babel" data-type="module">
     import React, { useState } from 'react';
     import { createRoot } from 'react-dom/client';
-    import {
-      Calendar as CalendarIcon, BookOpen, CheckCircle, PlayCircle,
-      Moon, Settings, X, Link as LinkIcon, RefreshCw, Check,
-      Users, User, Info, ExternalLink, Award
-    } from 'lucide-react';
 
+
+
+    // Inline SVG Icons (replacing lucide-react)
+    const Icons = {
+      Calendar: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      ),
+      BookOpen: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      ),
+      CheckCircle: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      ),
+      PlayCircle: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+      ),
+      Moon: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      ),
+      Settings: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      ),
+      X: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      ),
+      Link: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+      ),
+      RefreshCw: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+      ),
+      Check: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><polyline points="20 6 9 17 4 12"/></svg>
+      ),
+      Users: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      ),
+      Info: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+      ),
+      ExternalLink: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      ),
+      Award: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+      ),
+      Linkedin: ({size=16, className=''}) => (
+        <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      ),
+    };
 
     function DashboardLowStim() {
       const [motionOff, setMotionOff]     = useState(true);
@@ -122,13 +166,13 @@
                   onClick={() => setMotionOff(!motionOff)}
                   className={`flex items-center gap-2 font-mono text-[10px] uppercase tracking-widest px-3 py-1.5 rounded-full border transition-all ${motionOff ? 'border-zinc-700 text-zinc-300 bg-zinc-900/50' : 'border-zinc-800 text-zinc-500 hover:text-zinc-300'}`}
                 >
-                  <Moon size={12} /> {motionOff ? 'Low-Stim Ativo' : 'Ativar Low-Stim'}
+                  <Icons.Moon size={12} /> {motionOff ? 'Low-Stim Ativo' : 'Ativar Low-Stim'}
                 </button>
                 <button
                   onClick={() => setShowTweaks(true)}
                   className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-widest text-zinc-500 hover:text-zinc-300 transition-colors"
                 >
-                  <Settings size={14} /> Sistema
+                  <Icons.Settings size={14} /> Sistema
                 </button>
               </div>
             </header>
@@ -141,28 +185,28 @@
                   className="flex items-center justify-between p-4 border border-zinc-900 bg-[#0A0A0A] rounded-sm hover:border-[#ED145B]/50 hover:bg-[#ED145B]/5 transition-all group cursor-pointer">
                   <div className="flex items-center gap-4">
                     <div className="w-10 h-10 rounded-sm bg-zinc-900 flex items-center justify-center p-2 group-hover:bg-[#ED145B]/10 transition-colors">
-                      <BookOpen size={18} className="text-[#ED145B]" />
+                      <Icons.BookOpen size={18} className="text-[#ED145B]" />
                     </div>
                     <div>
                       <h3 className="font-serif text-zinc-200 group-hover:text-white transition-colors">FIAP ON</h3>
                       <p className="font-mono text-[9px] uppercase tracking-widest text-zinc-500 mt-1">Ambiente Oficial</p>
                     </div>
                   </div>
-                  <ExternalLink size={16} className="text-zinc-700 group-hover:text-[#ED145B] transition-colors" />
+                  <Icons.ExternalLink size={16} className="text-zinc-700 group-hover:text-[#ED145B] transition-colors" />
                 </a>
 
                 <a href="https://app.alura.com.br/" target="_blank" rel="noopener noreferrer"
                   className="flex items-center justify-between p-4 border border-zinc-900 bg-[#0A0A0A] rounded-sm hover:border-zinc-700 hover:bg-zinc-900/80 transition-all group cursor-pointer">
                   <div className="flex items-center gap-4">
                     <div className="w-10 h-10 rounded-sm bg-zinc-900 flex items-center justify-center p-2.5 group-hover:bg-zinc-800 transition-colors">
-                      <PlayCircle size={18} className="text-zinc-400" />
+                      <Icons.PlayCircle size={18} className="text-zinc-400" />
                     </div>
                     <div>
                       <h3 className="font-serif text-zinc-200 group-hover:text-white transition-colors">Alura</h3>
                       <p className="font-mono text-[9px] uppercase tracking-widest text-zinc-500 mt-1">Cursos & Skills</p>
                     </div>
                   </div>
-                  <ExternalLink size={16} className="text-zinc-700 group-hover:text-zinc-300 transition-colors" />
+                  <Icons.ExternalLink size={16} className="text-zinc-700 group-hover:text-zinc-300 transition-colors" />
                 </a>
 
                 <a href="https://linkedin.com/in/anajuneves" target="_blank" rel="noopener noreferrer"
@@ -176,21 +220,21 @@
                       <p className="font-mono text-[9px] uppercase tracking-widest text-zinc-500 mt-1">Networking Profissional</p>
                     </div>
                   </div>
-                  <ExternalLink size={16} className="text-zinc-700 group-hover:text-[#0a66c2] transition-colors" />
+                  <Icons.ExternalLink size={16} className="text-zinc-700 group-hover:text-[#0a66c2] transition-colors" />
                 </a>
               </section>
 
               {/* Acao Prioritaria */}
               <section className="lg:col-span-8 border border-zinc-900 bg-[#0A0A0A] p-8 rounded-sm relative overflow-hidden flex flex-col justify-between group">
                 <div className="absolute top-4 right-4 flex items-center gap-1.5 text-[9px] font-mono uppercase tracking-widest text-emerald-500/70 border border-emerald-900/30 bg-emerald-900/10 px-2 py-1 rounded-sm">
-                  <LinkIcon size={10} /> Sync: FIAP ON
+                  <Icons.Link size={10} /> Sync: FIAP ON
                 </div>
                 <div className="flex justify-between items-start mb-8 mt-2">
                   <div>
                     <div className="font-mono text-[10px] uppercase tracking-widest text-[#ED145B] mb-3">Acao Prioritaria</div>
                     <h2 className="font-serif text-3xl font-medium text-zinc-100 mb-2">{eventoPrincipal.titulo}</h2>
                     <p className="font-serif text-zinc-400 flex items-center gap-2">
-                      <Users size={14} /> {eventoPrincipal.contexto}
+                      <Icons.Users size={14} /> {eventoPrincipal.contexto}
                     </p>
                   </div>
                   <div className="text-right flex-shrink-0 ml-4">
@@ -214,7 +258,7 @@
               <section className="lg:col-span-4 border border-zinc-900 bg-[#0A0A0A] p-6 rounded-sm flex flex-col">
                 <div className="font-mono text-[10px] uppercase tracking-widest text-zinc-500 mb-6 flex justify-between">
                   <span>Agenda Unificada</span>
-                  <CalendarIcon size={14} />
+                  <Icons.Calendar size={14} />
                 </div>
                 <div className="space-y-5 flex-1">
                   <div className="border-l-2 border-zinc-300 pl-4 py-1 relative">
@@ -248,7 +292,7 @@
               <section className="lg:col-span-12 border border-zinc-900 bg-[#0A0A0A] p-6 rounded-sm mt-2">
                 <div className="font-mono text-[10px] uppercase tracking-widest text-zinc-500 mb-6 flex justify-between border-b border-zinc-900 pb-3">
                   <span>Pipeline de Entregas (FIAP ON + Alura)</span>
-                  <CheckCircle size={14} />
+                  <Icons.CheckCircle size={14} />
                 </div>
                 <div className="space-y-3">
                   {tarefasPendentes.map((tarefa) => {
@@ -285,7 +329,7 @@
               <section className="lg:col-span-12 border border-zinc-900 bg-[#0A0A0A] p-6 rounded-sm mt-2">
                 <div className="font-mono text-[10px] uppercase tracking-widest text-zinc-500 mb-6 flex justify-between border-b border-zinc-900 pb-3">
                   <span>Nano Courses FIAP (Extracurriculares)</span>
-                  <Award size={14} />
+                  <Icons.Award size={14} />
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   {nanoCourses.map((course) => (
@@ -306,7 +350,7 @@
                         <h4 className="font-serif text-base text-zinc-200 leading-tight group-hover:text-white mb-2">{course.titulo}</h4>
                         <p className="font-mono text-[9px] uppercase tracking-widest text-zinc-500 mb-6">Nano Course · {course.Carga}</p>
                         <button className="mt-auto w-full bg-zinc-900 hover:bg-[#ED145B] text-zinc-300 hover:text-white border border-zinc-800 hover:border-[#ED145B] font-mono text-[10px] uppercase tracking-widest py-2.5 rounded-sm transition-all flex justify-center items-center gap-2">
-                          <PlayCircle size={12} /> {course.progresso ? 'Continuar Curso' : 'Iniciar Curso'}
+                          <Icons.PlayCircle size={12} /> {course.progresso ? 'Continuar Curso' : 'Iniciar Curso'}
                         </button>
                       </div>
                     </div>
@@ -324,10 +368,10 @@
               <div className="fixed top-0 right-0 h-full w-full max-w-md bg-[#0A0A0A] border-l border-zinc-900 z-50 p-6 shadow-2xl flex flex-col overflow-y-auto">
                 <div className="flex justify-between items-center mb-8">
                   <h3 className="font-serif text-xl text-zinc-100 flex items-center gap-2">
-                    <Settings size={18} className="text-zinc-500" /> Contas & Sistema
+                    <Icons.Settings size={18} className="text-zinc-500" /> Contas & Sistema
                   </h3>
                   <button onClick={() => setShowTweaks(false)} className="text-zinc-500 hover:text-zinc-200 transition-colors">
-                    <X size={20} />
+                    <Icons.X size={20} />
                   </button>
                 </div>
                 <div className="space-y-8 flex-1">
@@ -339,7 +383,7 @@
                     <div className="bg-[#111111] border border-zinc-900 p-3 rounded-sm">
                       <div className="flex justify-between items-center mb-2">
                         <span className="font-serif text-sm text-zinc-200 flex items-center gap-2">
-                          <BookOpen size={12} className="text-[#ED145B]" /> Portal FIAP ON
+                          <Icons.BookOpen size={12} className="text-[#ED145B]" /> Portal FIAP ON
                         </span>
                         <span className="text-[8px] font-mono uppercase bg-emerald-900/30 text-emerald-500 px-1.5 py-0.5 rounded-sm">Conectado</span>
                       </div>
@@ -352,7 +396,7 @@
                     <div className="bg-[#111111] border border-zinc-900 p-3 rounded-sm">
                       <div className="flex justify-between items-center mb-2">
                         <span className="font-serif text-sm text-zinc-200 flex items-center gap-2">
-                          <PlayCircle size={12} className="text-zinc-400" /> Plataforma Alura
+                          <Icons.PlayCircle size={12} className="text-zinc-400" /> Plataforma Alura
                         </span>
                         <span className="text-[8px] font-mono uppercase bg-emerald-900/30 text-emerald-500 px-1.5 py-0.5 rounded-sm">Conectado</span>
                       </div>
@@ -386,10 +430,10 @@
                             : 'bg-[#111111] hover:bg-zinc-900 border border-zinc-800 text-zinc-300'}`}
                     >
                       {syncSuccess
-                        ? <><Check size={12} /> Dados Atualizados</>
+                        ? <><Icons.Check size={12} /> Dados Atualizados</>
                         : isSyncing
-                          ? <><RefreshCw size={12} className="animate-spin" /> Conectando via API...</>
-                          : <><RefreshCw size={12} /> Forcar Sincronizacao</>}
+                          ? <><Icons.RefreshCw size={12} className="animate-spin" /> Conectando via API...</>
+                          : <><Icons.RefreshCw size={12} /> Forcar Sincronizacao</>}
                     </button>
                   </div>
                 </div>
