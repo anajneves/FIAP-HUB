@@ -1,0 +1,52 @@
+{
+  "status": "initial_inventory_from_commits",
+  "assets": [
+    {
+      "path": "IMG-20260425-WA0003.jpg",
+      "type": "image",
+      "likelyUse": "profile_photo_candidate",
+      "notes": "Possível foto de perfil enviada pela Ana. Usar apenas se visualmente confirmada pela usuária."
+    },
+    {
+      "path": "Artboard-1.webp",
+      "type": "image",
+      "likelyUse": "visual_brand_reference_or_banner",
+      "notes": "Asset visual encontrado junto dos materiais da Fase 3 e do curso MarTech."
+    },
+    {
+      "path": "Screenshot 2026-04-17 01.25.31.png",
+      "type": "image",
+      "likelyUse": "ui_reference_or_context_capture",
+      "notes": "Print/referência visual. Classificar em Documentos > Referências visuais."
+    },
+    {
+      "path": "Screenshot 2026-04-25 14.35.42.png",
+      "type": "image",
+      "likelyUse": "ui_reference_or_context_capture",
+      "notes": "Print/referência visual. Classificar em Documentos > Referências visuais."
+    },
+    {
+      "path": "240927_PF-observatorio-IA-web-1.jpg",
+      "type": "image",
+      "likelyUse": "visual_reference",
+      "notes": "Imagem de apoio/referência relacionada a IA."
+    },
+    {
+      "path": "4975968.png",
+      "type": "image",
+      "likelyUse": "visual_reference_or_icon_asset",
+      "notes": "Imagem/asset gráfico. Precisa de triagem visual antes de uso."
+    },
+    {
+      "path": "ai-generated-8527252_1280-1280x640.jpg",
+      "type": "image",
+      "likelyUse": "visual_reference_or_banner",
+      "notes": "Imagem gerada/asset visual. Usar com critério para não poluir a identidade."
+    }
+  ],
+  "rules": {
+    "profilePhoto": "Foto de perfil deve aparecer no header/sidebar apenas depois de confirmação visual. Fallback continua sendo avatar textual AJ.",
+    "visualReferences": "Prints e imagens soltas pertencem a Documentos > Referências visuais, não à Biblioteca acadêmica.",
+    "brandAssets": "Assets de FIAP/Alura podem inspirar seções, mas evitar uso que pareça oficial demais se não houver autorização."
+  }
+}
