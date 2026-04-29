@@ -1,0 +1,71 @@
+{
+  "status": "initial_rule_structure",
+  "purpose": "Transformar guias acadêmicos e normas FIAP em cards práticos dentro do Anaju Neves Hub.",
+  "sourcePolicy": {
+    "rule": "Guias e normas não devem ficar apenas como PDF solto. Cada documento institucional precisa virar regra prática com fonte, impacto e ação.",
+    "pendingSourceDocuments": [
+      "2026_guia_academico_on_cursos_antigos.pdf",
+      "outros guias/normas FIAP ainda não catalogados"
+    ],
+    "readingMode": "selective_read",
+    "placement": "FIAP > Guias acadêmicos / Normas FIAP"
+  },
+  "sections": [
+    {
+      "id": "guias-academicos",
+      "title": "Guias acadêmicos",
+      "description": "Orientações institucionais sobre funcionamento do curso, canais, prazos, avaliações e procedimentos.",
+      "status": "pending_extraction",
+      "rules": [
+        {
+          "id": "guia-academico-localizar-documento",
+          "title": "Localizar guia acadêmico oficial",
+          "type": "source_status",
+          "source": "PDF institucional FIAP",
+          "impact": "Sem o guia oficial catalogado, o hub não consegue mostrar regras acadêmicas com segurança.",
+          "action": "Confirmar o arquivo do guia acadêmico no repositório e catalogar o caminho real em data/materials.json ou data/rules.json.",
+          "status": "pending_source"
+        },
+        {
+          "id": "guia-academico-extrair-regras",
+          "title": "Extrair regras úteis do guia",
+          "type": "workflow",
+          "source": "Guia acadêmico FIAP",
+          "impact": "O dashboard deve mostrar informação prática, não só link para documento longo.",
+          "action": "Extrair: canais oficiais, prazos, avaliação, faltas/presença quando aplicável, rematrícula, suporte, atividades e procedimentos acadêmicos.",
+          "status": "todo"
+        }
+      ]
+    },
+    {
+      "id": "normas-fiap",
+      "title": "Normas FIAP",
+      "description": "Regras acadêmicas e operacionais que afetam entregas, conduta, avaliação e uso das plataformas.",
+      "status": "pending_extraction",
+      "rules": [
+        {
+          "id": "normas-fiap-nao-documentos",
+          "title": "Normas FIAP ficam dentro de FIAP",
+          "type": "information_architecture",
+          "source": "Requisito de produto da Ana",
+          "impact": "Evita jogar regras acadêmicas em Documentos e perder encontrabilidade.",
+          "action": "Renderizar normas na área FIAP com cards de regra prática.",
+          "status": "active"
+        },
+        {
+          "id": "normas-fiap-campos-obrigatorios",
+          "title": "Cada norma precisa ter impacto e ação",
+          "type": "content_model",
+          "source": "Arquitetura Anaju Neves Hub",
+          "impact": "Transforma documento institucional em ferramenta de decisão.",
+          "action": "Para cada regra, preencher: título, fonte, onde se aplica, impacto, ação recomendada e status.",
+          "status": "active"
+        }
+      ]
+    }
+  ],
+  "schema": {
+    "requiredFields": ["id", "title", "type", "source", "impact", "action", "status"],
+    "optionalFields": ["appliesTo", "deadline", "sourcePath", "lastReviewed", "riskLevel"]
+  }
+}
