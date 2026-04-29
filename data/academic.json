@@ -1,0 +1,155 @@
+{
+  "profile": {
+    "name": "Ana Julia Neves",
+    "rm": "571965",
+    "course": "Marketing Digital",
+    "year": "1º ano",
+    "mode": "On-line",
+    "period": "2026"
+  },
+  "phases": [
+    {
+      "id": "fase-1",
+      "number": 1,
+      "title": "Basics Fundamentals",
+      "theme": "Fundamentos e enquadramento",
+      "status": "review",
+      "progress": 35,
+      "description": "Conteúdo-base que sustenta os quizzes e materiais iniciais. PDFs longos devem ser tratados como biblioteca, não como texto para leitura profunda."
+    },
+    {
+      "id": "fase-2",
+      "number": 2,
+      "title": "Deep Dive",
+      "theme": "Produto, marca e experiência",
+      "status": "review",
+      "progress": 45,
+      "description": "Fase associada a produto, posicionamento, marca e experiência."
+    },
+    {
+      "id": "fase-3",
+      "number": 3,
+      "title": "Nice to meet you client! And... Give me data.",
+      "theme": "Dados, comportamento e jornada do consumidor",
+      "status": "active",
+      "progress": 20,
+      "description": "Fase mais crítica no momento: conecta jornada do consumidor, dados e entrega de cliente."
+    },
+    {
+      "id": "fase-4",
+      "number": 4,
+      "title": "Atração e performance",
+      "theme": "Aquisição, mídia e performance",
+      "status": "planned",
+      "progress": 0,
+      "description": "Fase futura para tráfego, aquisição e métricas de performance."
+    },
+    {
+      "id": "fase-5",
+      "number": 5,
+      "title": "Conversão e relacionamento",
+      "theme": "CRM, conversão e relacionamento",
+      "status": "planned",
+      "progress": 0,
+      "description": "Fase futura para relacionamento, retenção e conversão."
+    },
+    {
+      "id": "fase-6",
+      "number": 6,
+      "title": "Automação e tecnologia",
+      "theme": "MarTech, automação e operação",
+      "status": "planned",
+      "progress": 0,
+      "description": "Fase futura para tecnologia aplicada ao marketing."
+    },
+    {
+      "id": "fase-7",
+      "number": 7,
+      "title": "Apresentação final",
+      "theme": "Síntese, defesa e portfólio",
+      "status": "planned",
+      "progress": 0,
+      "description": "Fase final para consolidar entregas e transformar em evidência profissional."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-conhecendo-cliente",
+      "title": "Conhecendo o Cliente com Profundidade",
+      "area": "fiap",
+      "type": "grupo",
+      "priority": "alta",
+      "phase": 3,
+      "baseDue": "2026-05-15",
+      "adaptedDue": "2026-05-21",
+      "source": "FIAP",
+      "status": "open",
+      "note": "Entrega acadêmica central. Deve aparecer como prioridade até ser marcada como concluída."
+    },
+    {
+      "id": "task-quiz-fase-3",
+      "title": "Quiz Fase 3 + Fast Test",
+      "area": "fiap",
+      "type": "individual",
+      "priority": "alta",
+      "phase": 3,
+      "baseDue": "2026-05-20",
+      "adaptedDue": "2026-05-26",
+      "source": "FIAP",
+      "status": "open",
+      "note": "Revisar conteúdo da fase antes da tentativa."
+    },
+    {
+      "id": "task-challenge-santander-alura",
+      "title": "Challenge Santander Open Academy + Alura",
+      "area": "estudo",
+      "type": "grupo",
+      "priority": "alta",
+      "phase": 3,
+      "baseDue": "2026-05-20",
+      "adaptedDue": "2026-05-26",
+      "source": "Alura/FIAP",
+      "status": "open",
+      "note": "Separar entregáveis, grupo, etapas e evidências."
+    },
+    {
+      "id": "task-grupo-challenge",
+      "title": "Achar grupo para Challenge Santander",
+      "area": "fiap",
+      "type": "setup",
+      "priority": "media",
+      "phase": 3,
+      "baseDue": "2026-06-01",
+      "adaptedDue": "2026-06-08",
+      "source": "FIAP",
+      "status": "open",
+      "note": "Tarefa de preparação para reduzir risco operacional."
+    },
+    {
+      "id": "task-quiz-fase-1",
+      "title": "Quiz Fase 1 (Basics Fundamentals)",
+      "area": "fiap",
+      "type": "individual",
+      "priority": "media",
+      "phase": 1,
+      "baseDue": "2026-06-20",
+      "adaptedDue": "2026-06-27",
+      "source": "FIAP",
+      "status": "open",
+      "note": "Revisão de base."
+    },
+    {
+      "id": "task-quiz-fase-2",
+      "title": "Quiz Fase 2 + Fast Test (Deep Dive)",
+      "area": "fiap",
+      "type": "individual",
+      "priority": "media",
+      "phase": 2,
+      "baseDue": "2026-06-20",
+      "adaptedDue": "2026-06-27",
+      "source": "FIAP",
+      "status": "open",
+      "note": "Revisão de produto, marca e experiência."
+    }
+  ]
+}

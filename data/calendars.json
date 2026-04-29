@@ -1,0 +1,40 @@
+{
+  "timezone": "America/Recife",
+  "privacyMode": true,
+  "sources": [
+    {
+      "id": "fiap",
+      "label": "FIAP",
+      "kind": "academic",
+      "path": "icalexport.ics",
+      "color": "#ED145B",
+      "enabled": true,
+      "notes": "Fonte acadêmica para lives, quizzes, desafios e atividades."
+    },
+    {
+      "id": "personal_import",
+      "label": "Pessoal",
+      "kind": "personal",
+      "path": "",
+      "color": "#a78bfa",
+      "enabled": false,
+      "notes": "Importar arquivo .ics localmente pela interface."
+    },
+    {
+      "id": "external_import",
+      "label": "Externo",
+      "kind": "external",
+      "path": "",
+      "color": "#3b82f6",
+      "enabled": false,
+      "notes": "Importar arquivo .ics externo localmente pela interface."
+    }
+  ],
+  "rules": {
+    "hidePastByDefault": true,
+    "conflictWindowMinutes": 15,
+    "deadlineKeywords": ["quiz", "desafio", "challenge", "entrega", "atividade"],
+    "liveKeywords": ["live", "aula", "jornada"],
+    "healthKeywords": ["consulta", "exame", "terapia"]
+  }
+}

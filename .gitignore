@@ -1,0 +1,22 @@
+# Local/private configuration
+.env
+.env.*
+!.env.example
+
+# Private calendar imports
+private/
+*.secret.ics
+*.private.ics
+calendar-private*.ics
+personal-calendar*.ics
+external-calendar*.ics
+
+# Local backups
+*-backup.json
+jone-life-os-backup-*.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,101 @@
+{
+  "tracks": [
+    {
+      "id": "martech",
+      "title": "MarTech Roadmap",
+      "description": "Trilha profissional para conectar marketing, dados, automação e portfólio.",
+      "status": "active",
+      "modules": [
+        {
+          "id": "martech-01",
+          "title": "Fundamentos de Marketing e Consumidor",
+          "source": "FIAP / Alura",
+          "priority": "alta",
+          "status": "active",
+          "deliverable": "Mapa de jornada do consumidor com hipótese de problema e métrica principal.",
+          "topics": ["comportamento do consumidor", "segmentação", "persona", "jornada"]
+        },
+        {
+          "id": "martech-02",
+          "title": "Branding, Conteúdo e Posicionamento",
+          "source": "Story Creative Spheres / Alura",
+          "priority": "alta",
+          "status": "planned",
+          "deliverable": "Mini playbook de marca pessoal/profissional com tom, pilares e exemplos de conteúdo.",
+          "topics": ["branding", "copy", "conteúdo", "narrativa"]
+        },
+        {
+          "id": "martech-03",
+          "title": "Dados e Analytics para Marketing",
+          "source": "FIAP / Alura",
+          "priority": "alta",
+          "status": "planned",
+          "deliverable": "Dashboard simples de campanha com leitura executiva.",
+          "topics": ["métricas", "funil", "análise", "visualização"]
+        },
+        {
+          "id": "martech-04",
+          "title": "CRM, Relacionamento e Retenção",
+          "source": "Alura / Prática",
+          "priority": "media",
+          "status": "planned",
+          "deliverable": "Fluxo de relacionamento com segmentos, gatilhos e mensagens.",
+          "topics": ["CRM", "retenção", "e-mail", "segmentos"]
+        },
+        {
+          "id": "martech-05",
+          "title": "Automação e Operação MarTech",
+          "source": "Alura / Prática",
+          "priority": "media",
+          "status": "planned",
+          "deliverable": "Mapa de stack MarTech com ferramenta, uso e risco.",
+          "topics": ["automação", "integrações", "stack", "processos"]
+        },
+        {
+          "id": "martech-06",
+          "title": "Portfólio Aplicado",
+          "source": "Projetos próprios",
+          "priority": "alta",
+          "status": "planned",
+          "deliverable": "Case publicado com problema, método, execução, resultado e próximos passos.",
+          "topics": ["case", "LinkedIn", "GitHub", "apresentação"]
+        }
+      ]
+    },
+    {
+      "id": "fiap-nano",
+      "title": "Nano Courses FIAP",
+      "description": "Cursos complementares conectados à graduação e à evolução profissional.",
+      "status": "active",
+      "modules": [
+        {
+          "id": "course-cx-management",
+          "title": "Customer Experience Management",
+          "source": "FIAP",
+          "hours": "40h",
+          "status": "available",
+          "progress": 0,
+          "deliverable": "Resumo aplicado: como melhorar experiência em um serviço digital."
+        },
+        {
+          "id": "course-agile-culture",
+          "title": "Agile Culture & Methodologies",
+          "source": "FIAP",
+          "hours": "60h",
+          "status": "active",
+          "progress": 35,
+          "deliverable": "Quadro de sprint pessoal para entregas FIAP e portfólio."
+        },
+        {
+          "id": "course-data-driven",
+          "title": "Data Driven Decision Making",
+          "source": "FIAP",
+          "hours": "30h",
+          "status": "available",
+          "progress": 0,
+          "deliverable": "Checklist de decisão orientada por dados para marketing."
+        }
+      ]
+    }
+  ]
+}
