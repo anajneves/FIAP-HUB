@@ -1,0 +1,110 @@
+📗** FASE 1 — BASE**  
+**[ ] 01 · Letramento em IA: competências essenciais (6h)**  
+* [ ] **Fundamentos:** Impacto no trabalho, ML vs. Deep Learning, Famílias de dados.  
+* [ ] **Mecanismos:** IA Generativa, Predição de tokens, Alucinação e Criatividade.  
+* [ ] **Casos de Uso:** Rotina profissional, Limitações e LGPD/Dados sensíveis.  
+* [ ] **Prompts:** Estrutura, Otimização, Refino e Estimativa de custos.  
+* [ ] **Análise Crítica:** Erros comuns, Prompt de crítica/confirmação e Vieses.  
+* [ ] **Segurança:** Confidencialidade, IP, Ferramentas privadas vs. públicas.  
+**[ ] 02 · Gemini: domine o assistente de IA do Google (6h)**  
+* [ ] **Entendimento:** Modelos de linguagem e primeiros passos no e-commerce.  
+* [ ] **Pesquisa:** System Prompts, Deep Research e extração de dados.  
+* [ ] **Visual e Web:** Criação de imagens, Canvas (site sem código) e UX.  
+* [ ] **Ecossistema:** Integração Gmail, Drive, Agenda e Resumo de YouTube.  
+* [ ] **Gems:** Personalização de assistentes, Few-shot e análise de PDFs.  
+* [ ] **Vídeo e Lógica:** Veo 3 para Instagram e Modo Deep Think.  
+**[ ] 03 · Data Science para Marketing: explorando dados (8h)**  
+* [ ] **Primeiro Contato:** Python básico, Pandas e DataFrames.  
+* [ ] **Análise:** Filtros, Médias de campanhas e Tendência central.  
+* [ ] **Variáveis:** Relação Custo x Receita e Impacto por região.  
+* [ ] **Visualização:** Seaborn, Gráficos ideais e Interpretação visual.  
+* [ ] **Estatística:** Desvio padrão, ROI de campanhas e Projeto Final.  
+**[ ] 04 · Excel: domine o editor de planilhas (8h)**  
+* [ ] **Conceitos:** Inserção de dados, Atalhos e Edição básica.  
+* [ ] **Formatação:** Tabelas, Estilos e Formatação de moeda.  
+* [ ] **Fórmulas:** Cálculos de vendas, Descontos e Tipos de referência.  
+* [ ] **Estruturação:** Organização de fluxo e Configurações de impressão.  
+* [ ] **Visual:** Design de gráficos e Elementos visuais.  
+* [ ] **Nuvem:** Colaboração online e Projeto de cálculo de descontos.  
+**[ ] 05 · Power BI Desktop: primeiro dashboard (8h)**  
+* [ ] **Conexão:** ETL básico, Google Planilhas e Mesclagem de tabelas.  
+* [ ] **Cálculos:** Colunas calculadas, DAX e Medidas explícitas.  
+* [ ] **Gráficos:** Pizza, Série temporal, Hierarquia e Visuais externos.  
+* [ ] **Estilização:** Cartões, Imagens de fundo e Design de impacto.  
+* [ ] **Service:** Publicação web, Layout móvel e Projeto Final.  
+**[ ] 06 · Gamma 3.0: apresentações com IA (6h)**  
+* [ ] **Criação:** Roteiro preciso e geração automática de temas.  
+* [ ] **Refino:** Ajuste de cartões, Foco de imagem e Layout.  
+* [ ] **Objetos:** Diagramas inteligentes e Gráficos integrados.  
+* [ ] **Transformação:** Gamma Agent e Animação de imagens.  
+* [ ] **Entrega:** Exportação e integração com outras ferramentas.  
+**[ ] 07 · Automação com n8n: modelagem de fluxos (12h)**  
+* [ ] **Processos:** Mapeamento (VSM), Desenho de fluxo e Regras.  
+* [ ] **Fundamentos:** Data pinning, Envio de e-mails e Human-in-the-loop.  
+* [ ] **Decisão:** Lógica condicional, APIs e Automação de NPS.  
+* [ ] **Padronização:** Loop over items, Inputs e Validação de formulários.  
+* [ ] **Agentes:** Automação vs. Agentes e Suporte em tempo real.  
+**[ ] 08 · Claude Code: criando sua primeira aplicação (8h)**  
+* [ ] **Início:** Loop do Claude Code e comandos de terminal.  
+* [ ] **Planejamento:** PRD (Product Requirements Document) e Definição de MVP.  
+* [ ] **Execução:** Desenvolvimento do front-end e configuração Supabase.  
+* [ ] **Publicação:** GitHub CLI e Deploy da aplicação online.  
+**[ ] 09 · Soft Skills na era da IA (8h)**  
+* [ ] **Crítica:** Liderança informal e combate à alucinação da IA.  
+* [ ] **Criatividade:** Pensamento lateral e quebra de vieses.  
+* [ ] **Emocional:** Empatia, Autorregulação e Filtros de comunicação.  
+* [ ] **Colaboração:** Escuta ativa e Assertividade.  
+* [ ] **Ética:** Trade-offs, Shadow IA e Vieses algorítmicos.  
+* [ ] **Aprendizado:** Ciclo 70-20-10, PDI e Detox Digital.  
+📘** FASE 2 — DADOS & ANALYTICS**  
+* [ ] **01 · Inteligência de Mercado (Excel)** ⚠️ *Restrito*  
+* [ ] **02 · Inteligência de Mercado (Power BI)** ⚠️ *Restrito*  
+* [ ] **03 · Tomada de decisão com IA (10h)**  
+* [ ] Matriz estratégica e Impacto na gestão.  
+* [ ] Previsão de vendas e Modelagem preditiva.  
+* [ ] Análise de estoque e Alertas preventivos.  
+* [ ] Análise de sentimento (NPS) com 5W2H.  
+* [ ] Recomendação (Cluster/K-means) e Personalização.  
+* [ ] Decisão sem dados (Heurísticas e SWOT).  
+* [ ] **04 · Looker Studio (Dashboards Integrados)** ⚠️ *Restrito*  
+* [ ] **05 · BigQuery (Jornada do Cliente)** ⚠️ *Restrito*  
+* [ ] **06 · Google Analytics 4 (Eventos)** ⚠️ *Restrito*  
+📙** FASE 3 — AUTOMAÇÕES**  
+**[ ] 01 · n8n: Otimizando a análise de leads (8h)**  
+* [ ] **Investigação:** Fontes de dados e Relatório de tendências.  
+* [ ] **Cruzamento:** Google Sheets + n8n e tratamento de inconsistências.  
+* [ ] **Quantitativo:** Lead Score no Looker Studio.  
+* [ ] **Qualitativo:** Integração com OpenAI e Pinned messages.  
+* [ ] **Decisão:** Ciclo de aprendizado e Relatório automático.  
+**[ ] 02 · n8n: Criando campanhas com IA (6h)**  
+* [ ] **Arquitetura:** Autenticação segura e fontes de dados.  
+* [ ] **Conhecimento:** Vector Store e Integração com Notion.  
+* [ ] **Memória:** Embeddings e Dados semânticos vs. Operacionais.  
+* [ ] **Autonomia:** Agente de conteúdo e Ferramentas de Chat.  
+* [ ] **Governança:** Manutenção de fluxo e Variação de respostas.  
+**[ ] 03 · Automação com Make: integração e eficiência (10h)**  
+* [ ] **Cenários:** Filtros, Bundles e Gestão de freelancers.  
+* [ ] **Eficiência:** Integração Gemini e Mapeamento de arrays.  
+* [ ] **Paralelismo:** Router, URL Context e Erros HTTP.  
+* [ ] **Modularidade:** Subcenários e uso de DataStores.  
+* [ ] **Times:** Sincronização Trello e Redução de erro humano.  
+**[ ] 04 · Zapier: integrando apps (8h)**  
+* [ ] **Triggers:** Configuração inicial e Actions com Sheets.  
+* [ ] **Gmail/Gemini:** Automação de respostas e Engenharia de prompt.  
+* [ ] **Social:** Planejamento e postagens automatizadas.  
+* [ ] **Vendas:** Propostas personalizadas e uso de Paths (Caminhos).  
+* [ ] **05 · E-mail Marketing e Workflows** ⚠️ *Restrito*  
+* [ ] **06 · Make e WhatsApp (Reviews)** ⚠️ *Restrito*  
+* [ ] **07 · Social Listening com IA** ⚠️ *Restrito*  
+* [ ] **08 · Agente IA para WhatsApp (n8n)** ⚠️ *Restrito*  
+📘** FASE 4 — PROTOTIPAGEM & UX**  
+**[ ] 01 · IA e Personas: criação acelerada (8h)**  
+* [ ] **Fundamentos:** Identificação de aplicações e Objetivos.  
+* [ ] **Dados:** Protocolo de observação e Roteiros de entrevista.  
+* [ ] **Análise:** Superluminal, Clusters e Definição de ICP.  
+* [ ] **Visual:** Midjourney para materialização de personas.  
+* [ ] **Entrega:** Relatórios no Notion e Personas acionáveis.  
+*(Cursos de 02 a 11 desta fase estão marcados como *⚠️* **Restritos**, incluindo Framer, Figma, Lovable, Bolt.new e Replit).*  
+📓** FASE 5 — IA EM CONTEÚDO**  
+*(Todos os cursos desta fase estão marcados como *⚠️* **Restritos**, cobrindo Canva, HeyGen, Copywriting, Agentes GPT e Escala Multicanal).*  
+**Dica de Especialista:** Como você já domina **n8n e Make**, foque primeiro nas trilhas de **Data Science (Fase 1.03)** e **Tomada de Decisão (Fase 2.03)**. Elas darão o embasamento analítico que falta para elevar seus fluxos de "automação" para "inteligência estratégica".  
