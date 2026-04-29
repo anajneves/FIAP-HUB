@@ -15,9 +15,9 @@
           "description": "Arquivo local usado como fonte de eventos acadêmicos."
         },
         {
-          "title": "Biblioteca Fase 3",
-          "url": "#biblioteca",
-          "description": "Capítulos da Fase 3 cadastrados no dashboard."
+          "title": "Materiais anexados",
+          "url": "materiais.html",
+          "description": "Leitor interno dos PDFs cadastrados no site, incluindo os capítulos da Fase 3."
         }
       ]
     },
@@ -53,8 +53,8 @@
         },
         {
           "title": "Arquitetura do Hub",
-          "url": "docs/LIFE_OS_ARCHITECTURE.md",
-          "description": "Documento de arquitetura e evolução."
+          "url": "docs/ANAJU_NEVES_HUB_PRODUCT_ARCHITECTURE.md",
+          "description": "Documento atualizado de arquitetura e evolução."
         }
       ]
     }
