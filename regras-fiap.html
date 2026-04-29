@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guias e Normas FIAP · Anaju Neves Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#070707;--panel:#111116;--line:#292933;--soft:#1d1d24;--text:#f5f5f5;--muted:#a1a1aa;--faint:#71717a;--accent:#ED145B;--warn:#f59e0b;--green:#22c55e;--blue:#3b82f6;--radius:18px;--serif:'Newsreader',Georgia,serif;--mono:'JetBrains Mono',Consolas,monospace}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 10% -10%,rgba(237,20,91,.18),transparent 34rem),var(--bg);color:var(--text);font-family:var(--serif)}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}.wrap{max-width:1180px;margin:0 auto;padding:28px}.top{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;margin-bottom:22px}.kicker{font-family:var(--mono);font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--accent)}h1{font-size:44px;line-height:.96;font-weight:400;letter-spacing:-.035em;margin:8px 0}.lead{color:var(--muted);line-height:1.5;max-width:760px}.btn{border:1px solid var(--line);background:rgba(255,255,255,.04);color:#fff;border-radius:999px;padding:8px 13px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;display:inline-flex;align-items:center;justify-content:center}.btn.primary{background:var(--accent);border-color:var(--accent)}.grid{display:grid;grid-template-columns:320px minmax(0,1fr);gap:18px}.panel{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(180deg,rgba(23,23,29,.94),rgba(13,13,17,.94));box-shadow:0 18px 70px rgba(0,0,0,.25)}.pad{padding:20px}.stack{display:flex;flex-direction:column;gap:12px}.section-btn{text-align:left;width:100%;border:1px solid var(--soft);border-radius:16px;background:rgba(255,255,255,.025);padding:14px;color:var(--text)}.section-btn.active{border-color:rgba(237,20,91,.55);background:rgba(237,20,91,.10)}.section-title{font-size:16px;margin:0}.note{font-size:13px;color:var(--faint);line-height:1.4;margin:7px 0 0}.rule{border:1px solid var(--soft);border-radius:16px;background:rgba(255,255,255,.025);padding:16px}.rule h3{font-size:18px;margin:0 0 8px}.label{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);margin-top:12px}.text{font-size:14px;color:var(--muted);line-height:1.45;margin-top:4px}.meta{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}.tag{display:inline-flex;gap:5px;align-items:center;padding:4px 8px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.06);font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--muted)}.tag:before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}.empty{padding:30px;text-align:center;border:1px dashed var(--line);border-radius:16px;color:var(--faint)}.schema{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:pre-wrap;background:#101014;border:1px solid var(--soft);border-radius:14px;padding:14px;overflow:auto}.warn{color:#fcd34d}@media(max-width:900px){.wrap{padding:18px}.top{flex-direction:column}.grid{grid-template-columns:1fr}h1{font-size:34px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <div>
+        <div class="kicker">FIAP · Guias acadêmicos · Normas</div>
+        <h1>Regras práticas da graduação</h1>
+        <p class="lead">Área para transformar documentos institucionais em informação acionável: fonte, impacto e ação. Enquanto os PDFs oficiais não forem extraídos, o painel mostra status e lacunas sem inventar regra.</p>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn" href="anaju-neves-hub.html#fiap">Voltar ao Hub</a><a class="btn primary" href="materiais.html">Materiais</a></div>
+    </header>
+    <section class="grid">
+      <aside class="panel pad">
+        <div class="kicker">Seções</div>
+        <div class="stack" id="sectionList" style="margin-top:12px"></div>
+        <div class="schema" id="schemaBox" style="margin-top:16px"></div>
+      </aside>
+      <section class="panel pad">
+        <div class="kicker" id="activeKicker">Normas</div>
+        <h2 id="activeTitle" style="font-size:28px;margin:8px 0 6px;font-weight:400"></h2>
+        <p class="lead" id="activeDesc"></p>
+        <div class="stack" id="rulesList" style="margin-top:18px"></div>
+      </section>
+    </section>
+  </main>
+<script>
+const $=s=>document.querySelector(s);
+function esc(s=''){return String(s).replace(/[&<>'"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#039;','"':'&quot;'}[m]))}
+function tag(t,c=''){return `<span class="tag" style="${c?'color:'+c:''}">${esc(t)}</span>`}
+let data={sections:[],schema:{}};let active='';
+async function init(){try{data=await (await fetch('data/rules.json',{cache:'no-store'})).json()}catch(e){data={sections:[],schema:{}}}active=(data.sections&&data.sections[0]&&data.sections[0].id)||'';render()}
+function render(){renderSections();renderRules();renderSchema()}
+function renderSections(){const sections=data.sections||[];$('#sectionList').innerHTML=sections.map(s=>`<button class="section-btn ${active===s.id?'active':''}" data-section="${esc(s.id)}"><p class="section-title">${esc(s.title)}</p><p class="note">${esc(s.description||'')}</p><div class="meta">${tag(s.status||'status',s.status==='pending_extraction'?'var(--warn)':'var(--muted)')}${tag((s.rules||[]).length+' cards')}</div></button>`).join('')||'<div class="empty">Nenhuma seção cadastrada.</div>';document.querySelectorAll('[data-section]').forEach(b=>b.onclick=()=>{active=b.dataset.section;render()})}
+function renderRules(){const section=(data.sections||[]).find(s=>s.id===active)||{};$('#activeKicker').textContent=section.status||'status';$('#activeTitle').textContent=section.title||'Sem seção';$('#activeDesc').textContent=section.description||'';const rules=section.rules||[];$('#rulesList').innerHTML=rules.map(r=>`<article class="rule"><div class="meta">${tag(r.type||'tipo')}${tag(r.status||'status',r.status==='active'?'var(--green)':r.status==='todo'?'var(--warn)':'var(--muted)')}</div><h3>${esc(r.title)}</h3><div class="label">Fonte</div><div class="text">${esc(r.source||'')}</div><div class="label">Impacto</div><div class="text">${esc(r.impact||'')}</div><div class="label">Ação recomendada</div><div class="text">${esc(r.action||'')}</div></article>`).join('')||'<div class="empty">Nenhuma regra nesta seção.</div>'}
+function renderSchema(){const schema=data.schema||{};$('#schemaBox').textContent='Campos obrigatórios:\n- '+((schema.requiredFields||[]).join('\n- ')||'não definido')+'\n\nCampos opcionais:\n- '+((schema.optionalFields||[]).join('\n- ')||'não definido')}
+init();
+</script>
+</body>
+</html>
