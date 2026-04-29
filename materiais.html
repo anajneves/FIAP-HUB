@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Materiais · Anaju Neves Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#070707;--panel:#111116;--line:#292933;--soft:#1d1d24;--text:#f5f5f5;--muted:#a1a1aa;--faint:#71717a;--accent:#ED145B;--warn:#f59e0b;--green:#22c55e;--radius:18px;--serif:'Newsreader',Georgia,serif;--mono:'JetBrains Mono',Consolas,monospace}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 10% -10%,rgba(237,20,91,.18),transparent 34rem),var(--bg);color:var(--text);font-family:var(--serif);height:100vh;overflow:hidden}a{color:inherit;text-decoration:none}button,select{font:inherit}button{cursor:pointer}.layout{display:grid;grid-template-columns:380px minmax(0,1fr);height:100vh}.side{border-right:1px solid var(--soft);background:rgba(10,10,12,.92);padding:22px;overflow:auto}.viewer{display:grid;grid-template-rows:auto minmax(0,1fr);min-width:0}.top{border-bottom:1px solid var(--soft);background:rgba(7,7,7,.78);backdrop-filter:blur(18px);padding:16px 20px;display:flex;justify-content:space-between;gap:14px;align-items:center}.kicker{font-family:var(--mono);font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--accent)}h1{font-size:32px;line-height:.98;font-weight:400;letter-spacing:-.03em;margin:8px 0 6px}p{color:var(--muted);line-height:1.45;margin:0}.btn{border:1px solid var(--line);background:rgba(255,255,255,.04);color:#fff;border-radius:999px;padding:8px 13px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;display:inline-flex;align-items:center;justify-content:center}.btn.primary{background:var(--accent);border-color:var(--accent)}.stack{display:flex;flex-direction:column;gap:10px}.card{padding:14px;border:1px solid var(--soft);border-radius:16px;background:rgba(255,255,255,.025)}.card.active{border-color:rgba(237,20,91,.6);background:rgba(237,20,91,.10)}.title{font-size:15px;margin:0;color:#fff;line-height:1.25}.note{font-size:13px;color:var(--faint);margin-top:6px}.meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.tag{display:inline-flex;gap:5px;align-items:center;padding:4px 8px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.06);font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--muted)}.tag:before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}.filters{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.filters button.active{border-color:rgba(237,20,91,.55);background:rgba(237,20,91,.12)}iframe{width:100%;height:100%;border:0;background:#1a1a1a}.empty{height:100%;display:grid;place-items:center;text-align:center;color:var(--faint);padding:40px}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}@media(max-width:980px){body{overflow:auto;height:auto}.layout{grid-template-columns:1fr;height:auto}.side{height:auto}.viewer{height:82vh}.top{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body>
+  <main class="layout">
+    <aside class="side">
+      <div class="kicker">Anaju Neves Hub</div>
+      <h1>Materiais anexados</h1>
+      <p>Leitor interno dos PDFs do repositório. Use para estudar sem sair do site.</p>
+      <div class="filters" id="filters"></div>
+      <div class="stack" id="list"></div>
+    </aside>
+    <section class="viewer">
+      <header class="top">
+        <div><div class="kicker" id="source">Biblioteca</div><p class="title" id="docTitle">Selecione um material</p><p class="note" id="docNote">O PDF será carregado aqui dentro.</p></div>
+        <div class="row"><a class="btn" href="anaju-neves-hub.html#biblioteca">Voltar ao Hub</a><a class="btn primary" id="openNew" target="_blank" rel="noopener" style="display:none">Abrir em nova aba</a></div>
+      </header>
+      <div id="frameWrap" class="empty">Nenhum PDF selecionado.</div>
+    </section>
+  </main>
+<script>
+const $=s=>document.querySelector(s);
+function esc(s=''){return String(s).replace(/[&<>'"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#039;','"':'&quot;'}[m]))}
+function tag(t,c=''){return `<span class="tag" style="${c?'color:'+c:''}">${esc(t)}</span>`}
+function url(path){return encodeURI(path)}
+let materials={collections:[]};let activeFilter='all';let activePath='';
+async function init(){try{materials=await (await fetch('data/materials.json',{cache:'no-store'})).json()}catch(e){materials={collections:[]}}renderFilters();renderList();const first=getItems()[0];if(first)openDoc(first)}
+function getItems(){return (materials.collections||[]).flatMap(c=>(c.items||[]).map(i=>({...i,collectionId:c.id,collectionTitle:c.title}))).filter(i=>activeFilter==='all'||i.collectionId===activeFilter).sort((a,b)=>(a.phase||99)-(b.phase||99)||(a.chapterNumber||99)-(b.chapterNumber||99))}
+function renderFilters(){const cols=materials.collections||[];$('#filters').innerHTML=`<button class="btn ${activeFilter==='all'?'active':''}" data-filter="all">Todos</button>`+cols.map(c=>`<button class="btn ${activeFilter===c.id?'active':''}" data-filter="${esc(c.id)}">${esc(c.title)}</button>`).join('');document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{activeFilter=b.dataset.filter;renderFilters();renderList();const first=getItems()[0];if(first)openDoc(first)})}
+function renderList(){const items=getItems();$('#list').innerHTML=items.map(i=>`<button class="card ${activePath===i.path?'active':''}" data-path="${esc(i.path)}"><p class="title">${String(i.chapterNumber||'').padStart(2,'0')} · ${esc(i.title)}</p><p class="note">${esc(i.notes||i.collectionTitle||'')}</p><div class="meta">${tag('PDF anexado','var(--green)')}${tag('fase '+(i.phase||'?'),'var(--accent)')}${tag(i.discipline||'disciplina')}${tag((i.pageCount||'?')+' págs')}</div></button>`).join('')||'<div class="card"><p class="note">Nenhum material neste filtro.</p></div>';document.querySelectorAll('[data-path]').forEach(b=>b.onclick=()=>{const item=getItems().find(i=>i.path===b.dataset.path);if(item)openDoc(item)})}
+function openDoc(item){activePath=item.path;$('#source').textContent=item.collectionTitle||'Biblioteca';$('#docTitle').textContent=item.title||item.path;$('#docNote').textContent=item.notes||'PDF anexado ao site.';$('#openNew').href=url(item.path);$('#openNew').style.display='inline-flex';$('#frameWrap').className='';$('#frameWrap').innerHTML=`<iframe title="${esc(item.title)}" src="${url(item.path)}"></iframe>`;renderList()}
+init();
+</script>
+</body>
+</html>
