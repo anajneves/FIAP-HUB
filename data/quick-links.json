@@ -21,8 +21,8 @@
         },
         {
           "title": "Guias e normas FIAP",
-          "url": "data/rules.json",
-          "description": "Estrutura inicial para transformar guias acadêmicos e normas em cards práticos dentro da seção FIAP."
+          "url": "regras-fiap.html",
+          "description": "Página visual com cards práticos para guias acadêmicos, normas FIAP, fonte, impacto e ação recomendada."
         }
       ]
     },
