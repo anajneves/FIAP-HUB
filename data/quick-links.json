@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "id": "academic",
+      "title": "Acadêmico",
+      "links": [
+        {
+          "title": "FIAP ON",
+          "url": "https://on.fiap.com.br/",
+          "description": "Portal acadêmico, aulas, entregas e comunicados."
+        },
+        {
+          "title": "Calendário FIAP",
+          "url": "icalexport.ics",
+          "description": "Arquivo local usado como fonte de eventos acadêmicos."
+        },
+        {
+          "title": "Biblioteca Fase 3",
+          "url": "#biblioteca",
+          "description": "Capítulos da Fase 3 cadastrados no dashboard."
+        }
+      ]
+    },
+    {
+      "id": "courses",
+      "title": "Cursos e trilhas",
+      "links": [
+        {
+          "title": "Alura",
+          "url": "https://app.alura.com.br/",
+          "description": "Plataforma externa de cursos."
+        },
+        {
+          "title": "Curso MarTech",
+          "url": "#martech",
+          "description": "Seção própria para módulos e entregáveis."
+        },
+        {
+          "title": "Creative Strategist",
+          "url": "#documentos",
+          "description": "Material extra em documentos."
+        }
+      ]
+    },
+    {
+      "id": "project",
+      "title": "Projeto e manutenção",
+      "links": [
+        {
+          "title": "GitHub FIAP-HUB",
+          "url": "https://github.com/anajneves/FIAP-HUB",
+          "description": "Repositório principal do dashboard."
+        },
+        {
+          "title": "Arquitetura do Hub",
+          "url": "docs/LIFE_OS_ARCHITECTURE.md",
+          "description": "Documento de arquitetura e evolução."
+        }
+      ]
+    }
+  ]
+}
