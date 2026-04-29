@@ -18,6 +18,11 @@
           "title": "Materiais anexados",
           "url": "materiais.html",
           "description": "Leitor interno dos PDFs cadastrados no site, incluindo os capítulos da Fase 3."
+        },
+        {
+          "title": "Guias e normas FIAP",
+          "url": "data/rules.json",
+          "description": "Estrutura inicial para transformar guias acadêmicos e normas em cards práticos dentro da seção FIAP."
         }
       ]
     },
