@@ -1,0 +1,160 @@
+{
+  "sourceFile": "Curso MarTech.txt",
+  "status": "structured_from_uploaded_schedule",
+  "title": "Curso MarTech",
+  "description": "Cronograma completo do curso MarTech, separado por fases, módulos, carga horária, tópicos e status de acesso.",
+  "rules": {
+    "sectionPlacement": "MarTech deve ser seção própria do Anaju Neves Hub, não Documentos.",
+    "restrictedCourses": "Cursos marcados como restritos devem aparecer como bloqueados/pendentes, sem falsa promessa de acesso.",
+    "portfolioLogic": "Cada curso liberado deve ter um entregável prático ou evidência de portfólio."
+  },
+  "phases": [
+    {
+      "id": "martech-fase-1-base",
+      "number": 1,
+      "title": "Base",
+      "focus": "Fundamentos de IA, dados, produtividade, dashboards, automação e soft skills.",
+      "modules": [
+        {
+          "id": "martech-01-letramento-ia",
+          "order": 1,
+          "title": "Letramento em IA: competências essenciais",
+          "hours": 6,
+          "access": "available",
+          "topics": ["impacto no trabalho", "ML vs Deep Learning", "IA generativa", "prompts", "alucinação", "vieses", "LGPD", "confidencialidade"],
+          "deliverable": "Checklist de uso responsável de IA em marketing e produtividade."
+        },
+        {
+          "id": "martech-02-gemini",
+          "order": 2,
+          "title": "Gemini: domine o assistente de IA do Google",
+          "hours": 6,
+          "access": "available",
+          "topics": ["modelos de linguagem", "system prompts", "deep research", "Canvas", "Gmail", "Drive", "Agenda", "Gems", "Veo 3", "Deep Think"],
+          "deliverable": "Fluxo de pesquisa e criação com Gemini para uma demanda real de marketing."
+        },
+        {
+          "id": "martech-03-data-science-marketing",
+          "order": 3,
+          "title": "Data Science para Marketing: explorando dados",
+          "hours": 8,
+          "access": "available",
+          "topics": ["Python básico", "Pandas", "DataFrames", "filtros", "médias de campanhas", "custo x receita", "visualização", "ROI"],
+          "deliverable": "Mini análise de campanha com leitura executiva."
+        },
+        {
+          "id": "martech-04-excel",
+          "order": 4,
+          "title": "Excel: domine o editor de planilhas",
+          "hours": 8,
+          "access": "available",
+          "topics": ["dados", "atalhos", "tabelas", "fórmulas", "referências", "impressão", "gráficos", "colaboração"],
+          "deliverable": "Planilha organizada para cálculo, desconto e apresentação visual."
+        },
+        {
+          "id": "martech-05-power-bi",
+          "order": 5,
+          "title": "Power BI Desktop: primeiro dashboard",
+          "hours": 8,
+          "access": "available",
+          "topics": ["ETL", "Google Planilhas", "mesclagem", "DAX", "medidas", "gráficos", "cartões", "publicação", "layout móvel"],
+          "deliverable": "Primeiro dashboard de marketing com layout desktop e móvel."
+        },
+        {
+          "id": "martech-06-gamma",
+          "order": 6,
+          "title": "Gamma 3.0: apresentações com IA",
+          "hours": 6,
+          "access": "available",
+          "topics": ["roteiro", "temas", "cartões", "foco de imagem", "diagramas", "gráficos", "Gamma Agent", "exportação"],
+          "deliverable": "Apresentação curta de case ou projeto acadêmico."
+        },
+        {
+          "id": "martech-07-n8n-modelagem",
+          "order": 7,
+          "title": "Automação com n8n: modelagem de fluxos",
+          "hours": 12,
+          "access": "available",
+          "topics": ["VSM", "data pinning", "e-mail", "human-in-the-loop", "condicionais", "APIs", "NPS", "loop over items", "validação", "agentes"],
+          "deliverable": "Fluxo n8n documentado com objetivo, gatilho, decisão e saída."
+        },
+        {
+          "id": "martech-08-claude-code",
+          "order": 8,
+          "title": "Claude Code: criando sua primeira aplicação",
+          "hours": 8,
+          "access": "available",
+          "topics": ["terminal", "PRD", "MVP", "front-end", "Supabase", "GitHub CLI", "deploy"],
+          "deliverable": "Protótipo funcional publicado ou documentado no GitHub."
+        },
+        {
+          "id": "martech-09-soft-skills-ia",
+          "order": 9,
+          "title": "Soft Skills na era da IA",
+          "hours": 8,
+          "access": "available",
+          "topics": ["liderança informal", "alucinação", "pensamento lateral", "vieses", "empatia", "autorregulação", "escuta ativa", "assertividade", "ética", "shadow IA"],
+          "deliverable": "PDI curto para atuação profissional com IA."
+        }
+      ]
+    },
+    {
+      "id": "martech-fase-2-dados-analytics",
+      "number": 2,
+      "title": "Dados & Analytics",
+      "focus": "Inteligência de mercado, tomada de decisão e analytics.",
+      "modules": [
+        {"id": "martech-10-inteligencia-mercado-excel", "order": 1, "title": "Inteligência de Mercado (Excel)", "access": "restricted", "topics": []},
+        {"id": "martech-11-inteligencia-mercado-powerbi", "order": 2, "title": "Inteligência de Mercado (Power BI)", "access": "restricted", "topics": []},
+        {
+          "id": "martech-12-tomada-decisao-ia",
+          "order": 3,
+          "title": "Tomada de decisão com IA",
+          "hours": 10,
+          "access": "available",
+          "topics": ["matriz estratégica", "previsão de vendas", "modelagem preditiva", "estoque", "alertas", "NPS", "5W2H", "cluster", "K-means", "personalização", "SWOT"],
+          "deliverable": "Matriz de decisão orientada por IA para um caso de marketing."
+        },
+        {"id": "martech-13-looker-studio", "order": 4, "title": "Looker Studio (Dashboards Integrados)", "access": "restricted", "topics": []},
+        {"id": "martech-14-bigquery", "order": 5, "title": "BigQuery (Jornada do Cliente)", "access": "restricted", "topics": []},
+        {"id": "martech-15-ga4", "order": 6, "title": "Google Analytics 4 (Eventos)", "access": "restricted", "topics": []}
+      ]
+    },
+    {
+      "id": "martech-fase-3-automacoes",
+      "number": 3,
+      "title": "Automações",
+      "focus": "n8n, Make, Zapier, agentes e automação de marketing.",
+      "modules": [
+        {"id": "martech-16-n8n-leads", "order": 1, "title": "n8n: Otimizando a análise de leads", "hours": 8, "access": "available", "topics": ["fontes de dados", "tendências", "Google Sheets", "inconsistências", "Lead Score", "Looker Studio", "OpenAI", "relatório automático"], "deliverable": "Fluxo de análise de leads com score e relatório."},
+        {"id": "martech-17-n8n-campanhas-ia", "order": 2, "title": "n8n: Criando campanhas com IA", "hours": 6, "access": "available", "topics": ["autenticação", "fontes de dados", "Vector Store", "Notion", "embeddings", "agente de conteúdo", "governança"], "deliverable": "Fluxo de campanha com base de conhecimento e revisão humana."},
+        {"id": "martech-18-make-integracao", "order": 3, "title": "Automação com Make: integração e eficiência", "hours": 10, "access": "available", "topics": ["cenários", "filtros", "bundles", "freelancers", "Gemini", "arrays", "router", "URL Context", "DataStores", "Trello"], "deliverable": "Cenário Make documentado com subcenário e tratamento de erro."},
+        {"id": "martech-19-zapier", "order": 4, "title": "Zapier: integrando apps", "hours": 8, "access": "available", "topics": ["triggers", "actions", "Sheets", "Gmail", "Gemini", "postagens", "propostas", "paths"], "deliverable": "Zap de automação de comunicação ou vendas."},
+        {"id": "martech-20-email-marketing-workflows", "order": 5, "title": "E-mail Marketing e Workflows", "access": "restricted", "topics": []},
+        {"id": "martech-21-make-whatsapp-reviews", "order": 6, "title": "Make e WhatsApp (Reviews)", "access": "restricted", "topics": []},
+        {"id": "martech-22-social-listening-ia", "order": 7, "title": "Social Listening com IA", "access": "restricted", "topics": []},
+        {"id": "martech-23-agente-whatsapp-n8n", "order": 8, "title": "Agente IA para WhatsApp (n8n)", "access": "restricted", "topics": []}
+      ]
+    },
+    {
+      "id": "martech-fase-4-prototipagem-ux",
+      "number": 4,
+      "title": "Prototipagem & UX",
+      "focus": "Personas, prototipagem e ferramentas no-code/low-code.",
+      "modules": [
+        {"id": "martech-24-ia-personas", "order": 1, "title": "IA e Personas: criação acelerada", "hours": 8, "access": "available", "topics": ["aplicações", "objetivos", "observação", "roteiros", "Superluminal", "clusters", "ICP", "Midjourney", "Notion"], "deliverable": "Persona acionável com ICP e evidência visual."},
+        {"id": "martech-25-fase4-restritos", "order": 2, "title": "Cursos restritos de prototipagem e UX", "access": "restricted", "topics": ["Framer", "Figma", "Lovable", "Bolt.new", "Replit"]}
+      ]
+    },
+    {
+      "id": "martech-fase-5-ia-conteudo",
+      "number": 5,
+      "title": "IA em Conteúdo",
+      "focus": "Conteúdo, agentes GPT, Canva, vídeo e escala multicanal.",
+      "modules": [
+        {"id": "martech-26-fase5-restritos", "order": 1, "title": "Cursos restritos de IA em conteúdo", "access": "restricted", "topics": ["Canva", "HeyGen", "Copywriting", "Agentes GPT", "Escala Multicanal"]}
+      ]
+    }
+  ],
+  "recommendedFocus": ["Data Science para Marketing: explorando dados", "Tomada de decisão com IA", "n8n: Otimizando a análise de leads", "Power BI Desktop: primeiro dashboard"]
+}
