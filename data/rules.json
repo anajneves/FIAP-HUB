@@ -1,13 +1,22 @@
 {
-  "status": "initial_rule_structure",
+  "status": "source_cataloged_pending_extraction",
   "purpose": "Transformar guias acadêmicos e normas FIAP em cards práticos dentro do Anaju Neves Hub.",
   "sourcePolicy": {
     "rule": "Guias e normas não devem ficar apenas como PDF solto. Cada documento institucional precisa virar regra prática com fonte, impacto e ação.",
-    "pendingSourceDocuments": [
-      "2026_guia_academico_on_cursos_antigos.pdf",
-      "outros guias/normas FIAP ainda não catalogados"
+    "sourceDocuments": [
+      {
+        "title": "Guia acadêmico ON — Cursos antigos 2026",
+        "path": "2026_guia_academico_on_cursos_antigos.pdf",
+        "status": "cataloged",
+        "readingMode": "selective_read"
+      },
+      {
+        "title": "Documento institucional pendente de triagem",
+        "path": "13274b5c14834c7e8a56532b2d05ca35.pdf",
+        "status": "needs_triage",
+        "readingMode": "selective_read"
+      }
     ],
-    "readingMode": "selective_read",
     "placement": "FIAP > Guias acadêmicos / Normas FIAP"
   },
   "sections": [
@@ -15,22 +24,24 @@
       "id": "guias-academicos",
       "title": "Guias acadêmicos",
       "description": "Orientações institucionais sobre funcionamento do curso, canais, prazos, avaliações e procedimentos.",
-      "status": "pending_extraction",
+      "status": "source_cataloged_pending_extraction",
       "rules": [
         {
-          "id": "guia-academico-localizar-documento",
-          "title": "Localizar guia acadêmico oficial",
+          "id": "guia-academico-fonte-catalogada",
+          "title": "Guia acadêmico oficial localizado",
           "type": "source_status",
-          "source": "PDF institucional FIAP",
-          "impact": "Sem o guia oficial catalogado, o hub não consegue mostrar regras acadêmicas com segurança.",
-          "action": "Confirmar o arquivo do guia acadêmico no repositório e catalogar o caminho real em data/materials.json ou data/rules.json.",
-          "status": "pending_source"
+          "source": "2026_guia_academico_on_cursos_antigos.pdf",
+          "sourcePath": "2026_guia_academico_on_cursos_antigos.pdf",
+          "impact": "O hub já sabe qual documento institucional deve alimentar os cards de guia acadêmico.",
+          "action": "Extrair informações funcionais do PDF: canais, prazos, avaliação, suporte, procedimentos e regras acadêmicas aplicáveis.",
+          "status": "source_cataloged"
         },
         {
           "id": "guia-academico-extrair-regras",
           "title": "Extrair regras úteis do guia",
           "type": "workflow",
           "source": "Guia acadêmico FIAP",
+          "sourcePath": "2026_guia_academico_on_cursos_antigos.pdf",
           "impact": "O dashboard deve mostrar informação prática, não só link para documento longo.",
           "action": "Extrair: canais oficiais, prazos, avaliação, faltas/presença quando aplicável, rematrícula, suporte, atividades e procedimentos acadêmicos.",
           "status": "todo"
