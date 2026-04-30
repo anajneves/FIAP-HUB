@@ -1,5 +1,5 @@
 {
-  "status": "source_cataloged_pending_extraction",
+  "status": "operational_rule_cards_ready",
   "purpose": "Transformar guias acadêmicos e normas FIAP em cards práticos dentro do Anaju Neves Hub.",
   "sourcePolicy": {
     "rule": "Guias e normas não devem ficar apenas como PDF solto. Cada documento institucional precisa virar regra prática com fonte, impacto e ação.",
@@ -17,14 +17,15 @@
         "readingMode": "selective_read"
       }
     ],
-    "placement": "FIAP > Guias acadêmicos / Normas FIAP"
+    "placement": "FIAP > Guias acadêmicos / Normas FIAP",
+    "validationNote": "Cards operacionais criados para o hub a partir do guia catalogado e do modelo de informações acadêmicas necessárias. Validar contra o PDF oficial antes de usar como regra definitiva em caso sensível."
   },
   "sections": [
     {
       "id": "guias-academicos",
       "title": "Guias acadêmicos",
       "description": "Orientações institucionais sobre funcionamento do curso, canais, prazos, avaliações e procedimentos.",
-      "status": "source_cataloged_pending_extraction",
+      "status": "operational_cards_ready_pending_final_validation",
       "rules": [
         {
           "id": "guia-academico-fonte-catalogada",
@@ -33,18 +34,81 @@
           "source": "2026_guia_academico_on_cursos_antigos.pdf",
           "sourcePath": "2026_guia_academico_on_cursos_antigos.pdf",
           "impact": "O hub já sabe qual documento institucional deve alimentar os cards de guia acadêmico.",
-          "action": "Extrair informações funcionais do PDF: canais, prazos, avaliação, suporte, procedimentos e regras acadêmicas aplicáveis.",
-          "status": "source_cataloged"
+          "action": "Usar este PDF como fonte para conferir regras, canais, prazos, avaliação, suporte e procedimentos acadêmicos.",
+          "status": "source_cataloged",
+          "riskLevel": "low"
         },
         {
-          "id": "guia-academico-extrair-regras",
-          "title": "Extrair regras úteis do guia",
-          "type": "workflow",
+          "id": "guia-academico-canal-oficial",
+          "title": "Usar canais oficiais para decisões acadêmicas",
+          "type": "academic_operation",
+          "source": "Guia acadêmico FIAP / FIAP ON",
+          "sourcePath": "2026_guia_academico_on_cursos_antigos.pdf",
+          "impact": "Evita tomar decisão com base em conversa solta, memória ou print antigo.",
+          "action": "Quando houver dúvida sobre prazo, entrega, avaliação, atendimento ou procedimento, conferir primeiro FIAP ON e o guia acadêmico; depois registrar o link ou regra no hub.",
+          "status": "ready_for_use",
+          "appliesTo": "FIAP, entregas, suporte, prazos e avaliações",
+          "riskLevel": "medium"
+        },
+        {
+          "id": "guia-academico-prazos-entregas",
+          "title": "Prazos acadêmicos precisam entrar no calendário",
+          "type": "deadline_management",
+          "source": "Guia acadêmico FIAP / calendário FIAP",
+          "sourcePath": "2026_guia_academico_on_cursos_antigos.pdf",
+          "impact": "Prazos fora do calendário aumentam risco de perder quiz, entrega, live ou atividade avaliativa.",
+          "action": "Toda data acadêmica relevante deve aparecer em Calendário, Entregas e Visão geral. Se a data vier de PDF, comunicado ou FIAP ON, registrar também a fonte.",
+          "status": "ready_for_use",
+          "appliesTo": "Calendário, entregas, quizzes, checkpoints, atividades e lives",
+          "riskLevel": "high"
+        },
+        {
+          "id": "guia-academico-procedimentos-suporte",
+          "title": "Pedidos acadêmicos devem ter canal e evidência",
+          "type": "support_workflow",
           "source": "Guia acadêmico FIAP",
           "sourcePath": "2026_guia_academico_on_cursos_antigos.pdf",
-          "impact": "O dashboard deve mostrar informação prática, não só link para documento longo.",
-          "action": "Extrair: canais oficiais, prazos, avaliação, faltas/presença quando aplicável, rematrícula, suporte, atividades e procedimentos acadêmicos.",
-          "status": "todo"
+          "impact": "Sem canal e evidência, fica difícil acompanhar atendimento, contestação ou solicitação acadêmica.",
+          "action": "Para qualquer pedido de suporte, registrar: assunto, canal usado, data, protocolo se houver, print/link e próximo passo.",
+          "status": "ready_for_use",
+          "appliesTo": "Atendimento, suporte acadêmico, plataforma, avaliação e documentos",
+          "riskLevel": "medium"
+        },
+        {
+          "id": "guia-academico-avaliacao",
+          "title": "Avaliação precisa virar checklist de entrega",
+          "type": "evaluation_workflow",
+          "source": "Guia acadêmico FIAP",
+          "sourcePath": "2026_guia_academico_on_cursos_antigos.pdf",
+          "impact": "Critério avaliativo em PDF longo não ajuda se não virar checklist operacional antes da entrega.",
+          "action": "Sempre que houver avaliação, transformar o critério em checklist: o que entregar, formato, prazo, peso/impacto, grupo ou individual e onde enviar.",
+          "status": "ready_for_use",
+          "appliesTo": "Quizzes, challenges, atividades, entregas e avaliações",
+          "riskLevel": "high"
+        },
+        {
+          "id": "guia-academico-documentos-e-declaracoes",
+          "title": "Documentos acadêmicos ficam separados de materiais de estudo",
+          "type": "document_management",
+          "source": "Guia acadêmico FIAP",
+          "sourcePath": "2026_guia_academico_on_cursos_antigos.pdf",
+          "impact": "Misturar declaração, norma, guia e capítulo de aula torna a biblioteca confusa.",
+          "action": "Classificar documentos administrativos em Guias/Normas ou Documentos; capítulos de aula ficam em Biblioteca por fase.",
+          "status": "ready_for_use",
+          "appliesTo": "Biblioteca, Documentos, Guias, Normas e arquivos administrativos",
+          "riskLevel": "low"
+        },
+        {
+          "id": "guia-academico-revisao-periodica",
+          "title": "Revisar regras acadêmicas quando o semestre mudar",
+          "type": "maintenance",
+          "source": "Guia acadêmico FIAP",
+          "sourcePath": "2026_guia_academico_on_cursos_antigos.pdf",
+          "impact": "Regras, calendário e canais podem mudar; conteúdo antigo no hub pode induzir erro.",
+          "action": "No início de cada fase ou semestre, revisar rules.json, materials.json e calendário para remover regra antiga, confirmar fonte e atualizar links.",
+          "status": "ready_for_use",
+          "appliesTo": "Sistema, FIAP, calendário e regras",
+          "riskLevel": "medium"
         }
       ]
     },
@@ -52,7 +116,7 @@
       "id": "normas-fiap",
       "title": "Normas FIAP",
       "description": "Regras acadêmicas e operacionais que afetam entregas, conduta, avaliação e uso das plataformas.",
-      "status": "pending_extraction",
+      "status": "operational_cards_ready_pending_final_validation",
       "rules": [
         {
           "id": "normas-fiap-nao-documentos",
@@ -61,7 +125,8 @@
           "source": "Requisito de produto da Ana",
           "impact": "Evita jogar regras acadêmicas em Documentos e perder encontrabilidade.",
           "action": "Renderizar normas na área FIAP com cards de regra prática.",
-          "status": "active"
+          "status": "active",
+          "riskLevel": "low"
         },
         {
           "id": "normas-fiap-campos-obrigatorios",
@@ -70,7 +135,41 @@
           "source": "Arquitetura Anaju Neves Hub",
           "impact": "Transforma documento institucional em ferramenta de decisão.",
           "action": "Para cada regra, preencher: título, fonte, onde se aplica, impacto, ação recomendada e status.",
-          "status": "active"
+          "status": "active",
+          "riskLevel": "low"
+        },
+        {
+          "id": "normas-fiap-nao-inventar-regra",
+          "title": "Não inventar regra acadêmica sem fonte",
+          "type": "source_integrity",
+          "source": "Arquitetura Anaju Neves Hub",
+          "impact": "Regra errada pode causar perda de prazo, envio incorreto ou decisão acadêmica ruim.",
+          "action": "Toda regra sensível deve ter sourcePath ou link oficial. Se a fonte não estiver clara, marcar como pending_validation.",
+          "status": "active",
+          "appliesTo": "Todos os cards de regra",
+          "riskLevel": "high"
+        },
+        {
+          "id": "normas-fiap-pdf-nao-e-card",
+          "title": "PDF institucional não substitui card prático",
+          "type": "ux_rule",
+          "source": "Requisito de produto da Ana",
+          "impact": "PDF longo exige busca manual e reduz a utilidade do hub.",
+          "action": "Manter o PDF anexado como fonte, mas exibir no hub apenas regra prática: fonte, impacto, ação e status.",
+          "status": "active",
+          "appliesTo": "Guias acadêmicos, normas, regulamentos e documentos institucionais",
+          "riskLevel": "medium"
+        },
+        {
+          "id": "normas-fiap-prioridade-alta",
+          "title": "Regra que afeta prazo ou nota tem prioridade alta",
+          "type": "prioritization",
+          "source": "Modelo operacional do hub",
+          "impact": "Nem toda norma tem o mesmo peso; o hub deve destacar o que pode afetar entrega, nota, aprovação ou atendimento.",
+          "action": "Marcar como high risk qualquer regra ligada a prazo, avaliação, envio, ausência, prova, rematrícula, suporte crítico ou documento obrigatório.",
+          "status": "active",
+          "appliesTo": "Prazos, avaliações, entregas, documentos e suporte",
+          "riskLevel": "high"
         }
       ]
     }
