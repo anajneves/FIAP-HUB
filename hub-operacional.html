@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hub Operacional · Anaju Neves Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#070707;--line:#292933;--text:#f5f5f5;--muted:#a1a1aa;--faint:#71717a;--accent:#ED145B;--green:#22c55e;--warn:#f59e0b;--radius:20px;--serif:'Newsreader',Georgia,serif;--mono:'JetBrains Mono',Consolas,monospace}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 10% -10%,rgba(237,20,91,.20),transparent 34rem),radial-gradient(circle at 90% 0,rgba(59,130,246,.10),transparent 28rem),var(--bg);color:var(--text);font-family:var(--serif)}a{color:inherit;text-decoration:none}.wrap{max-width:1120px;margin:0 auto;padding:34px 20px 46px}.top{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:28px}.brand{display:flex;align-items:center;gap:12px}.avatar{width:50px;height:50px;border-radius:16px;display:grid;place-items:center;background:rgba(237,20,91,.12);border:1px solid rgba(237,20,91,.36);color:var(--accent);font-family:var(--mono);font-weight:700}.brand h1{font-size:19px;margin:0}.brand p{font-family:var(--mono);font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--faint);margin:5px 0 0}.btn{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:8px 13px;color:#fff;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;background:rgba(255,255,255,.035)}.hero{border:1px solid var(--line);border-radius:28px;padding:32px;background:linear-gradient(180deg,rgba(23,23,29,.94),rgba(13,13,17,.94));box-shadow:0 18px 70px rgba(0,0,0,.26);margin-bottom:20px}.kicker{font-family:var(--mono);font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--accent)}h2{font-size:48px;line-height:.95;font-weight:400;letter-spacing:-.04em;margin:10px 0}.lead{font-size:16px;line-height:1.5;color:var(--muted);max-width:760px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{border:1px solid var(--line);border-radius:var(--radius);padding:22px;background:rgba(255,255,255,.035);transition:transform .18s,background .18s,border-color .18s;min-height:190px;display:flex;flex-direction:column;justify-content:space-between}.card:hover{transform:translateY(-2px);background:rgba(255,255,255,.055);border-color:rgba(237,20,91,.40)}.card h3{font-size:27px;font-weight:400;margin:0 0 8px}.card p{font-size:14px;line-height:1.45;color:var(--muted);margin:0}.meta{display:flex;gap:7px;flex-wrap:wrap;margin-top:16px}.tag{display:inline-flex;gap:5px;align-items:center;padding:4px 8px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.06);font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--muted)}.tag:before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}.note{margin-top:18px;border:1px solid rgba(245,158,11,.35);border-radius:18px;background:rgba(245,158,11,.07);padding:16px;color:#fcd34d;font-size:14px;line-height:1.45}@media(max-width:820px){.grid{grid-template-columns:1fr}h2{font-size:36px}.top{align-items:flex-start;flex-direction:column}.wrap{padding:22px 16px 40px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <div class="brand"><div class="avatar">AJ</div><div><h1>Anaju Neves Hub</h1><p>atalhos operacionais</p></div></div>
+      <a class="btn" href="index.html">Entrada principal</a>
+    </header>
+
+    <section class="hero">
+      <div class="kicker">Task 3 · conexão direta</div>
+      <h2>Dois fluxos principais, sem caça ao link.</h2>
+      <p class="lead">Esta página existe para corrigir o problema prático: materiais e regras precisam estar a um clique, não escondidos dentro de menus ou cards genéricos.</p>
+    </section>
+
+    <section class="grid">
+      <a class="card" href="materiais.html">
+        <div>
+          <h3>Biblioteca → Materiais anexados</h3>
+          <p>Abre o leitor interno dos PDFs. Use para Fase 1, Fase 2, Fase 3 e guias cadastrados no <code>data/materials.json</code>.</p>
+        </div>
+        <div class="meta"><span class="tag" style="color:var(--green)">PDFs no site</span><span class="tag">leitor interno</span></div>
+      </a>
+      <a class="card" href="regras-fiap.html">
+        <div>
+          <h3>FIAP → Guias e normas</h3>
+          <p>Abre os cards práticos de regras acadêmicas com fonte, impacto, ação recomendada e status de validação.</p>
+        </div>
+        <div class="meta"><span class="tag" style="color:var(--warn)">FIAP</span><span class="tag">regras práticas</span></div>
+      </a>
+      <a class="card" href="anaju-neves-hub.html#biblioteca">
+        <div>
+          <h3>Voltar para Biblioteca no Hub</h3>
+          <p>Retorna para a seção de Biblioteca do dashboard principal quando você quiser olhar o contexto geral.</p>
+        </div>
+        <div class="meta"><span class="tag">dashboard</span><span class="tag">biblioteca</span></div>
+      </a>
+      <a class="card" href="anaju-neves-hub.html#fiap">
+        <div>
+          <h3>Voltar para FIAP no Hub</h3>
+          <p>Retorna para a seção FIAP do dashboard principal para ver fases, entregas e contexto acadêmico.</p>
+        </div>
+        <div class="meta"><span class="tag">dashboard</span><span class="tag">fiap</span></div>
+      </a>
+    </section>
+
+    <div class="note">Próximo ajuste ideal: inserir estes dois botões diretamente dentro do <code>anaju-neves-hub.html</code>. Este atalho já resolve a usabilidade sem mexer em calendário, MarTech ou tarefas.</div>
+  </main>
+</body>
+</html>
