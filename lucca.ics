@@ -5,12 +5,4 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Lucca
 X-WR-TIMEZONE:America/Recife
-BEGIN:VEVENT
-UID:lucca-placeholder@anaju-neves-hub
-DTSTAMP:20260501T000000Z
-DTSTART;VALUE=DATE:20260101
-DTEND;VALUE=DATE:20260102
-SUMMARY:Placeholder Lucca
-DESCRIPTION:Arquivo placeholder. Substituir pelo calendário real quando quiser.
-END:VEVENT
 END:VCALENDAR
