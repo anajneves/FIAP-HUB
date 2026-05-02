@@ -1,7 +1,7 @@
 {
   "timezone": "America/Recife",
-  "privacyMode": true,
-  "purpose": "Separar fontes de calendário sem expor dados pessoais no repositório público.",
+  "privacyMode": false,
+  "purpose": "Separar fontes de calendário e permitir arquivos públicos quando a Ana decidir que não há conteúdo sensível demais.",
   "sources": [
     {
       "id": "fiap",
@@ -15,37 +15,37 @@
       "notes": "Fonte acadêmica para lives, quizzes, desafios e atividades."
     },
     {
-      "id": "ana_local",
+      "id": "ana_pessoal",
       "label": "Ana / pessoal",
       "kind": "personal",
-      "path": "",
+      "path": "ana-pessoal.ics",
       "color": "#a78bfa",
       "enabled": true,
-      "storage": "local_import_only",
-      "privacyRisk": "high",
-      "notes": "Importar arquivo .ics localmente no navegador. Não salvar calendário pessoal no GitHub."
+      "storage": "repo_file_optional",
+      "privacyRisk": "medium",
+      "notes": "Arquivo pessoal permitido no repositório pela Ana. Se o arquivo não existir, a página ignora sem quebrar."
     },
     {
-      "id": "lucca_local",
+      "id": "lucca",
       "label": "Lucca",
       "kind": "shared_personal",
-      "path": "",
+      "path": "lucca.ics",
       "color": "#3b82f6",
       "enabled": true,
-      "storage": "local_import_only",
-      "privacyRisk": "high",
-      "notes": "Importar arquivo .ics localmente no navegador se a Ana quiser visualizar conflitos com agenda do Lucca. Não salvar no GitHub."
+      "storage": "repo_file_optional",
+      "privacyRisk": "medium",
+      "notes": "Agenda do Lucca permitida no repositório pela Ana. Se o arquivo não existir, a página ignora sem quebrar."
     },
     {
-      "id": "external_local",
+      "id": "externo",
       "label": "Externo",
       "kind": "external",
-      "path": "",
+      "path": "externo.ics",
       "color": "#22c55e",
       "enabled": false,
-      "storage": "local_import_only",
+      "storage": "repo_file_optional",
       "privacyRisk": "medium",
-      "notes": "Importar arquivo .ics externo localmente pela interface quando necessário."
+      "notes": "Arquivo externo opcional. Ativar quando houver fonte útil."
     }
   ],
   "rules": {
@@ -53,7 +53,13 @@
     "conflictWindowMinutes": 15,
     "deadlineKeywords": ["quiz", "desafio", "challenge", "entrega", "atividade", "deadline", "prazo"],
     "liveKeywords": ["live", "aula", "jornada", "webinar"],
-    "healthKeywords": ["consulta", "exame", "terapia"],
-    "privateCalendarPolicy": "Arquivos pessoais, saúde, rotina e agenda de terceiros devem ser importados localmente no navegador, não commitados no repositório público."
-  }
+    "healthKeywords": ["consulta", "exame", "terapia", "médico", "medico"],
+    "privacyNotice": "Calendários pessoais podem expor rotina, endereço e compromissos. A Ana autorizou uso público, mas fontes pessoais devem continuar separadas para facilitar remoção futura."
+  },
+  "expectedPublicFiles": [
+    "icalexport.ics",
+    "ana-pessoal.ics",
+    "lucca.ics",
+    "externo.ics"
+  ]
 }
