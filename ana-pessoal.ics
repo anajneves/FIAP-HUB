@@ -5,12 +5,4 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Ana / pessoal
 X-WR-TIMEZONE:America/Recife
-BEGIN:VEVENT
-UID:ana-pessoal-placeholder@anaju-neves-hub
-DTSTAMP:20260501T000000Z
-DTSTART;VALUE=DATE:20260101
-DTEND;VALUE=DATE:20260102
-SUMMARY:Placeholder Ana / pessoal
-DESCRIPTION:Arquivo placeholder. Substituir pelo calendário real quando quiser.
-END:VEVENT
 END:VCALENDAR
