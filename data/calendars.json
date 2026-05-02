@@ -1,6 +1,7 @@
 {
   "timezone": "America/Recife",
   "privacyMode": true,
+  "purpose": "Separar fontes de calendário sem expor dados pessoais no repositório público.",
   "sources": [
     {
       "id": "fiap",
@@ -9,32 +10,50 @@
       "path": "icalexport.ics",
       "color": "#ED145B",
       "enabled": true,
+      "storage": "repo_file",
+      "privacyRisk": "medium",
       "notes": "Fonte acadêmica para lives, quizzes, desafios e atividades."
     },
     {
-      "id": "personal_import",
-      "label": "Pessoal",
+      "id": "ana_local",
+      "label": "Ana / pessoal",
       "kind": "personal",
       "path": "",
       "color": "#a78bfa",
-      "enabled": false,
-      "notes": "Importar arquivo .ics localmente pela interface."
+      "enabled": true,
+      "storage": "local_import_only",
+      "privacyRisk": "high",
+      "notes": "Importar arquivo .ics localmente no navegador. Não salvar calendário pessoal no GitHub."
     },
     {
-      "id": "external_import",
+      "id": "lucca_local",
+      "label": "Lucca",
+      "kind": "shared_personal",
+      "path": "",
+      "color": "#3b82f6",
+      "enabled": true,
+      "storage": "local_import_only",
+      "privacyRisk": "high",
+      "notes": "Importar arquivo .ics localmente no navegador se a Ana quiser visualizar conflitos com agenda do Lucca. Não salvar no GitHub."
+    },
+    {
+      "id": "external_local",
       "label": "Externo",
       "kind": "external",
       "path": "",
-      "color": "#3b82f6",
+      "color": "#22c55e",
       "enabled": false,
-      "notes": "Importar arquivo .ics externo localmente pela interface."
+      "storage": "local_import_only",
+      "privacyRisk": "medium",
+      "notes": "Importar arquivo .ics externo localmente pela interface quando necessário."
     }
   ],
   "rules": {
     "hidePastByDefault": true,
     "conflictWindowMinutes": 15,
-    "deadlineKeywords": ["quiz", "desafio", "challenge", "entrega", "atividade"],
-    "liveKeywords": ["live", "aula", "jornada"],
-    "healthKeywords": ["consulta", "exame", "terapia"]
+    "deadlineKeywords": ["quiz", "desafio", "challenge", "entrega", "atividade", "deadline", "prazo"],
+    "liveKeywords": ["live", "aula", "jornada", "webinar"],
+    "healthKeywords": ["consulta", "exame", "terapia"],
+    "privateCalendarPolicy": "Arquivos pessoais, saúde, rotina e agenda de terceiros devem ser importados localmente no navegador, não commitados no repositório público."
   }
 }
