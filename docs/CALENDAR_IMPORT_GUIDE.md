@@ -1,60 +1,75 @@
-# Guia rápido — substituir calendários `.ics`
+# Guia rápido — calendários do Anaju Neves Hub
 
-Este guia explica como trocar os arquivos vazios de calendário pelos arquivos reais sem quebrar o Anaju Neves Hub.
+Este guia explica quais arquivos alimentam o `calendario-operacional.html` e como atualizar cada agenda sem quebrar o hub.
 
-## Arquivos usados pelo calendário operacional
+## Fontes oficiais atuais
 
-O arquivo `calendario-operacional.html` lê as fontes configuradas em:
+O calendário operacional lê as fontes configuradas em:
 
 ```txt
 data/calendars.json
 ```
 
-Hoje os arquivos esperados são:
+As fontes oficiais atuais são:
 
 ```txt
-icalexport.ics      → calendário FIAP
-ana-pessoal.ics     → calendário pessoal da Ana
-lucca.ics           → calendário do Lucca
-externo.ics         → calendário externo opcional
+FIAP & Afins          → icalexport.ics
+Calendar Compromissos → basic.ics
+Calendar L.M.         → basic (1).ics
 ```
 
-## Como substituir pelo celular
+## O que cada calendário representa
 
-1. Abra o repositório `FIAP-HUB` no GitHub.
-2. Toque no arquivo que deseja substituir, por exemplo:
+- `FIAP & Afins`: calendário acadêmico da FIAP, lives, quizzes, desafios, atividades e compromissos relacionados.
+- `Calendar Compromissos`: compromissos pessoais da Ana.
+- `Calendar L.M.`: agenda L.M. relacionada ao Lucca.
 
-```txt
-ana-pessoal.ics
-```
+## Arquivos antigos/depreciados
 
-3. Toque no ícone de edição.
-4. Apague todo o conteúdo atual.
-5. Cole o conteúdo completo do novo arquivo `.ics`.
-6. No campo de commit, use um título claro:
-
-```txt
-Update Ana personal calendar
-```
-
-ou:
-
-```txt
-Update Lucca calendar
-```
-
-7. Salve o commit direto na branch `main`.
-
-## Importante
-
-Não mude o nome dos arquivos, porque o calendário operacional procura exatamente estes caminhos:
+Estes arquivos foram placeholders temporários e não devem ser tratados como fontes oficiais:
 
 ```txt
 ana-pessoal.ics
 lucca.ics
 ```
 
-Se o nome mudar, será necessário atualizar também `data/calendars.json`.
+Se ainda existirem em alguma branch antiga, ignore ou remova quando for seguro. As fontes oficiais estão em `data/calendars.json`.
+
+## Como atualizar pelo celular
+
+1. Abra o repositório `FIAP-HUB` no GitHub.
+2. Toque no arquivo que deseja atualizar:
+
+```txt
+icalexport.ics
+basic.ics
+basic (1).ics
+```
+
+3. Toque no ícone de edição.
+4. Apague o conteúdo atual.
+5. Cole o conteúdo completo do novo arquivo `.ics`.
+6. Use uma mensagem de commit clara.
+
+Exemplos:
+
+```txt
+Update FIAP calendar
+Update Calendar Compromissos
+Update Calendar L.M.
+```
+
+7. Salve o commit na branch correta.
+
+## Regra principal
+
+O nome do arquivo precisa bater exatamente com o caminho em:
+
+```txt
+data/calendars.json
+```
+
+Se você renomear `basic.ics` para `Calendar Compromissos.ics`, também precisa atualizar `data/calendars.json` no mesmo commit.
 
 ## Como testar
 
@@ -64,21 +79,15 @@ Depois de salvar, abra:
 calendario-operacional.html
 ```
 
-Confirme se a fonte aparece como carregada:
+Confirme se aparecem apenas estas fontes:
 
 ```txt
-Ana / pessoal · carregado
-Lucca · carregado
+FIAP & Afins
+Calendar Compromissos
+Calendar L.M.
 ```
 
-Se aparecer carregado com `0`, o arquivo existe, mas não tem eventos válidos.
-
-## Regra de organização
-
-- Calendário FIAP fica em `icalexport.ics`.
-- Calendário pessoal da Ana fica em `ana-pessoal.ics`.
-- Calendário do Lucca fica em `lucca.ics`.
-- Qualquer agenda extra deve ir para `externo.ics` ou ser importada localmente pela interface.
+Se aparecer `carregado · 0`, o arquivo existe, mas não tem eventos válidos ou os eventos estão fora do período mostrado.
 
 ## Formato mínimo válido de `.ics`
 
@@ -101,4 +110,5 @@ Verifique:
 2. Se termina com `END:VCALENDAR`.
 3. Se cada evento começa com `BEGIN:VEVENT` e termina com `END:VEVENT`.
 4. Se o arquivo foi salvo com o nome correto.
-5. Se o navegador não está mostrando versão antiga em cache. Nesse caso, recarregue a página.
+5. Se o caminho em `data/calendars.json` está igual ao nome real do arquivo.
+6. Se o navegador não está mostrando cache antigo. Nesse caso, recarregue a página.
