@@ -1,51 +1,40 @@
 {
   "timezone": "America/Recife",
   "privacyMode": false,
-  "purpose": "Separar fontes de calendário e permitir arquivos públicos quando a Ana decidir que não há conteúdo sensível demais.",
+  "purpose": "Carregar apenas as agendas reais usadas no hub: FIAP & Afins, Calendar Compromissos e Calendar L.M.",
   "sources": [
     {
-      "id": "fiap",
-      "label": "FIAP",
+      "id": "fiap_afins",
+      "label": "FIAP & Afins",
       "kind": "academic",
       "path": "icalexport.ics",
       "color": "#ED145B",
       "enabled": true,
       "storage": "repo_file",
       "privacyRisk": "medium",
-      "notes": "Fonte acadêmica para lives, quizzes, desafios e atividades."
+      "notes": "Calendário acadêmico: FIAP, lives, quizzes, desafios, atividades e compromissos relacionados."
     },
     {
-      "id": "ana_pessoal",
-      "label": "Ana / pessoal",
+      "id": "calendar_compromissos",
+      "label": "Calendar Compromissos",
       "kind": "personal",
-      "path": "ana-pessoal.ics",
+      "path": "basic.ics",
       "color": "#a78bfa",
       "enabled": true,
-      "storage": "repo_file_optional",
+      "storage": "repo_file",
       "privacyRisk": "medium",
-      "notes": "Arquivo pessoal permitido no repositório pela Ana. Se o arquivo não existir, a página ignora sem quebrar."
+      "notes": "Agenda pessoal da Ana com compromissos. Arquivo real encontrado no repositório como basic.ics."
     },
     {
-      "id": "lucca",
-      "label": "Lucca",
+      "id": "calendar_lm",
+      "label": "Calendar L.M.",
       "kind": "shared_personal",
-      "path": "lucca.ics",
+      "path": "basic (1).ics",
       "color": "#3b82f6",
       "enabled": true,
-      "storage": "repo_file_optional",
+      "storage": "repo_file",
       "privacyRisk": "medium",
-      "notes": "Agenda do Lucca permitida no repositório pela Ana. Se o arquivo não existir, a página ignora sem quebrar."
-    },
-    {
-      "id": "externo",
-      "label": "Externo",
-      "kind": "external",
-      "path": "externo.ics",
-      "color": "#22c55e",
-      "enabled": false,
-      "storage": "repo_file_optional",
-      "privacyRisk": "medium",
-      "notes": "Arquivo externo opcional. Ativar quando houver fonte útil."
+      "notes": "Agenda L.M. relacionada ao Lucca. Arquivo real encontrado no repositório como basic (1).ics."
     }
   ],
   "rules": {
@@ -54,12 +43,15 @@
     "deadlineKeywords": ["quiz", "desafio", "challenge", "entrega", "atividade", "deadline", "prazo"],
     "liveKeywords": ["live", "aula", "jornada", "webinar"],
     "healthKeywords": ["consulta", "exame", "terapia", "médico", "medico"],
-    "privacyNotice": "Calendários pessoais podem expor rotina, endereço e compromissos. A Ana autorizou uso público, mas fontes pessoais devem continuar separadas para facilitar remoção futura."
+    "privacyNotice": "Calendários pessoais podem expor rotina, endereço e compromissos. A Ana autorizou uso público. Fontes foram mantidas separadas para facilitar edição, renomeação ou remoção futura."
   },
   "expectedPublicFiles": [
     "icalexport.ics",
+    "basic.ics",
+    "basic (1).ics"
+  ],
+  "deprecatedFiles": [
     "ana-pessoal.ics",
-    "lucca.ics",
-    "externo.ics"
+    "lucca.ics"
   ]
 }
