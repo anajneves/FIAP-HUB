@@ -18,23 +18,23 @@
       "id": "calendar_compromissos",
       "label": "Calendar Compromissos",
       "kind": "personal",
-      "path": "basic.ics",
+      "path": "calendar-compromissos.ics",
       "color": "#a78bfa",
       "enabled": true,
       "storage": "repo_file",
       "privacyRisk": "medium",
-      "notes": "Agenda pessoal da Ana com compromissos. Arquivo real encontrado no repositório como basic.ics."
+      "notes": "Agenda pessoal da Ana com compromissos. Arquivo real encontrado no repositório como calendar-compromissos.ics."
     },
     {
       "id": "calendar_lm",
       "label": "Calendar L.M.",
       "kind": "shared_personal",
-      "path": "basic (1).ics",
+      "path": "calendar-lm.ics",
       "color": "#3b82f6",
       "enabled": true,
       "storage": "repo_file",
       "privacyRisk": "medium",
-      "notes": "Agenda L.M. relacionada ao Lucca. Arquivo real encontrado no repositório como basic (1).ics."
+      "notes": "Agenda L.M. relacionada ao Lucca. Arquivo real encontrado no repositório como calendar-lm.ics."
     }
   ],
   "rules": {
@@ -47,8 +47,8 @@
   },
   "expectedPublicFiles": [
     "icalexport.ics",
-    "basic.ics",
-    "basic (1).ics"
+    "calendar-compromissos.ics",
+    "calendar-lm.ics"
   ],
   "deprecatedFiles": [
     "ana-pessoal.ics",

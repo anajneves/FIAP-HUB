@@ -14,8 +14,8 @@ As fontes oficiais atuais são:
 
 ```txt
 FIAP & Afins          → icalexport.ics
-Calendar Compromissos → basic.ics
-Calendar L.M.         → basic (1).ics
+Calendar Compromissos → calendar-compromissos.ics
+Calendar L.M.         → calendar-lm.ics
 ```
 
 ## O que cada calendário representa
@@ -42,8 +42,8 @@ Se ainda existirem em alguma branch antiga, ignore ou remova quando for seguro. 
 
 ```txt
 icalexport.ics
-basic.ics
-basic (1).ics
+calendar-compromissos.ics
+calendar-lm.ics
 ```
 
 3. Toque no ícone de edição.
@@ -69,7 +69,7 @@ O nome do arquivo precisa bater exatamente com o caminho em:
 data/calendars.json
 ```
 
-Se você renomear `basic.ics` para `Calendar Compromissos.ics`, também precisa atualizar `data/calendars.json` no mesmo commit.
+Se você renomear `calendar-compromissos.ics` para `Calendar Compromissos.ics`, também precisa atualizar `data/calendars.json` no mesmo commit.
 
 ## Como testar
 
