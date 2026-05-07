@@ -1,0 +1,46 @@
+{
+  "id": "solar-plus",
+  "title": "Projeto Solar+",
+  "status": "em_estruturacao",
+  "area": "FIAP",
+  "phase": "Trabalho de conclusão / projeto acadêmico",
+  "objective": "Organizar o projeto Solar+ como entrega acadêmica rastreável dentro do Hub.",
+  "problem": "As informações do projeto ainda estão dispersas e não aparecem como fluxo operacional dentro da seção FIAP.",
+  "solution": "Criar uma área com objetivo, entregáveis, próximos passos, status e pendências.",
+  "deliverables": [
+    {
+      "title": "Definir escopo do projeto",
+      "status": "pendente",
+      "note": "Registrar problema, público, proposta de valor e formato da entrega."
+    },
+    {
+      "title": "Mapear entregáveis obrigatórios",
+      "status": "pendente",
+      "note": "Conectar critérios da FIAP, prazos e arquivos finais."
+    },
+    {
+      "title": "Organizar próximos passos",
+      "status": "pendente",
+      "note": "Transformar o projeto em checklist de execução."
+    }
+  ],
+  "nextSteps": [
+    "Confirmar briefing oficial do projeto.",
+    "Registrar critérios de avaliação.",
+    "Separar materiais de pesquisa.",
+    "Definir checklist de entrega."
+  ],
+  "risks": [
+    {
+      "title": "Fonte oficial ainda não conectada",
+      "level": "medium",
+      "mitigation": "Não tratar nenhuma regra como definitiva sem fonte FIAP."
+    },
+    {
+      "title": "Escopo ainda genérico",
+      "level": "medium",
+      "mitigation": "Transformar objetivo, problema e solução em versão validável."
+    }
+  ],
+  "sources": []
+}
