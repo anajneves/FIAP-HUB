@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Status Atual · Anaju Neves Hub</title>
+  <title>Status pós Tasks 21–25 · Anaju Neves Hub</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -20,23 +20,41 @@
     </header>
 
     <section class="hero">
-      <div class="kicker">Task 5 · textos corrigidos</div>
-      <h2>Status real das fontes, sem informação antiga.</h2>
-      <p class="lead">Esta página corrige a leitura operacional do hub sem mexer no calendário ou no MarTech. Ela substitui os textos antigos que diziam que Fase 1 e Fase 2 estavam pendentes.</p>
+      <div class="kicker">Status pós Tasks 21–25</div>
+      <h2>Hub principal integrado e QA aprovado.</h2>
+      <p class="lead">O Hub já integra: FIAP, Guias e Normas, Calendários múltiplos, Biblioteca, MarTech, Solar+ e Links. Documentos em triagem. QA visual e de navegação aprovado na Task 25 sem alterações.</p>
     </section>
 
     <section class="grid">
+      <article class="card">
+        <h3>Hub principal</h3>
+        <p>Dashboard principal com Visão geral, FIAP, Calendário, Biblioteca, MarTech, Links, Documentos e Sistema.</p>
+        <div class="meta"><span class="tag" style="color:var(--green)">carregado</span><span class="tag">QA aprovado</span></div>
+        <div class="actions"><a class="btn primary" href="anaju-neves-hub.html">Abrir Hub</a></div>
+      </article>
+      <article class="card">
+        <h3>FIAP · Guias e normas</h3>
+        <p>Regras FIAP carregadas no Hub via data/rules.json, com fonte, impacto, ação e status.</p>
+        <div class="meta"><span class="tag" style="color:var(--green)">carregado</span><span class="tag">data/rules.json</span></div>
+        <div class="actions"><a class="btn primary" href="regras-fiap.html">Abrir regras</a><a class="btn" href="anaju-neves-hub.html#fiap">Ver FIAP</a></div>
+      </article>
+      <article class="card">
+        <h3>Calendários</h3>
+        <p>Calendário múltiplo carregado via data/calendars.json, com FIAP &amp; Afins, Calendar Compromissos e Calendar L.M.</p>
+        <div class="meta"><span class="tag" style="color:var(--green)">carregado</span><span class="tag">multi fonte</span><span class="tag">data/calendars.json</span></div>
+        <div class="actions"><a class="btn primary" href="anaju-neves-hub.html#calendario">Ver Calendário</a></div>
+      </article>
+      <article class="card">
+        <h3>Projeto Solar+</h3>
+        <p>Projeto Solar+ integrado à seção FIAP via data/solar-plus.json, com objetivo, entregáveis, próximos passos e riscos.</p>
+        <div class="meta"><span class="tag" style="color:var(--green)">carregado</span><span class="tag">FIAP</span><span class="tag">data/solar-plus.json</span></div>
+        <div class="actions"><a class="btn primary" href="anaju-neves-hub.html#fiap">Ver FIAP</a></div>
+      </article>
       <article class="card">
         <h3>Biblioteca</h3>
         <p>Catálogo carregado com Fase 1, Fase 2, Fase 3 e Guias/Normas. Os PDFs estão disponíveis pelo leitor interno.</p>
         <div class="meta"><span class="tag" style="color:var(--green)">carregado</span><span class="tag">34 itens</span><span class="tag">PDF no site</span></div>
         <div class="actions"><a class="btn primary" href="materiais.html">Abrir materiais</a><a class="btn" href="anaju-neves-hub.html#biblioteca">Ver no Hub</a></div>
-      </article>
-      <article class="card">
-        <h3>FIAP · Guias e normas</h3>
-        <p>Cards operacionais criados em rules.json. O guia acadêmico foi catalogado e a página regras-fiap.html já mostra fonte, impacto e ação recomendada.</p>
-        <div class="meta"><span class="tag" style="color:var(--green)">cards operacionais</span><span class="tag">validação pendente</span></div>
-        <div class="actions"><a class="btn primary" href="regras-fiap.html">Abrir regras</a><a class="btn" href="anaju-neves-hub.html#fiap">Ver FIAP</a></div>
       </article>
       <article class="card">
         <h3>MarTech</h3>
@@ -46,12 +64,12 @@
       </article>
       <article class="card">
         <h3>Próxima pendência real</h3>
-        <p>O próximo ajuste que ainda vale fazer é o calendário múltiplo: FIAP, pessoal e Lucca em fontes separadas, com cuidado por estar em repo público.</p>
-        <div class="meta"><span class="tag" style="color:var(--warn)">próxima task</span><span class="tag">calendário</span></div>
+        <p>Próxima pendência real: curadoria fina de conteúdo e validação das fontes oficiais, sem adicionar novas features antes de consolidar dados.</p>
+        <div class="meta"><span class="tag" style="color:var(--warn)">curadoria</span><span class="tag">validação</span></div>
       </article>
     </section>
 
-    <div class="note">Observação: o arquivo anaju-neves-hub.html ainda tem alguns textos antigos. Como ele é grande e o conector trouxe conteúdo truncado, esta correção foi isolada para não quebrar o dashboard principal. Próximo passo seguro: criar uma versão compacta substituta ou aplicar patch manual guiado.</div>
+    <div class="note">O Hub principal passou por QA visual e de navegação na Task 25. Nenhuma alteração foi necessária.</div>
   </main>
 </body>
 </html>
