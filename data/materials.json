@@ -22,7 +22,7 @@
           "discipline": "Fundamentos de negócios e marketing",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "01 - Iniciando a nossa jornada_RevFinal.pdf",
+          "path": "materiais/marketing-digital/01 - Iniciando a nossa jornada_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Abertura da fase 1 e introdução à jornada acadêmica."
@@ -35,7 +35,7 @@
           "discipline": "Cultura organizacional",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "02 - Cultura Organizacional_RevFinal.pdf",
+          "path": "materiais/negocios/02 - Cultura Organizacional_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Organização, cultura, valores e dinâmica institucional aplicada a negócios."
@@ -48,7 +48,7 @@
           "discipline": "Marca e identidade de negócio",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "03 - A cara do seu negócio_RevFinal.pdf",
+          "path": "materiais/negocios/03 - A cara do seu negócio_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Identidade, percepção e representação do negócio para o mercado."
@@ -61,7 +61,7 @@
           "discipline": "Concorrência e análise de mercado",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "04 - O que é que eles têm que você não tem_Revfinal.pdf",
+          "path": "materiais/negocios/04 - O que é que eles têm que você não tem_Revfinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Análise comparativa, diferenciação e leitura competitiva."
@@ -74,7 +74,7 @@
           "discipline": "Modelo de negócios e receita",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "05 - Como se ganha dinheiro com negócios_RevFinal.pdf",
+          "path": "materiais/marketing-digital/05 - Como se ganha dinheiro com negócios_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Lógica de receita, valor, monetização e viabilidade de negócios."
@@ -87,7 +87,7 @@
           "discipline": "Organizações e gestão",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "06 - Nossas organizações_RevFinal.pdf",
+          "path": "materiais/marketing-digital/06 - Nossas organizações_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Estrutura organizacional, gestão e funcionamento de empresas."
@@ -100,7 +100,7 @@
           "discipline": "Estratégia e competitividade",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "07 - O importante é competir_RevFinal.pdf",
+          "path": "materiais/marketing-digital/07 - O importante é competir_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Competição, posicionamento e estratégia de diferenciação."
@@ -113,7 +113,7 @@
           "discipline": "Proteção de marca, produto e consumidor",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "08 - Protegendo sua marca, seu produto e seu cliente_RevFinal.pdf",
+          "path": "materiais/marketing-digital/08 - Protegendo sua marca, seu produto e seu cliente_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Proteção jurídica, reputacional e operacional envolvendo marca, produto e cliente."
@@ -126,7 +126,7 @@
           "discipline": "Ética e responsabilidade",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "09 - Precisamos falar sobre ética_RevFinal.pdf",
+          "path": "materiais/marketing-digital/09 - Precisamos falar sobre ética_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Ética aplicada a negócios, comunicação e tomada de decisão."
@@ -139,7 +139,7 @@
           "discipline": "Vendas e proposta de valor",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "10 - Como seu produto vende_RevFinal.pdf",
+          "path": "materiais/negocios/10 - Como seu produto vende_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Processo de venda, proposta de valor e mercado."
@@ -152,7 +152,7 @@
           "discipline": "Vendas online e canais digitais",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "11 - É assim que se vende online_RevFinal.pdf",
+          "path": "materiais/negocios/11 - É assim que se vende online_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "E-commerce, canais digitais e lógica de venda online."
@@ -165,7 +165,7 @@
           "discipline": "UX e centralidade no usuário",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "12 - O foco é o usuário_RevFinal.pdf",
+          "path": "materiais/ux-design/12 - O foco é o usuário_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Centralidade no usuário, experiência e lógica de produto orientada por necessidade real."
@@ -187,7 +187,7 @@
           "discipline": "Produto e proposta de valor",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "01 - Tudo sobre o seu produto_Revfinal.pdf",
+          "path": "materiais/negocios/01 - Tudo sobre o seu produto_Revfinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Estruturação e entendimento do produto como base para estratégia."
@@ -200,7 +200,7 @@
           "discipline": "Marketing digital",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "02 - Vamos começar a base do marketing digital_Revfinal.pdf",
+          "path": "materiais/marketing-digital/02 - Vamos começar a base do marketing digital_Revfinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Fundamentos de marketing digital, canais e lógica de presença digital."
@@ -213,7 +213,7 @@
           "discipline": "Estratégia digital",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "03 - Alerta de Spoiler marketing digital_RevFinal.pdf",
+          "path": "materiais/marketing-digital/03 - Alerta de Spoiler marketing digital_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Estratégia e antecipação de temas centrais em marketing digital."
@@ -226,7 +226,7 @@
           "discipline": "Planejamento de marketing",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "04 - Keep Calm and planeje!_Revfinal.pdf",
+          "path": "materiais/marketing-digital/04 - Keep Calm and planeje!_Revfinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Planejamento, organização de ações e construção de direção estratégica."
@@ -239,7 +239,7 @@
           "discipline": "Experiência do cliente",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "05 - A experiência é tudo!_RevFinal.pdf",
+          "path": "materiais/ux-design/05 - A experiência é tudo!_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Experiência como diferencial competitivo e eixo de construção de valor."
@@ -252,7 +252,7 @@
           "discipline": "Cliente, produto e encantamento",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "06 - Seu cliente, seu produto e o fator UAU!_RevFinal.pdf",
+          "path": "materiais/negocios/06 - Seu cliente, seu produto e o fator UAU!_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Relação entre cliente, produto e diferenciação pela experiência."
@@ -265,7 +265,7 @@
           "discipline": "Produto, mercado e comercialização",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "07 - Produtos que se vendem_Revfinal.pdf",
+          "path": "materiais/negocios/07 - Produtos que se vendem_Revfinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Características de produtos vendáveis, percepção de valor e mercado."
@@ -278,7 +278,7 @@
           "discipline": "UX mobile, responsivo e desktop",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "08 - Os 10 mandamentos da UX Mobile, responsivo e desktop_Revfinal.pdf",
+          "path": "materiais/ux-design/08 - Os 10 mandamentos da UX Mobile, responsivo e desktop_Revfinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Princípios de experiência para interfaces mobile, responsivas e desktop."
@@ -291,7 +291,7 @@
           "discipline": "Comportamento mobile",
           "type": "chapter",
           "source": "FIAP ON",
-          "path": "09 - Comportamento e mundo mobile_RevFinal.pdf",
+          "path": "materiais/ux-design/09 - Comportamento e mundo mobile_RevFinal.pdf",
           "pageCount": null,
           "estimatedReadingMode": "catalog_only",
           "notes": "Comportamento do usuário em ambientes móveis e impactos para marketing digital."
