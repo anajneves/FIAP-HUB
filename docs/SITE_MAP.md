@@ -1,7 +1,7 @@
 # Site Map — Anaju Neves Hub
 
 Mapa de arquivos e estrutura de navegação atual.
-Última atualização: 2026-05-06
+Última atualização: 2026-05-07
 
 ---
 
@@ -12,7 +12,7 @@ index.html  (Home — ponto de entrada)
 ├── anaju-neves-hub.html        → Dashboard principal
 ├── calendario-operacional.html → Calendário operacional (FIAP & Afins, Compromissos, L.M.)
 ├── hub-operacional.html        → Fluxo operacional
-├── hub-status-atual.html       → Status atual do hub
+├── hub-status-atual.html       → Status atual do hub (Tasks 21–25)
 ├── materiais.html              → Leitor de materiais acadêmicos
 ├── regras-fiap.html            → Guias e normas FIAP
 └── docs/ANAJU_NEVES_HUB_PRODUCT_ARCHITECTURE.md  → Arquitetura do produto
@@ -28,7 +28,7 @@ index.html  (Home — ponto de entrada)
 | anaju-neves-hub.html | Dashboard principal com seções | Sim |
 | calendario-operacional.html | Calendário multi-fonte | Sim |
 | hub-operacional.html | Fluxo e processos operacionais | Sim |
-| hub-status-atual.html | Status atual das features | Sim |
+| hub-status-atual.html | Página de status atual do hub (pós Tasks 21–25, QA aprovado) | Sim |
 | materiais.html | Leitor de PDFs e materiais | Sim |
 | regras-fiap.html | Normas e guias FIAP | Sim |
 
@@ -46,15 +46,16 @@ index.html  (Home — ponto de entrada)
 
 | Arquivo | Usado por |
 |---------|-----------|
-| data/calendars.json | calendario-operacional.html |
+| data/calendars.json | calendario-operacional.html, anaju-neves-hub.html (calendário múltiplo) |
 | data/materials.json | materiais.html |
-| data/rules.json | regras-fiap.html |
+| data/rules.json | regras-fiap.html, anaju-neves-hub.html (seção FIAP) |
 | data/martech.json | anaju-neves-hub.html |
 | data/academic.json | anaju-neves-hub.html |
 | data/assets.json | uso interno |
 | data/branding.json | uso interno |
 | data/courses.json | uso interno |
 | data/quick-links.json | uso interno |
+| data/solar-plus.json | anaju-neves-hub.html (Projeto Solar+, seção FIAP) |
 
 ---
 
