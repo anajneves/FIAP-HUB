@@ -1,7 +1,7 @@
 # Site Map — Anaju Neves Hub
 
 Mapa de arquivos e estrutura de navegação atual.
-Última atualização: 2026-05-07
+Última atualização: 2026-05-08
 
 ---
 
@@ -75,6 +75,7 @@ index.html  (Home — ponto de entrada)
 |---------|----------|
 | docs/ANAJU_NEVES_HUB_PRODUCT_ARCHITECTURE.md | Arquitetura do produto |
 | docs/CALENDAR_IMPORT_GUIDE.md | Guia de calendários e .ics |
+| docs/CALENDAR_PUBLIC_LINKS.md | Links públicos autorizados dos calendários (documentação de origem) |
 | docs/QA_RELEASE_CHECKLIST.md | Checklist de QA antes de merge |
 | docs/SITE_MAP.md | Este arquivo — mapa do site |
 | docs/LIFE_OS_ARCHITECTURE.md | Arquitetura legado (J.One Life OS) — manter para referência |
