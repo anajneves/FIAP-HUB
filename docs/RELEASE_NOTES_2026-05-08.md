@@ -107,3 +107,38 @@ O Anaju Neves Hub está em estado estável de consolidação. As principais font
 - Os links públicos de calendário foram autorizados pela Ana e documentados em docs/CALENDAR_PUBLIC_LINKS.md. Não são consumidos diretamente pelo Hub.
 - O Hub continua consumindo data/calendars.json e arquivos .ics locais (icalexport.ics, calendar-compromissos.ics, calendar-lm.ics) para renderização.
 - Os resultados descritos neste documento refletem o estado catalogado no Hub. Validação oficial das fontes acadêmicas é etapa futura.
+
+---
+
+## Task 29 — QA Funcional Real (2026-05-08)
+
+### Auditoria de PDFs
+
+**Problema identificado:** 21 de 34 paths em `data/materials.json` apontavam para arquivos na raiz do repositório, mas os PDFs de Fase 1 e Fase 2 foram movidos para subdiretórios (`materiais/marketing-digital/`, `materiais/negocios/`, `materiais/ux-design/`) em commit anterior. Resultado: 404 em todos os botões "Abrir PDF" da Fase 1 e Fase 2.
+
+**Correção aplicada:** Paths corrigidos em `data/materials.json` para refletir os subdiretórios corretos. Commit: *Fix functional links and PDF availability before release*.
+
+**Resultado pós-correção:**
+- Fase 1: 12/12 PDFs OK
+- Fase 2: 9/9 PDFs OK
+- Fase 3: 11/11 PDFs OK
+- Guias e normas: 2/2 PDFs OK
+- **Total: 34/34 PDFs funcionando**
+
+### Foto / Assets
+
+- `IMG-20260425-WA0003.jpg` existe e exibida no avatar. ✓
+- Todos os assets de `data/assets.json` existem (200). ✓
+- Botão "Foto: imagem" funciona corretamente. ✓
+
+### Links externos
+
+- Todos os links externos têm `target="_blank"` e `rel="noopener"`. ✓
+
+### Links internos por hash
+
+- Links `#martech` e `#documentos` no card da seção Links não acionam a navegação do Hub. Impacto: baixo — navegação disponível pelo menu lateral. Não corrigido nesta task (exigiria alteração estrutural no Hub).
+
+### Resultado do QA
+
+QA funcional aprovado para PDFs, assets e links externos. Release liberada após correção dos paths em `data/materials.json`.
