@@ -137,8 +137,9 @@ O Anaju Neves Hub está em estado estável de consolidação. As principais font
 
 ### Links internos por hash
 
-- Links `#martech` e `#documentos` no card da seção Links não acionam a navegação do Hub. Impacto: baixo — navegação disponível pelo menu lateral. Não corrigido nesta task (exigiria alteração estrutural no Hub).
+- Links `#martech` e `#documentos` na seção Links foram corrigidos para acionar `setView()` e navegar para as views correspondentes. Commit: *Fix internal quick link navigation*.
+- Após o hotfix de navegação interna, foi identificado um erro de sintaxe em `attachDynamic()` (falta de `;` entre `updateAvatar()` e `document.querySelectorAll`). O erro foi corrigido no commit *Fix attachDynamic syntax after internal link hotfix*.
 
 ### Resultado do QA
 
-QA funcional aprovado para PDFs, assets e links externos. Release liberada após correção dos paths em `data/materials.json`.
+QA funcional aprovado. PDFs, assets, foto AJ, links externos e links internos principais foram validados após correções. Versão estável liberada para fechamento.
