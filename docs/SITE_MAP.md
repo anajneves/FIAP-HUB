@@ -78,6 +78,7 @@ index.html  (Home — ponto de entrada)
 | docs/CALENDAR_PUBLIC_LINKS.md | Links públicos autorizados dos calendários (documentação de origem) |
 | docs/RELEASE_NOTES_2026-05-06.md | Release notes versão 2026-05-06 |
 | docs/RELEASE_NOTES_2026-05-08.md | Release notes Tasks 20–26 e hotfix calendário (2026-05-08) |
+| docs/BACKLOG_V1_1.md | Backlog v1.1 — itens priorizados do QA real da usuária pós v1.0.0 |
 | docs/QA_RELEASE_CHECKLIST.md | Checklist de QA antes de merge |
 | docs/SITE_MAP.md | Este arquivo — mapa do site |
 | docs/LIFE_OS_ARCHITECTURE.md | Arquitetura legado (J.One Life OS) — manter para referência |
