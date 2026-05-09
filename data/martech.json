@@ -1,6 +1,8 @@
 {
   "sourceFile": "Curso MarTech.txt",
   "status": "structured_from_uploaded_schedule",
+      "category": "extracurricular",
+      "provider": "Alura",
   "title": "Curso MarTech",
   "description": "Cronograma completo do curso MarTech, separado por fases, módulos, carga horária, tópicos e status de acesso.",
   "rules": {
