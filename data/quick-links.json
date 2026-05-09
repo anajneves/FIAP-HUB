@@ -11,7 +11,7 @@
         },
         {
           "title": "Calendário FIAP",
-          "url": "icalexport.ics",
+          "url": "#calendario",
           "description": "Arquivo local usado como fonte de eventos acadêmicos."
         },
         {
