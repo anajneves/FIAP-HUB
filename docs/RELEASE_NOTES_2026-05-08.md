@@ -173,3 +173,48 @@ Residual registrado: RM571965 permanece como badge de perfil na barra lateral de
 ---
 
 *Release v1.1 — Anaju Neves Hub. 2026-05-11.*
+
+
+---
+
+# Hotfix v1.1.1 — Anaju Neves Hub — 2026-05-11
+
+## Resumo
+
+Correções pós-release da v1.1.0 identificadas via QA real no GitHub Pages. Branch: `hotfix/v1.1.1-post-release-qa`. Nenhuma tag alterada. Nenhum PDF, imagem ou .ics alterado.
+
+---
+
+## Bugs corrigidos
+
+| Fix | Descrição |
+|-----|-----------|
+| 1 | Sidebar: `.note` com `overflow:hidden` e `z-index:1`; sidebar com `padding-bottom:80px` e `overflow:hidden` para não sobrepor conteúdo ativo |
+| 2 | Calendário: header com mês/ano e botões Anterior/Próximo via `state.calendarMonthOffset` |
+| 3 | Calendário: ícone 📅 substituído por label textual `CAL` (mono, sem dependência de emoji) |
+| 4 | Low-stim: CSS real implementado — reduz gradientes, sombras, animações e contraste agressivo |
+| 5 | Calendário: auto-reset de `eventFilter` quando filtro de tipo salvo no localStorage resulta em 0 eventos |
+| 6 | Documentos: `assetCard()` renderiza botão "Abrir" para arquivos PDF |
+| 7 | Biblioteca: badge de páginas não exibido quando `pageCount` é `null` |
+| 8 | Tarefas: feedback visual via `showToast()` ao concluir, reabrir, apagar e restaurar |
+
+## Arquivos alterados
+
+- `anaju-neves-hub.html` — único arquivo modificado
+- `docs/RELEASE_NOTES_2026-05-08.md` — registro da hotfix
+
+## Segurança
+
+- senha: ausente ✅
+- password: ausente ✅
+- AnaJulia3101: ausente ✅
+- anajuliamedicina: ausente ✅
+- CREDENCIAIS ACADÊMICAS: ausente ✅
+
+## Commit
+
+`Hotfix v1.1.1 post-release QA` — branch `hotfix/v1.1.1-post-release-qa`
+
+---
+
+*Hotfix v1.1.1 — Anaju Neves Hub. 2026-05-11.*
