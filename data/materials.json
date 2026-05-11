@@ -484,14 +484,6 @@
           "notes": "PDF encontrado no conjunto inicial. Precisa de triagem visual/textual antes de classificação definitiva."
         }
       ]
-    },
-    {
-      "id": "martech-extra",
-      "title": "MarTech e cursos complementares",
-      "type": "professional_learning",
-      "status": "active",
-      "description": "Conteúdos externos ligados à evolução profissional em marketing, dados e automação.",
-      "items": []
     }
   ],
   "expectedMetadata": [

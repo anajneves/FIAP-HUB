@@ -714,10 +714,10 @@
           )
         ),
         h('div', { style:{padding:'20px 24px'} },
-          h('div', { style:{fontSize:10, color:'#555', fontFamily:'JetBrains Mono,monospace', letterSpacing:'0.08em', marginBottom:14} }, 'CREDENCIAIS ACADÊMICAS'),
+          h('div', { style:{fontSize:10, color:'#555', fontFamily:'JetBrains Mono,monospace', letterSpacing:'0.08em', marginBottom:14} }, 'ACESSOS EXTERNOS'),
           [
-            { label:'Portal FIAP ON', icon:h(Ic.BookOpen,{s:14,c:'text-red-500'}), login:'rm571965', senha:'••••••••••••', color:'#ED145B' },
-            { label:'Plataforma Alura', icon:h(Ic.PlayCircle,{s:14,c:'text-blue-400'}), login:'anajuliamedicina@gmail.com', senha:'••••••••', color:'#3b82f6' },
+            { label:'Portal FIAP ON', icon:h(Ic.BookOpen,{s:14,c:'text-red-500'}), url:'https://on.fiap.com.br/', color:'#ED145B' },
+            { label:'Plataforma Alura', icon:h(Ic.PlayCircle,{s:14,c:'text-blue-400'}), url:'https://app.alura.com.br/', color:'#3b82f6' },
             { label:'LinkedIn', icon:h(Ic.Linkedin,{s:14,c:'text-zinc-400'}), url:'linkedin.com/in/anajuneves', color:'#888' },
           ].map((item,i) => h('div', { key:i, style:{padding:'14px', background:'#111', border:'1px solid #1f1f1f', borderRadius:3, marginBottom:10} },
             h('div', { style:{display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:8} },
@@ -727,13 +727,13 @@
               ),
               h('span', { className:'tag', style:{background:'#0a1f0a', color:'#10b981'} }, 'CONECTADO')
             ),
-            item.login && h('div', { style:{fontSize:11, color:'#666', fontFamily:'JetBrains Mono,monospace', marginBottom:3} }, 'Login: ' + item.login),
-            item.senha && h('div', { style:{fontSize:11, color:'#666', fontFamily:'JetBrains Mono,monospace'} }, 'Senha: ' + item.senha),
+            
+            
             item.url   && h('div', { style:{fontSize:11, color:'#666', fontFamily:'JetBrains Mono,monospace'} }, 'URL: ' + item.url)
           )),
           h('div', { style:{marginTop:24, padding:'14px', background:'#0d0d0d', borderRadius:3, border:'1px solid #1f1f1f'} },
             h('div', { style:{fontSize:10, color:'#555', fontFamily:'JetBrains Mono,monospace', letterSpacing:'0.08em', marginBottom:8} }, 'TURMA 2026.1 · GESTÃO AUTÔNOMA'),
-            h('div', { style:{fontSize:11, color:'#777'} }, 'RM571965 · Ana Julia Neves'),
+            
             h('div', { style:{fontSize:11, color:'#555', marginTop:4} }, 'Dados salvos localmente no navegador.')
           )
         )

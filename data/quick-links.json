@@ -1,67 +1,78 @@
 {
-  "groups": [
-    {
-      "id": "academic",
-      "title": "Acadêmico",
-      "links": [
-        {
-          "title": "FIAP ON",
-          "url": "https://on.fiap.com.br/",
-          "description": "Portal acadêmico, aulas, entregas e comunicados."
-        },
-        {
-          "title": "Calendário FIAP",
-          "url": "icalexport.ics",
-          "description": "Arquivo local usado como fonte de eventos acadêmicos."
-        },
-        {
-          "title": "Materiais anexados",
-          "url": "materiais.html",
-          "description": "Leitor interno dos PDFs cadastrados no site, incluindo os capítulos da Fase 3."
-        },
-        {
-          "title": "Guias e normas FIAP",
-          "url": "regras-fiap.html",
-          "description": "Página visual com cards práticos para guias acadêmicos, normas FIAP, fonte, impacto e ação recomendada."
-        }
-      ]
-    },
-    {
-      "id": "courses",
-      "title": "Cursos e trilhas",
-      "links": [
-        {
-          "title": "Alura",
-          "url": "https://app.alura.com.br/",
-          "description": "Plataforma externa de cursos."
-        },
-        {
-          "title": "Curso MarTech",
-          "url": "#martech",
-          "description": "Seção própria para módulos e entregáveis."
-        },
-        {
-          "title": "Creative Strategist",
-          "url": "#documentos",
-          "description": "Material extra em documentos."
-        }
-      ]
-    },
-    {
-      "id": "project",
-      "title": "Projeto e manutenção",
-      "links": [
-        {
-          "title": "GitHub FIAP-HUB",
-          "url": "https://github.com/anajneves/FIAP-HUB",
-          "description": "Repositório principal do dashboard."
-        },
-        {
-          "title": "Arquitetura do Hub",
-          "url": "docs/ANAJU_NEVES_HUB_PRODUCT_ARCHITECTURE.md",
-          "description": "Documento atualizado de arquitetura e evolução."
-        }
-      ]
-    }
-  ]
+    "groups": [
+          {
+                  "id": "academic",
+                  "title": "Acadêmico",
+                  "links": [
+                            {
+                                        "title": "FIAP ON",
+                                        "url": "https://on.fiap.com.br/",
+                                        "description": "Portal acadêmico, aulas, entregas e comunicados."
+                            },
+                            {
+                                        "title": "Calendário FIAP",
+                                        "url": "#calendario",
+                                        "description": "Arquivo local usado como fonte de eventos acadêmicos."
+                            },
+                            {
+                                        "title": "Materiais anexados",
+                                        "url": "materiais.html",
+                                        "description": "Leitor interno dos PDFs cadastrados no site, incluindo os capítulos da Fase 3."
+                            },
+                            {
+                                        "title": "Guias e normas FIAP",
+                                        "url": "regras-fiap.html",
+                                        "description": "Página visual com cards práticos para guias acadêmicos, normas FIAP, fonte, impacto e ação recomendada."
+                            }
+                  ]
+          },
+          {
+                  "id": "courses",
+                  "title": "Cursos e trilhas",
+                  "links": [
+                            {
+                                        "title": "Alura",
+                                        "url": "https://app.alura.com.br/",
+                                        "description": "Plataforma externa de cursos."
+                            },
+                            {
+                                        "title": "Curso MarTech / Alura",
+                                        "url": "#martech",
+                                        "description": "Curso extracurricular da Alura. Seção com módulos e entregáveis."
+                            },
+                            {
+                                        "title": "Creative Strategist",
+                                        "url": "#documentos",
+                                        "description": "Material extra em documentos."
+                            }
+                  ]
+          },
+          {
+                  "id": "ferramentas",
+                  "title": "Ferramentas e produtividade",
+                  "links": [
+                            {
+                                        "title": "GoodNotes",
+                                        "url": "https://www.goodnotes.com/",
+                                        "description": "Caderno digital e anotações. Adicionar link da conta manualmente depois."
+                            }
+                  ]
+          },
+          {
+                  "id": "project",
+                  "title": "Projeto e manutenção",
+                  "links": [
+                            {
+                                        "title": "GitHub FIAP-HUB",
+                                        "url": "https://github.com/anajneves/FIAP-HUB",
+                                        "description": "Repositório principal do dashboard."
+                            },
+                            {
+                                        "title": "Arquitetura do Hub",
+                                        "url": "docs/ANAJU_NEVES_HUB_PRODUCT_ARCHITECTURE.md",
+                                        "description": "Documento atualizado de arquitetura e evolução."
+                            }
+                  ]
+          }
+    ]
 }

@@ -1,52 +1,83 @@
 {
-  "status": "initial_inventory_from_commits",
-  "assets": [
-    {
-      "path": "IMG-20260425-WA0003.jpg",
-      "type": "image",
-      "likelyUse": "profile_photo_candidate",
-      "notes": "Possível foto de perfil enviada pela Ana. Usar apenas se visualmente confirmada pela usuária."
-    },
-    {
-      "path": "Artboard-1.webp",
-      "type": "image",
-      "likelyUse": "visual_brand_reference_or_banner",
-      "notes": "Asset visual encontrado junto dos materiais da Fase 3 e do curso MarTech."
-    },
-    {
-      "path": "Screenshot 2026-04-17 01.25.31.png",
-      "type": "image",
-      "likelyUse": "ui_reference_or_context_capture",
-      "notes": "Print/referência visual. Classificar em Documentos > Referências visuais."
-    },
-    {
-      "path": "Screenshot 2026-04-25 14.35.42.png",
-      "type": "image",
-      "likelyUse": "ui_reference_or_context_capture",
-      "notes": "Print/referência visual. Classificar em Documentos > Referências visuais."
-    },
-    {
-      "path": "240927_PF-observatorio-IA-web-1.jpg",
-      "type": "image",
-      "likelyUse": "visual_reference",
-      "notes": "Imagem de apoio/referência relacionada a IA."
-    },
-    {
-      "path": "4975968.png",
-      "type": "image",
-      "likelyUse": "visual_reference_or_icon_asset",
-      "notes": "Imagem/asset gráfico. Precisa de triagem visual antes de uso."
-    },
-    {
-      "path": "ai-generated-8527252_1280-1280x640.jpg",
-      "type": "image",
-      "likelyUse": "visual_reference_or_banner",
-      "notes": "Imagem gerada/asset visual. Usar com critério para não poluir a identidade."
-    }
-  ],
-  "rules": {
+      "status": "audited_v1_1",
+      "assets": [
+              {
+                        "path": "IMG-20260425-WA0003.jpg",
+                        "type": "image",
+                        "likelyUse": "profile_photo_candidate",
+                        "category": "personal",
+                        "notes": "Possível foto de perfil enviada pela Ana via WhatsApp. Usar apenas se visualmente confirmada pela usuária. Mantida em Documentos pessoais enquanto não confirmada como avatar."
+              },
+              {
+                        "path": "13274b5c14834c7e8a56532b2d05ca35.pdf",
+                        "type": "document",
+                        "likelyUse": "student_id_candidate",
+                        "category": "personal",
+                        "notes": "PDF com nome de hash (41KB). Padrão de nome sugere export automático de portal acadêmico — possível carteirinha de estudante ou documento pessoal FIAP. Confirmar conteúdo com a usuária antes de exibir publicamente."
+              },
+              {
+                        "path": "Artboard-1.webp",
+                        "type": "brand_asset",
+                        "likelyUse": "visual_brand_reference_or_banner",
+                        "category": "visual_reference",
+                        "notes": "Asset visual pequeno (6KB) encontrado junto dos materiais da Fase 3 e do curso MarTech. Provável logo ou elemento de identidade visual. Referência visual — não tratar como documento pessoal."
+              },
+              {
+                        "path": "Screenshot 2026-04-17 01.25.31.png",
+                        "type": "screenshot",
+                        "likelyUse": "ui_reference_or_context_capture",
+                        "category": "extra",
+                        "notes": "Print de interface capturado em abril 2026. Material de contexto/referência. Classificado em Materiais extras."
+              },
+              {
+                        "path": "Screenshot 2026-04-25 14.35.42.png",
+                        "type": "screenshot",
+                        "likelyUse": "ui_reference_or_context_capture",
+                        "category": "extra",
+                        "notes": "Print de interface capturado em abril 2026. Material de contexto/referência. Classificado em Materiais extras."
+              },
+              {
+                        "path": "240927_PF-observatorio-IA-web-1.jpg",
+                        "type": "image",
+                        "likelyUse": "visual_reference",
+                        "category": "visual_reference",
+                        "notes": "Imagem do Observatório de IA (setembro 2026). Referência visual relacionada a IA e tecnologia. Não tratar como documento pessoal."
+              },
+              {
+                        "path": "4975968.png",
+                        "type": "image",
+                        "likelyUse": "visual_reference_or_icon_asset",
+                        "category": "visual_reference",
+                        "notes": "Imagem/ícone com nome numérico (7KB, provavelmente ID de asset de banco de imagens). Referência visual ou ícone de apoio. Precisa de triagem visual antes de uso em destaque."
+              },
+                      {
+                                "path": "ai-generated-8527252_1280-1280x640.jpg",
+                                "type": "image",
+                                "likelyUse": "visual_reference_or_banner",
+                                "category": "visual_reference",
+                                "notes": "Imagem gerada por IA (229KB). Asset visual de apoio. Usar com critério para não poluir a identidade do Hub. Referência visual — não tratar como foto pessoal."
+                      },
+              {
+                        "path": "2026_guia_academico_on_cursos_antigos.pdf",
+                        "type": "document",
+                        "likelyUse": "academic_guide_reference",
+                        "category": "extra",
+                        "notes": "Guia acadêmico FIAP ON 2026 para cursos antigos (896KB). Documento institucional de referência. Não pertence à Biblioteca de materiais por disciplina — arquivo extra de apoio institucional."
+              },
+              {
+                        "path": "Hub FIAP.mhtml",
+                        "type": "reference",
+                        "likelyUse": "web_archive_reference",
+                        "category": "extra",
+                        "notes": "Arquivo MHTML (web archive) do Hub FIAP — snapshot de página salva. Material de referência/contexto. Não exibir como conteúdo principal."
+              }
+      ],
+      "auditNotes": {
+              "carteirinha": "Não foi encontrado arquivo com nome explícito de carteirinha ou student_id. O arquivo 13274b5c14834c7e8a56532b2d05ca35.pdf (41KB, nome de hash) é o candidato mais provável — típico de exports automáticos de portais acadêmicos. Catalogado como student_id_candidate para revisão da usuária.",
+    "logos": "Nenhum arquivo com nome explícito de logo FIAP, Alura ou IA encontrado. Artboard-1.webp e 4975968.png são os candidatos mais prováveis a ícone/logo, ambos com menos de 8KB.",
+    "credenciais": "Auditoria concluída. Nenhuma senha, login ou credencial encontrada no repositório.",
     "profilePhoto": "Foto de perfil deve aparecer no header/sidebar apenas depois de confirmação visual. Fallback continua sendo avatar textual AJ.",
     "visualReferences": "Prints e imagens soltas pertencem a Documentos > Referências visuais, não à Biblioteca acadêmica.",
     "brandAssets": "Assets de FIAP/Alura podem inspirar seções, mas evitar uso que pareça oficial demais se não houver autorização."
-  }
+}
 }
