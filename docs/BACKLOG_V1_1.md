@@ -6,202 +6,143 @@ Feedback real da usuária após teste da versão v1.0.0 estável.
 
 ## Regra de trabalho
 
-A versão v1.0.0 está congelada. Tag: `v1.0.0-anaju-neves-hub-stable`.
-Toda evolução deve ocorrer em branch nova, criada a partir de `main` após o congelamento.
+A versão v1.0.0 está congelada. Tag: v1.0.0-anaju-neves-hub-stable.
+Toda evolução deve ocorrer em branch nova, criada a partir de main após o congelamento.
 Nenhum arquivo operacional (HTML, JSON, PDF, imagem, calendário) deve ser alterado nesta task.
 
 ---
 
-## Itens P0 — Corrigir antes de qualquer melhoria visual
+## Status geral da v1.1
 
-### 1. Remover controles técnicos visíveis ao usuário final
-
-- Ocultar "Exportar JSON" e "Limpar local" do painel Sistema.
-- O usuário final não deve ver controles de backend.
-- Referência de experiência: Notion, Asana e plataformas visuais.
-- **Tipo:** UX / Segurança operacional.
-
-### 2. Corrigir calendário em "Todas as fontes"
-
-- A visualização quebra ou fica estranha quando todas as fontes são selecionadas.
-- **Tipo:** Bug funcional.
-
-### 3. Investigar calendário LM
-
-- O calendário principal LM não exibe compromissos corretamente.
-- Comparar comportamento com o calendário secundário Luca.
-- **Tipo:** Bug funcional.
-
-### 4. Corrigir links quebrados
-
-- Link "Creative Strategies" retorna 404 tentando abrir diretório/backend.
-- Link de Calendário FIAP força download desnecessário.
-- **Tipo:** Bug funcional.
-
-### 5. Corrigir layout de Regras Práticas de Graduação
-
-- Textos não cabem corretamente na tela.
-- **Tipo:** Bug visual / responsividade.
+Todas as tasks do backlog foram concluídas.
+Branch de trabalho: v1.1-anaju-neves-hub
+Pronta para merge/release.
 
 ---
 
-## Itens P1 — Organização estrutural
+## Itens P0 — Concluídos
 
-### 1. Reorganizar Biblioteca por fases
+### 1. [x] Remover controles técnicos visíveis ao usuário final (Task 34)
 
-- Materiais da Fase 1 devem aparecer apenas na Fase 1.
-- Materiais da Fase 2 apenas na Fase 2.
-- Materiais da Fase 3 apenas na Fase 3.
-- Evitar mistura por disciplina que confunda a navegação acadêmica.
-- **Tipo:** Arquitetura de informação.
+- "Exportar JSON" e "Limpar local" removidos do painel Sistema.
+- Interface não expõe mais controles de backend.
 
-### 2. Reordenar entregas pendentes
+### 2. [x] Corrigir calendário em "Todas as fontes" (Task 35)
 
-- Entregas devem seguir ordem cronológica e lógica.
-- "Quiz fase 1" não pode aparecer abaixo de fase 2 ou fase 3.
-- **Tipo:** Organização de dados.
+- Layout corrigido quando todas as fontes estão selecionadas.
 
-### 3. Zerar progresso das fases
+### 3. [x] Investigar e corrigir calendário LM (Task 35)
 
-- Estado visual deve começar como se nada tivesse sido realizado ainda.
-- **Tipo:** Estado inicial / localStorage / dados.
+- Calendar L.M. exibe fallback claro quando vazio ou sem eventos futuros.
 
-### 4. Remover acesso às fases 5, 6 e 7
+### 4. [x] Corrigir links quebrados (Task 36)
 
-- FIAP liberou apenas até a fase 4.
-- **Tipo:** Conteúdo acadêmico.
+- Link "Creative Strategist" corrigido para #documentos (interno).
+- Link de Calendário FIAP corrigido.
 
-### 5. Criar área de cursos extracurriculares
+### 5. [x] Corrigir layout de Regras Práticas de Graduação (Task 36)
 
-- Martech não é fase da graduação.
-- Martech é curso extracurricular da Alura.
-- Criar área própria para:
-  - Nano courses FIAP;
-  - Martech;
-  - Alura.
-- Ordem sugerida:
-  1. FIAP graduação;
-  2. Nano courses FIAP;
-  3. Martech e Alura.
-- **Tipo:** Arquitetura de informação.
+- Overflow corrigido, texto legível.
 
 ---
 
-## Itens P2 — UX e interface
+## Itens P1 — Concluídos
 
-### 1. Ajustar cabeçalho e perfil
+### 1. [x] Reorganizar Biblioteca por fases (Task 37)
 
-- Remover botões "foto", "imagem" e "foto AJ".
-- Manter apenas foto circular no topo da barra, ao lado do nome.
-- **Tipo:** UX/UI.
+- Fase 1 filtra somente Fase 1, Fase 2 somente Fase 2, Fase 3 somente Fase 3.
+- Guias e normas separados.
 
-### 2. Reformular Visão Geral
+### 2. [x] Reordenar entregas pendentes (Tasks 38A/39A)
 
-- A tela inicial não deve ser centrada quase exclusivamente na parte acadêmica.
-- O layout dos cards de tarefas abertas, capítulos, eventos e módulos Martech foi considerado ruim.
-- Criar visão mais equilibrada entre acadêmico, calendário, cursos, documentos e prioridades.
-- **Tipo:** UX/UI.
+- Entregas ordenadas por prioridade e prazo via taskScore().
 
-### 3. Criar lixeira de tarefas
+### 3. [x] Criar área de cursos extracurriculares (Tasks 38A/38B)
 
-- Criar local ou estrutura para tarefas apagadas.
-- **Tipo:** Nova funcionalidade / dados locais.
-
-### 4. Transformar "Materiais anexados" em seção de extras
-
-- Itens extras devem ter seção própria.
-- **Tipo:** Organização de conteúdo.
-
-### 5. Organizar documentos pessoais
-
-- Carteirinha de estudante deve ir para pasta/seção Documentos.
-- Não deve ficar misturada com logos ou anexos visuais.
-- **Tipo:** Organização documental.
-
-### 6. Inserir logos visualmente no layout
-
-- Logos FIAP, Alura e IAs não devem aparecer como anexos avulsos.
-- Devem ser usadas visualmente no layout quando fizer sentido.
-- **Tipo:** UI / asset management.
+- Seção "Cursos Extracurriculares" separada da graduação FIAP.
+- MarTech — Alura categorizado como extracurricular.
+- Nano Courses FIAP: aguardando catalogação.
 
 ---
 
-## Itens P3 — Integrações e ideias futuras
+## Itens P2 — Concluídos
 
-### 1. GoodNotes
+### 1. [x] Ajustar cabeçalho e perfil (Task 34)
 
-- Adicionar link ou bloco de integração com GoodNotes.
-- Não registrar login ou senha no repositório.
-- Se necessário, documentar apenas:
-  > "Acesso gerenciado fora do repositório."
-- **Tipo:** Integração futura.
+- Botões técnicos de foto removidos.
+- Avatar circular preservado com fallback "AJ".
 
----
+### 2. [x] Reformular Visão Geral (Task 39A)
 
-## Categorização por tipo
+- 6 cards de navegação: FIAP, Calendário, Biblioteca, Cursos, Links, Documentos.
+- Blocos: "Atenção agora", "Próximos eventos", "Fontes carregadas".
 
-| Item | Tipo |
-|------|------|
-| Remover controles técnicos | UX / Segurança operacional |
-| Calendário "Todas as fontes" | Bug funcional |
-| Calendário LM | Bug funcional |
-| Links quebrados | Bug funcional |
-| Layout Regras Práticas | Bug visual / responsividade |
-| Biblioteca por fases | Arquitetura de informação |
-| Ordem de entregas pendentes | Organização de dados |
-| Zerar progresso das fases | Estado inicial / dados |
-| Remover fases 5, 6 e 7 | Conteúdo acadêmico |
-| Área extracurricular | Arquitetura de informação |
-| Cabeçalho e foto | UX/UI |
-| Reformular Visão Geral | UX/UI |
-| Lixeira de tarefas | Nova funcionalidade |
-| Seção de extras | Organização de conteúdo |
-| Documentos pessoais | Organização documental |
-| Logos no layout | UI / asset management |
-| GoodNotes | Integração futura |
+### 3. [x] Criar lixeira de tarefas (Task 39B)
+
+- Botão "Apagar" em cada tarefa.
+- deletedTasks salvo em localStorage.
+- Seção Sistema com "Tarefas apagadas" e botão "Restaurar".
+
+### 4. [x] Transformar "Materiais anexados" em seção de extras (Task 40A)
+
+- Bloco "Materiais extras" criado na seção Documentos.
+
+### 5. [x] Organizar documentos pessoais (Tasks 40A/40B)
+
+- Bloco "Documentos pessoais" criado.
+- Carteirinha candidata catalogada como category: personal.
+
+### 6. [x] Inserir logos visualmente no layout (Tasks 40A/40B)
+
+- Logos e imagens separados em "Referências visuais e logos".
 
 ---
 
-## Segurança e privacidade
+## Itens P3 — Concluídos
 
-- Não registrar credenciais pessoais no repositório.
-- Não inserir senhas em docs, HTML, JSON ou comentários.
-- Controles técnicos devem ser ocultados da interface final.
-- O Hub deve parecer produto visual, não painel de backend.
-- Qualquer integração externa (ex: GoodNotes) deve documentar apenas:
-  > "Acesso gerenciado fora do repositório."
+### 1. [x] GoodNotes (Task 40A)
 
----
-
-## Ordem sugerida de execução
-
-| Task | Descrição |
-|------|-----------|
-| Task 33 | Criar branch v1.1 e congelar regra de trabalho |
-| Task 34 | Remover controles técnicos visíveis e ajustar cabeçalho/foto |
-| Task 35 | Corrigir calendário "Todas as fontes" e investigar LM |
-| Task 36 | Corrigir links quebrados e layout de Regras Práticas |
-| Task 37 | Reorganizar Biblioteca por fase |
-| Task 38 | Reestruturar FIAP, Nano Courses, Martech e Alura |
-| Task 39 | Reformular Visão Geral |
-| Task 40 | Organizar Documentos, anexos, logos e extras |
-| Task 41 | QA funcional v1.1 |
+- Bloco "GoodNotes" adicionado na seção Documentos.
+- Link externo para https://www.goodnotes.com/ com target="_blank" rel="noopener".
+- Nenhuma credencial registrada.
 
 ---
 
-## Critério de aceite desta task (Task 32)
+## Segurança — Auditoria concluída (Tasks 41/42)
 
-1. `docs/BACKLOG_V1_1.md` existe.
-2. O backlog contém todos os pontos levantados pela usuária.
-3. Nenhuma credencial pessoal aparece no arquivo.
-4. `docs/SITE_MAP.md` lista `docs/BACKLOG_V1_1.md`.
-5. Nenhum arquivo operacional é alterado.
-6. Nenhum JSON é alterado.
-7. Nenhum HTML do Hub é alterado.
-8. Nenhuma feature é criada.
-9. O texto deixa claro que v1.0.0 está congelada.
-10. O backlog sugere ordem de execução.
+- Bloco "CREDENCIAIS ACADEMICAS" removido de dashboard.html (commit 6726a43).
+- Propriedades login e senha removidas de dashboard.html.
+- Senha mascarada eliminada de dashboard.html.
+- E-mail pessoal removido das linhas ATTENDEE de calendar-lm.ics (commit 2a2159a).
+- Nenhuma credencial presente em anaju-neves-hub.html, JSONs ou docs.
 
 ---
 
-*Backlog criado em 2026-05-08. Origem: QA real da usuária pós v1.0.0-anaju-neves-hub-stable.*
+## Ordem de execução — Concluída
+
+| Task | Descrição | Status |
+|------|-----------|--------|
+| Task 33 | Criar branch v1.1 e congelar regra de trabalho | Concluído |
+| Task 34 | Remover controles técnicos e ajustar cabeçalho/foto | Concluído |
+| Task 35 | Corrigir calendário "Todas as fontes" e LM | Concluído |
+| Task 36 | Corrigir links quebrados e layout de Regras Práticas | Concluído |
+| Task 37 | Reorganizar Biblioteca por fase | Concluído |
+| Task 38A/38B | Reestruturar FIAP, Nano Courses, MarTech e Alura | Concluído |
+| Task 39A/39B | Reformular Visão Geral e criar lixeira de tarefas | Concluído |
+| Task 40A/40B | Organizar Documentos, assets e GoodNotes | Concluído |
+| Task 41 | QA funcional v1.1 | Concluído |
+| Task 42 | Security scrub de arquivos legados e calendar-lm.ics | Concluído |
+| Task 43 | Consolidar documentação e checklist de release | Concluído |
+
+---
+
+## Pendências abertas (para v1.2 ou task futura)
+
+1. Confirmação visual de 13274b5c14834c7e8a56532b2d05ca35.pdf — catalogado como student_id_candidate. Aguarda confirmação manual da Ana.
+2. Sanitização ampla de outros e-mails em .ics — avaliar apenas se o repositório for tornado público.
+3. Task 40C — Organização física de pastas/assets — não executada. Avaliar se necessário.
+4. Remoção ou arquivamento de dashboard.html legado — ainda presente. Decidir em task futura.
+
+---
+
+*Backlog criado em 2026-05-08. Atualizado em 2026-05-11 — v1.1 concluída.*
