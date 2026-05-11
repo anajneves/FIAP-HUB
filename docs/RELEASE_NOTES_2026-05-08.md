@@ -6,7 +6,7 @@ Esta release consolida o Hub principal como central operacional acadêmica, prof
 
 ---
 
-## Escopo da release
+## Escopo da release (Tasks 20–29)
 
 - Refatoração textual do Hub principal (Task 20);
 - Integração de regras FIAP via data/rules.json (Task 21);
@@ -15,131 +15,161 @@ Esta release consolida o Hub principal como central operacional acadêmica, prof
 - Atualização da Visão geral e Integridade das fontes (Task 24);
 - QA visual e navegação aprovado sem alterações (Task 25);
 - Atualização de hub-status-atual.html e docs/SITE_MAP.md (Task 26);
-- Organização dos links públicos de calendário em docs/CALENDAR_PUBLIC_LINKS.md (hotfix).
-
----
-
-## Mudanças por área
-
-### Visão geral
-
-- Integridade das fontes atualizada: FIAP, Regras, Calendários e Solar+ marcados como carregados;
-- Métrica de próximos eventos separada do filtro da aba Calendário (commit 5b5e800);
-- Textos antigos de Fase 1 e Fase 2 pendentes removidos (commit e735b56).
-
-### FIAP
-
-- Fases e entregas mantidas;
-- Guias acadêmicos e Normas FIAP carregados via data/rules.json (commits b89d133, eb0fa89, ccf9d46);
-- Projeto Solar+ integrado à seção FIAP via data/solar-plus.json (commits 375584e, 4b29779).
-
-### Calendário
-
-- Múltiplas fontes conectadas via data/calendars.json (commit 453eb56);
-- Filtros por tipo e por fonte operacionais;
-- Eventos com sourceId, sourceLabel, sourceKind e sourceColor;
-- Links públicos autorizados documentados em docs/CALENDAR_PUBLIC_LINKS.md (hotfix, commits 6673295, c852323, dbb5a17).
-
-### Biblioteca
-
-- Materiais continuam renderizados via data/materials.json;
-- PDFs mantidos como fonte operacional de leitura.
-
-### MarTech
-
-- Curso continua renderizado via data/martech.json;
-- Fases, módulos, entregáveis e restrições preservados.
-
-### Links
-
-- Acessos rápidos mantidos via data/quick-links.json.
-
-### Documentos
-
-- Mantido como área de triagem;
-- Não virou depósito de regras FIAP, Biblioteca, MarTech ou Solar+.
-
-### Sistema
-
-- Exportação, localStorage e controles locais preservados.
-
----
-
-## QA
-
-- Task 25 aprovada sem alterações: nenhuma correção necessária no QA visual;
-- Navegação principal validada sem links quebrados;
-- Auditoria de links internos registrada em docs/QA_RELEASE_CHECKLIST.md.
-
----
-
-## Arquivos criados ou atualizados
-
-| Arquivo | Tipo | Descrição |
-|---------|------|----------|
-| anaju-neves-hub.html | atualizado | Refatoração textual + integrações (Tasks 20–24) |
-| data/solar-plus.json | criado | Fonte de dados do Projeto Solar+ |
-| docs/CALENDAR_PUBLIC_LINKS.md | criado | Links públicos autorizados dos calendários (hotfix) |
-| hub-status-atual.html | atualizado | Status pós Tasks 21–25, QA registrado (Task 26) |
-| docs/SITE_MAP.md | atualizado | Mapa do site com novas fontes e documentação (Task 26 + hotfix) |
-| docs/RELEASE_NOTES_2026-05-08.md | criado | Este arquivo (Task 27) |
-
----
-
-## Estado atual
-
-O Anaju Neves Hub está em estado estável de consolidação. As principais fontes operacionais foram conectadas e a navegação passou por QA visual. A próxima fase deve priorizar curadoria fina de conteúdo, validação de fontes oficiais e auditoria final antes de novas features.
-
----
-
-## Pendências futuras
-
-- Curadoria fina dos textos e fontes oficiais;
-- Revisão de arquivos legados (dashboard.html, home.html, life-os.html);
-- Auditoria final de links internos e externos;
-- QA de release completo antes de novas features;
-- Organização do backlog futuro.
-
----
-
-## Observações
-
-- Os links públicos de calendário foram autorizados pela Ana e documentados em docs/CALENDAR_PUBLIC_LINKS.md. Não são consumidos diretamente pelo Hub.
-- O Hub continua consumindo data/calendars.json e arquivos .ics locais (icalexport.ics, calendar-compromissos.ics, calendar-lm.ics) para renderização.
-- Os resultados descritos neste documento refletem o estado catalogado no Hub. Validação oficial das fontes acadêmicas é etapa futura.
+- Organização dos links públicos de calendário em docs/CALENDAR_PUBLIC_LINKS.md (hotfix);
+- QA funcional completo com correção de PDFs e links internos (Task 29).
 
 ---
 
 ## Task 29 — QA Funcional Real (2026-05-08)
 
-### Auditoria de PDFs
+**PDFs:** 34/34 funcionando após correção de paths em data/materials.json.
+**Links internos:** #martech e #documentos corrigidos via setView().
+**Assets:** IMG-20260425-WA0003.jpg exibida no avatar. ✓
+**Links externos:** target="_blank" e rel="noopener" em todos. ✓
 
-**Problema identificado:** 21 de 34 paths em `data/materials.json` apontavam para arquivos na raiz do repositório, mas os PDFs de Fase 1 e Fase 2 foram movidos para subdiretórios (`materiais/marketing-digital/`, `materiais/negocios/`, `materiais/ux-design/`) em commit anterior. Resultado: 404 em todos os botões "Abrir PDF" da Fase 1 e Fase 2.
+---
 
-**Correção aplicada:** Paths corrigidos em `data/materials.json` para refletir os subdiretórios corretos. Commit: *Fix functional links and PDF availability before release*.
+---
 
-**Resultado pós-correção:**
-- Fase 1: 12/12 PDFs OK
-- Fase 2: 9/9 PDFs OK
-- Fase 3: 11/11 PDFs OK
-- Guias e normas: 2/2 PDFs OK
-- **Total: 34/34 PDFs funcionando**
+# Release Notes — Anaju Neves Hub v1.1 — 2026-05-11
 
-### Foto / Assets
+## Resumo executivo
 
-- `IMG-20260425-WA0003.jpg` existe e exibida no avatar. ✓
-- Todos os assets de `data/assets.json` existem (200). ✓
-- Botão "Foto: imagem" funciona corretamente. ✓
+A v1.1 transforma o Hub em uma interface mais organizada, segura e usável. Separa claramente FIAP graduação, Cursos extracurriculares, Biblioteca, Calendário, Documentos e Sistema. Remove controles técnicos expostos. Adiciona lixeira de tarefas, organiza documentos por categoria e aplica security scrub nos arquivos legados.
 
-### Links externos
+**Branch de trabalho:** v1.1-anaju-neves-hub
+**Versão estável anterior preservada em:** tag v1.0.0-anaju-neves-hub-stable
 
-- Todos os links externos têm `target="_blank"` e `rel="noopener"`. ✓
+---
 
-### Links internos por hash
+## Escopo da v1.1 (Tasks 33–42)
 
-- Links `#martech` e `#documentos` na seção Links foram corrigidos para acionar `setView()` e navegar para as views correspondentes. Commit: *Fix internal quick link navigation*.
-- Após o hotfix de navegação interna, foi identificado um erro de sintaxe em `attachDynamic()` (falta de `;` entre `updateAvatar()` e `document.querySelectorAll`). O erro foi corrigido no commit *Fix attachDynamic syntax after internal link hotfix*.
+| Task | Descrição | Status |
+|------|-----------|--------|
+| Task 33 | Criar branch v1.1, congelar regra de trabalho | ✅ Concluído |
+| Task 34 | Limpar cabeçalho, foto e controles técnicos | ✅ Concluído |
+| Task 35 | Corrigir calendário "Todas as fontes" e Calendar L.M. | ✅ Concluído |
+| Task 36 | Corrigir links quebrados e layout de Regras FIAP | ✅ Concluído |
+| Task 37 | Reorganizar Biblioteca por fase | ✅ Concluído |
+| Task 38A | Separar FIAP graduação de Cursos extracurriculares | ✅ Concluído |
+| Task 38B | Integrar MarTech / Alura como cursos separados | ✅ Concluído |
+| Task 39A | Reformular Visão Geral | ✅ Concluído |
+| Task 39B | Adicionar lixeira de tarefas (deletedTasks via localStorage) | ✅ Concluído — commit 5f5fd79 |
+| Task 40A | Organizar Documentos, assets e GoodNotes | ✅ Concluído — commits c2c5c01, d67d672, e6e5c35 |
+| Task 40B | Catalogar documentos pessoais e assets visuais | ✅ Concluído — commit 947a398 |
+| Task 41 | QA visual e funcional v1.1 | ✅ Concluído — commit 5c92cbc |
+| Task 42 | Security scrub de arquivos legados e calendar-lm.ics | ✅ Concluído — commits 6726a43, 2a2159a |
 
-### Resultado do QA
+---
 
-QA funcional aprovado. PDFs, assets, foto AJ, links externos e links internos principais foram validados após correções. Versão estável liberada para fechamento.
+## Principais mudanças da v1.1
+
+### Visão Geral redesenhada (Task 39A)
+
+- Cards de navegação para todas as 6 seções: FIAP, Calendário, Biblioteca, Cursos, Links, Documentos.
+- Bloco "Atenção agora" com tarefas abertas priorizadas.
+- Bloco "Próximos eventos" integrado ao calendário.
+- Bloco "Fontes carregadas" mostrando status das fontes.
+
+### Lixeira de tarefas (Task 39B)
+
+- Botão "Apagar" em cada tarefa da seção FIAP.
+- Tarefas apagadas ficam ocultas nas listagens (FIAP e Visão Geral).
+- Estado persiste via localStorage (chave deletedTasks).
+- Seção "Tarefas apagadas" com botão "Restaurar" adicionada à seção Sistema.
+
+### Calendário corrigido (Task 35)
+
+- Todas as fontes não quebram mais o layout.
+- Calendar L.M. carrega com fallback claro se vazio.
+- Filtros por tipo e por fonte funcionam na lista e na grade.
+
+### Biblioteca por fase (Task 37)
+
+- Filtros separados por coleção: Fase 1, Fase 2, Fase 3, Guias/normas.
+- Materiais não se misturam entre fases.
+
+### Cursos separados da graduação FIAP (Tasks 38A/38B)
+
+- Seção "Cursos" dedicada a Cursos Extracurriculares.
+- MarTech — Alura aparece como curso extracurricular.
+- Nano Courses FIAP aparece como "aguardando catalogação".
+- Nenhum desses conteúdos aparece como fase da graduação.
+
+### Documentos organizados (Tasks 40A/40B)
+
+- 4 blocos: Documentos pessoais, Materiais extras, Referências visuais e logos, GoodNotes.
+- renderDocumentos() usa byCategory() para filtrar por personal, visual_reference, extra.
+- GoodNotes adicionado sem credenciais, com link para site público.
+- 10 assets catalogados em data/assets.json com category, likelyUse, notes.
+
+### Segurança — Security scrub (Tasks 41/42)
+
+- Task 41: E-mail pessoal hardcoded removido de dashboard.html (commit 5c92cbc).
+- Task 42 — dashboard.html (commit 6726a43): Bloco "CREDENCIAIS ACADÊMICAS" removido. Propriedades login e senha eliminadas. Senha mascarada eliminada. Bloco convertido para "ACESSOS EXTERNOS" com URLs públicas.
+- Task 42 — calendar-lm.ics (commit 2a2159a): 4 linhas ATTENDEE com e-mail pessoal removidas. 192 VEVENTs intactos.
+
+---
+
+## Confirmação de ausência de credenciais
+
+| Padrão | Resultado |
+|--------|-----------|
+| senha | ✅ Ausente em anaju-neves-hub.html |
+| password | ✅ Ausente no repositório |
+| AnaJulia3101 | ✅ Ausente no repositório |
+| anajuliamedicina | ✅ Ausente em dashboard.html e calendar-lm.ics |
+| CREDENCIAIS ACADÊMICAS | ✅ Ausente no repositório |
+
+Residual registrado: RM571965 permanece como badge de perfil na barra lateral de dashboard.html — contexto não-sensível (número de matrícula exibido em cabeçalho de app). Não é campo de login.
+
+---
+
+## Pendências conhecidas
+
+1. Confirmação visual de 13274b5c14834c7e8a56532b2d05ca35.pdf — catalogado como student_id_candidate. Aguarda confirmação manual antes de exibir como carteirinha.
+2. Sanitização ampla de outros e-mails em .ics — outros eventos em calendar-lm.ics podem conter e-mails de terceiros como ATTENDEE. Avaliar apenas se o repo for tornado público.
+3. Organização física de pastas/assets (Task 40C) — não executada. Avaliar se necessário.
+4. dashboard.html legado — ainda presente. Pode ser removido em task futura se decidido.
+
+---
+
+## Checklist pré-merge para main
+
+- [x] Branch correta: v1.1-anaju-neves-hub
+- [x] main intacta
+- [x] Tag v1.0.0-anaju-neves-hub-stable intacta
+- [x] Hub anaju-neves-hub.html abre sem erro crítico
+- [x] Todas as 8 seções abrem
+- [x] Cards da Visão Geral navegam corretamente
+- [x] Tarefas: concluir, reabrir, apagar e restaurar funcionam
+- [x] PDFs da Biblioteca abrem sem 404
+- [x] Links internos por hash funcionam
+- [x] Links externos usam target="_blank" e rel="noopener"
+- [x] Calendário renderiza sem quebrar layout
+- [x] Biblioteca por fase filtra corretamente
+- [x] Cursos separados da graduação FIAP
+- [x] Documentos organizados em 4 blocos
+- [x] GoodNotes sem credenciais
+- [x] Security grep limpo
+- [x] QA aprovado (Task 41)
+- [x] Security scrub aplicado (Task 42)
+
+---
+
+## Commits principais da v1.1
+
+| Commit | Descrição |
+|--------|-----------|
+| 5f5fd79 | Finalize task trash behavior (Task 39B) |
+| c2c5c01 | Add category field to assets for document grouping (Task 40A) |
+| d67d672 | Add ferramentas group with GoodNotes to quick-links (Task 40A) |
+| e6e5c35 | Organize documents assets and GoodNotes (Task 40A) |
+| 947a398 | Catalog personal documents and visual assets (Task 40B) |
+| 5c92cbc | QA v1.1 functional polish (Task 41) |
+| 6726a43 | Scrub legacy credentials and calendar metadata — dashboard.html (Task 42) |
+| 2a2159a | Scrub legacy credentials and calendar metadata — calendar-lm.ics (Task 42) |
+
+---
+
+*Release v1.1 — Anaju Neves Hub. 2026-05-11.*
