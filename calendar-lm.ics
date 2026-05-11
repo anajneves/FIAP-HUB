@@ -2393,8 +2393,6 @@ DTSTAMP:20260426T200811Z
 ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
  .com
 UID:hvkk07ucge14dinv91cnmui88g@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=an
- ajuliamedicina@gmail.com;X-NUM-GUESTS=0:mailto:anajuliamedicina@gmail.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
  eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
 X-GOOGLE-CONFERENCE:https://meet.google.com/bjs-zgzn-gmi
@@ -3493,8 +3491,6 @@ DTSTAMP:20260426T200811Z
 ORGANIZER;CN=suporteluccamagnata@gmail.com:mailto:suporteluccamagnata@gmail
  .com
 UID:2tbbi2o04m0h2s6l1tb2a33327@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=an
- ajuliamedicina@gmail.com;X-NUM-GUESTS=0:mailto:anajuliamedicina@gmail.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=suport
  eluccamagnata@gmail.com;X-NUM-GUESTS=0:mailto:suporteluccamagnata@gmail.com
 X-GOOGLE-CONFERENCE:https://meet.google.com/cjx-vcmt-wnx
