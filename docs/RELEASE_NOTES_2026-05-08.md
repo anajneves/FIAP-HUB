@@ -218,3 +218,55 @@ Correções pós-release da v1.1.0 identificadas via QA real no GitHub Pages. Br
 ---
 
 *Hotfix v1.1.1 — Anaju Neves Hub. 2026-05-11.*
+
+---
+
+# Hotfix v1.1.2 — Anaju Neves Hub — 2026-05-15
+
+## Resumo
+
+Limpeza visual e semântica de documentos. Branch: `hotfix/v1.1.2-visual-content-cleanup`. Nenhuma tag alterada. Nenhum PDF acadêmico, imagem ou .ics alterado.
+
+---
+
+## Problemas corrigidos
+
+| Fix | Descrição |
+|-----|-----------|
+| 1 | **Documentos — assets visuais**: Logos e banners removidos da seção Documentos. `renderDocumentos()` agora filtra categorias `interface_asset` e `hidden_asset`. Seção "Referências visuais e logos" removida da UI. |
+| 2 | **Materiais extras — arquivos internos**: Arquivos de arquitetura interna, prompts, MHTML e screenshots filtrados da UI. Seção Materiais extras mostra apenas documentos institucionais relevantes. |
+| 3 | **Toast atravessando tela**: `showToast()` recebeu `max-width:320px` e `white-space:normal;word-wrap:break-word`. Toast não atravessa mais a tela nem cobre sidebar. |
+| 4 | **Calendário — visual redesenhado**: Layout substituído por `.calendar-shell` (grid 1.4fr/0.8fr). Grade com `.cal-days` 7 colunas sem overflow horizontal. Chips menores com `overflow:hidden`. Lista lateral limitada a 10 eventos futuros. Dia atual destacado com borda rosa. |
+
+## Arquivos alterados
+
+- `anaju-neves-hub.html` — CSS do calendário, renderDocumentos(), renderCalendario(), showToast()
+- `data/assets.json` — categorias interface_asset e hidden_asset adicionadas
+- `docs/RELEASE_NOTES_2026-05-08.md` — registro desta hotfix
+
+## Segurança
+
+- senha: ausente ✅
+- password: ausente ✅
+- AnaJulia3101: ausente ✅
+- anajuliamedicina: ausente ✅
+- CREDENCIAIS ACADÊMICAS: ausente ✅
+
+## Commits
+
+| Commit | Descrição |
+|--------|-----------|
+| 32bbbb5 | v1.1.2 — Reclassifica assets visuais como interface_asset/hidden_asset |
+| d4b2f83 | Hotfix v1.1.2 visual content cleanup |
+
+## Pendências para v1.2
+
+- Confirmação visual de `13274b5c14834c7e8a56532b2d05ca35.pdf` como carteirinha de estudante.
+- Uso visual de assets FIAP (Artboard-1.webp) em área específica FIAP/Biblioteca.
+- Uso visual de logo Alura (4975968.png) em seção Cursos/MarTech.
+- Organização física de pastas/assets (Task 40C pendente).
+- Catálogo completo de Nano Courses FIAP quando disponível.
+
+---
+
+*Hotfix v1.1.2 — Anaju Neves Hub. 2026-05-15.*
