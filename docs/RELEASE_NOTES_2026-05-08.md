@@ -236,12 +236,12 @@ Limpeza visual e semântica de documentos. Branch: `hotfix/v1.1.2-visual-content
 | 1 | **Documentos — assets visuais**: Logos e banners removidos da seção Documentos. `renderDocumentos()` agora filtra categorias `interface_asset` e `hidden_asset`. Seção "Referências visuais e logos" removida da UI. |
 | 2 | **Materiais extras — arquivos internos**: Arquivos de arquitetura interna, prompts, MHTML e screenshots filtrados da UI. Seção Materiais extras mostra apenas documentos institucionais relevantes. |
 | 3 | **Toast atravessando tela**: `showToast()` recebeu `max-width:320px` e `white-space:normal;word-wrap:break-word`. Toast não atravessa mais a tela nem cobre sidebar. |
-| 4 | **Calendário — visual redesenhado**: Layout substituído por `.calendar-shell` (grid 1.4fr/0.8fr). Grade com `.cal-days` 7 colunas sem overflow horizontal. Chips menores com `overflow:hidden`. Lista lateral limitada a 10 eventos futuros. Dia atual destacado com borda rosa. |
+| 4 | **Calendário — visual redesenhado**: Layout substituído por `.calendar-shell` (grid 1.4fr/0.8fr). Grade com `.cal-days` 7 colunas sem overflow horizontal. Chips menores com `overflow:hidden`. Lista lateral limitada a 10 eventos futuros. Dia atual destacado com borda rosa. || 5 | **Task 49A — Documentos**: Arquivos internos (`UX DESIGNER.txt`, `Curso MarTech.txt`, `docs/ANAJU_NEVES_HUB_PRODUCT_ARCHITECTURE.md`) catalogados como `hidden_asset` em `data/assets.json`. Não aparecem em Documentos. Mensagem vazia de extras corrigida para “Nenhum material extra visível no momento.” |
 
 ## Arquivos alterados
 
 - `anaju-neves-hub.html` — CSS do calendário, renderDocumentos(), renderCalendario(), showToast()
-- `data/assets.json` — categorias interface_asset e hidden_asset adicionadas
+- `data/assets.json` — categorias interface_asset e hidden_asset adicionadas; 3 arquivos internos catalogados como hidden_asset (Task 49A)
 - `docs/RELEASE_NOTES_2026-05-08.md` — registro desta hotfix
 
 ## Segurança
@@ -258,6 +258,8 @@ Limpeza visual e semântica de documentos. Branch: `hotfix/v1.1.2-visual-content
 |--------|-----------|
 | 32bbbb5 | v1.1.2 — Reclassifica assets visuais como interface_asset/hidden_asset |
 | d4b2f83 | Hotfix v1.1.2 visual content cleanup |
+| 22cbd86 | Task 49A — Cataloga arquivos internos como hidden_asset em assets.json |
+| 7066a88 | Task 49A — Corrige renderDocumentos() e mensagem vazia de extras |
 
 ## Pendências para v1.2
 
