@@ -1,84 +1,106 @@
 {
-        "status": "audited_v1_2",
-        "assets": [
-                  {
-                              "path": "IMG-20260425-WA0003.jpg",
-                              "type": "image",
-                              "likelyUse": "profile_photo_candidate",
-                              "category": "personal",
-                              "notes": "Possível foto de perfil enviada pela Ana via WhatsApp. Usar apenas se visualmente confirmada pela usuária. Mantida em Documentos pessoais enquanto não confirmada como avatar."
-                  },
-                  {
-                              "path": "13274b5c14834c7e8a56532b2d05ca35.pdf",
-                              "type": "document",
-                              "likelyUse": "student_id_candidate",
-                              "category": "personal",
-                              "notes": "PDF com nome de hash (41KB). Padrão de nome sugere export automático de portal acadêmico — possível carteirinha de estudante ou documento pessoal FIAP. Confirmar conteúdo com a usuária antes de exibir publicamente."
-                  },
-                  {
-                              "path": "Artboard-1.webp",
-                              "type": "brand_asset",
-                              "likelyUse": "fiap_logo_reference",
-                              "category": "interface_asset",
-                              "notes": "Logo ou elemento de identidade visual FIAP (6KB). Reclassificado como interface_asset na v1.1.2 — não exibir em Documentos. Reservado para uso futuro em área FIAP/Biblioteca/Regras."
-                  },
-                  {
-                              "path": "Screenshot 2026-04-17 01.25.31.png",
-                              "type": "screenshot",
-                              "likelyUse": "ui_reference_or_context_capture",
-                              "category": "hidden_asset",
-                              "notes": "Print de interface capturado em abril 2026. Reclassificado como hidden_asset na v1.1.2 — não exibir na UI de Documentos. Mantido no repo como referência de contexto."
-                  },
-                  {
-                              "path": "Screenshot 2026-04-25 14.35.42.png",
-                              "type": "screenshot",
-                              "likelyUse": "ui_reference_or_context_capture",
-                              "category": "hidden_asset",
-                              "notes": "Print de interface capturado em abril 2026. Reclassificado como hidden_asset na v1.1.2 — não exibir na UI de Documentos. Mantido no repo como referência de contexto."
-                  },
-                  {
-                              "path": "240927_PF-observatorio-IA-web-1.jpg",
-                              "type": "image",
-                              "likelyUse": "visual_reference",
-                              "category": "interface_asset",
-                              "notes": "Imagem do Observatório de IA (setembro 2026). Reclassificada como interface_asset na v1.1.2 — não exibir em Documentos. Referência visual de apoio."
-                  },
-                  {
-                              "path": "4975968.png",
-                              "type": "image",
-                              "likelyUse": "alura_logo_reference",
-                              "category": "interface_asset",
-                              "notes": "Ícone/logo com nome numérico (7KB, provável ID de asset Alura). Reclassificado como interface_asset na v1.1.2 — não exibir em Documentos. Reservado para uso futuro em Cursos/MarTech."
-                  },
-                  {
-                              "path": "ai-generated-8527252_1280-1280x640.jpg",
-                              "type": "image",
-                              "likelyUse": "visual_reference_or_banner",
-                              "category": "interface_asset",
-                              "notes": "Imagem gerada por IA (229KB). Reclassificada como interface_asset na v1.1.2 — não exibir em Documentos. Asset visual de apoio para uso futuro com critério."
-                  },
-                  {
-                              "path": "2026_guia_academico_on_cursos_antigos.pdf",
-                              "type": "document",
-                              "likelyUse": "academic_guide_reference",
-                              "category": "extra",
-                              "notes": "Guia acadêmico FIAP ON 2026 para cursos antigos (896KB). Documento institucional de referência. Verificar se já aparece em FIAP/Regras/Biblioteca antes de exibir aqui para evitar duplicata."
-                  },
-                  {
-                              "path": "Hub FIAP.mhtml",
-                              "type": "reference",
-                              "likelyUse": "web_archive_reference",
-                              "category": "hidden_asset",
-                              "notes": "Arquivo MHTML (web archive) do Hub FIAP — snapshot de página salva. Reclassificado como hidden_asset na v1.1.2 — não exibir na UI de Documentos. Mantido no repo como referência interna."
-                  }
-        ],
-        "auditNotes": {
-                  "carteirinha": "Não foi encontrado arquivo com nome explícito de carteirinha ou student_id. O arquivo 13274b5c14834c7e8a56532b2d05ca35.pdf (41KB, nome de hash) é o candidato mais provável — típico de exports automáticos de portais acadêmicos. Catalogado como student_id_candidate para revisão da usuária.",
+          "status": "audited_v1_2",
+          "assets": [
+                      {
+                                    "path": "IMG-20260425-WA0003.jpg",
+                                    "type": "image",
+                                    "likelyUse": "profile_photo_candidate",
+                                    "category": "personal",
+                                    "notes": "Possível foto de perfil enviada pela Ana via WhatsApp. Usar apenas se visualmente confirmada pela usuária. Mantida em Documentos pessoais enquanto não confirmada como avatar."
+                      },
+                      {
+                                    "path": "13274b5c14834c7e8a56532b2d05ca35.pdf",
+                                    "type": "document",
+                                    "likelyUse": "student_id_candidate",
+                                    "category": "personal",
+                                    "notes": "PDF com nome de hash (41KB). Padrão de nome sugere export automático de portal acadêmico — possível carteirinha de estudante ou documento pessoal FIAP. Confirmar conteúdo com a usuária antes de exibir publicamente."
+                      },
+                      {
+                                    "path": "Artboard-1.webp",
+                                    "type": "brand_asset",
+                                    "likelyUse": "fiap_logo_reference",
+                                    "category": "interface_asset",
+                                    "notes": "Logo ou elemento de identidade visual FIAP (6KB). Reclassificado como interface_asset na v1.1.2 — não exibir em Documentos. Reservado para uso futuro em área FIAP/Biblioteca/Regras."
+                      },
+                      {
+                                    "path": "Screenshot 2026-04-17 01.25.31.png",
+                                    "type": "screenshot",
+                                    "likelyUse": "ui_reference_or_context_capture",
+                                    "category": "hidden_asset",
+                                    "notes": "Print de interface capturado em abril 2026. Reclassificado como hidden_asset na v1.1.2 — não exibir na UI de Documentos. Mantido no repo como referência de contexto."
+                      },
+                      {
+                                    "path": "Screenshot 2026-04-25 14.35.42.png",
+                                    "type": "screenshot",
+                                    "likelyUse": "ui_reference_or_context_capture",
+                                    "category": "hidden_asset",
+                                    "notes": "Print de interface capturado em abril 2026. Reclassificado como hidden_asset na v1.1.2 — não exibir na UI de Documentos. Mantido no repo como referência de contexto."
+                      },
+                      {
+                                    "path": "240927_PF-observatorio-IA-web-1.jpg",
+                                    "type": "image",
+                                    "likelyUse": "visual_reference",
+                                    "category": "interface_asset",
+                                    "notes": "Imagem do Observatório de IA (setembro 2026). Reclassificada como interface_asset na v1.1.2 — não exibir em Documentos. Referência visual de apoio."
+                      },
+                      {
+                                    "path": "4975968.png",
+                                    "type": "image",
+                                    "likelyUse": "alura_logo_reference",
+                                    "category": "interface_asset",
+                                    "notes": "Ícone/logo com nome numérico (7KB, provável ID de asset Alura). Reclassificado como interface_asset na v1.1.2 — não exibir em Documentos. Reservado para uso futuro em Cursos/MarTech."
+                      },
+                      {
+                                    "path": "ai-generated-8527252_1280-1280x640.jpg",
+                                    "type": "image",
+                                    "likelyUse": "visual_reference_or_banner",
+                                    "category": "interface_asset",
+                                    "notes": "Imagem gerada por IA (229KB). Reclassificada como interface_asset na v1.1.2 — não exibir em Documentos. Asset visual de apoio para uso futuro com critério."
+                      },
+                      {
+                                    "path": "2026_guia_academico_on_cursos_antigos.pdf",
+                                    "type": "document",
+                                    "likelyUse": "academic_guide_reference",
+                                    "category": "extra",
+                                    "notes": "Guia acadêmico FIAP ON 2026 para cursos antigos (896KB). Documento institucional de referência. Verificar se já aparece em FIAP/Regras/Biblioteca antes de exibir aqui para evitar duplicata."
+                      },
+                      {
+                                    "path": "Hub FIAP.mhtml",
+                                    "type": "reference",
+                                    "likelyUse": "web_archive_reference",
+                                    "category": "hidden_asset",
+                                    "notes": "Arquivo MHTML (web archive) do Hub FIAP — snapshot de página salva. Reclassificado como hidden_asset na v1.1.2 — não exibir na UI de Documentos. Mantido no repo como referência interna."
+                      },
+                      {
+                                    "path": "UX DESIGNER.txt",
+                                    "type": "text",
+                                    "likelyUse": "internal_prompt",
+                                    "category": "hidden_asset",
+                                    "notes": "Arquivo de texto com prompt ou referência de UX Designer. Arquivo interno de desenvolvimento — não exibir em Documentos. Catalogado como hidden_asset na v1.1.2 (Task 49A)."
+                      },
+                      {
+                                    "path": "Curso MarTech.txt",
+                                    "type": "text",
+                                    "likelyUse": "internal_reference",
+                                    "category": "hidden_asset",
+                                    "notes": "Arquivo de texto com referências ou notas do curso MarTech. Arquivo interno — não exibir em Documentos. Catalogado como hidden_asset na v1.1.2 (Task 49A). Conteúdo do curso disponível na seção Cursos."
+                      },
+                      {
+                                    "path": "docs/ANAJU_NEVES_HUB_PRODUCT_ARCHITECTURE.md",
+                                    "type": "markdown",
+                                    "likelyUse": "internal_architecture_doc",
+                                    "category": "hidden_asset",
+                                    "notes": "Documento de arquitetura interna do produto Hub. Arquivo de desenvolvimento — não exibir em Documentos da usuária. Catalogado como hidden_asset na v1.1.2 (Task 49A). Referência interna de engenharia."
+                      }
+          ],
+          "auditNotes": {
+                      "carteirinha": "Não foi encontrado arquivo com nome explícito de carteirinha ou student_id. O arquivo 13274b5c14834c7e8a56532b2d05ca35.pdf (41KB, nome de hash) é o candidato mais provável — típico de exports automáticos de portais acadêmicos. Catalogado como student_id_candidate para revisão da usuária.",
     "logos": "Artboard-1.webp (FIAP) e 4975968.png (Alura) reclassificados como interface_asset na v1.1.2. Não aparecem mais como cards em Documentos.",
     "credenciais": "Auditoria concluída. Nenhuma senha, login ou credencial encontrada no repositório.",
     "profilePhoto": "Foto de perfil deve aparecer no header/sidebar apenas depois de confirmação visual. Fallback continua sendo avatar textual AJ.",
     "visualReferences": "Assets visuais (screenshots, logos, banners) reclassificados como interface_asset ou hidden_asset na v1.1.2 — ocultos da UI de Documentos.",
     "brandAssets": "Assets de FIAP/Alura podem inspirar seções futuras, mas não aparecem como documentos consultáveis.",
-    "v1_1_2_cleanup": "Categorias interface_asset e hidden_asset criadas para ocultar assets não-documentos da seção Documentos. renderDocumentos() filtra essas categorias."
+    "internalFiles": "UX DESIGNER.txt, Curso MarTech.txt e docs/ANAJU_NEVES_HUB_PRODUCT_ARCHITECTURE.md catalogados como hidden_asset na v1.1.2 (Task 49A) — arquivos internos não exibidos em Documentos.",
+    "v1_1_2_cleanup": "Categorias interface_asset e hidden_asset criadas para ocultar assets não-documentos da seção Documentos. renderDocumentos() filtra essas categorias. Task 49A: 3 arquivos internos adicionais catalogados como hidden_asset."
 }
 }
